@@ -335,24 +335,35 @@ a:hover { color: var(--orange); }
   object-position: 50% 20%;
 }
 
-/* Fallback when no photo exists yet: navy halftone tile, gold initials. */
-.entry-monogram {
+.proto-flag {
+  display: block;
+  background: var(--orange);
+  color: #FFFFFF;
+  padding: 0.4rem 0.9rem;
+  margin: 0 auto 0.9rem;
+  width: fit-content;
+  max-width: 100%;
+  border-radius: 2px;
+  letter-spacing: 0.16em;
+}
+
+/* Placeholder when no photo exists yet. Person tiles paint their own
+   illustrated portrait; organization tiles keep the navy halftone field. */
+.entry-placeholder {
   width: 100%;
   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
   background-color: var(--navy);
   background-image:
     var(--halftone),
-    radial-gradient(ellipse at 40% 35%, var(--navy-lift) 0%, var(--navy-deep) 80%);
+    radial-gradient(ellipse at 40% 30%, var(--navy-lift) 0%, var(--navy-deep) 82%);
   background-size: var(--halftone-size), cover;
-  font-family: var(--display);
-  font-size: 2.1rem;
-  line-height: 1;
-  letter-spacing: 0.02em;
-  color: var(--gold);
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.entry-placeholder svg {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 .entry-race {
@@ -543,14 +554,14 @@ a:hover { color: var(--orange); }
   }
 
   .entry-portrait { width: 96px; }
-  .entry-monogram { font-size: 1.9rem; }
+
 }
 
 @media (min-width: 62rem) {
   .wordmark { gap: 0.35rem; }
   .category-head { padding: 2.5rem var(--pad) 2rem; }
   .entry-portrait { width: 112px; }
-  .entry-monogram { font-size: 2.2rem; }
+
 }
 
 /* ============================================================
@@ -574,5 +585,5 @@ a:hover { color: var(--orange); }
   .category-blurb, .category-count { color: #333 !important; }
   .footer { background: #FFFFFF !important; color: #000; }
   .entry { break-inside: avoid; border: 1px solid #999; }
-  .entry-monogram { background: #EEE !important; color: #000 !important; text-shadow: none; }
+  .entry-placeholder { background: #F0F0F0 !important; }
 }

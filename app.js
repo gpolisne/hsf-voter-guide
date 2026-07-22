@@ -33,33 +33,110 @@
     return "";
   }
 
-  // Initials for the fallback tile. Skips placeholder prefixes and
-  // short connecting words so "Maria de la Cruz" gives MC, not MD.
-  function initials(name) {
-    var skip = { de: 1, la: 1, del: 1, van: 1, von: 1, der: 1, the: 1, of: 1, and: 1, "for": 1, placeholder: 1 };
-    var words = String(name || "")
-      .replace(/[^A-Za-z\u00C0-\u024F\s'-]/g, " ")
-      .split(/\s+/)
-      .filter(function (w) {
-        // must contain a real letter, so a lone dash is not treated as a name
-        return /[A-Za-z\u00C0-\u024F]/.test(w) && !skip[w.toLowerCase()];
-      });
-    if (!words.length) return "?";
-    var out = words[0].charAt(0);
-    if (words.length > 1) out += words[words.length - 1].charAt(0);
-    return out.toUpperCase();
+  // Stable small hash so a given name always gets the same placeholder shape.
+  function hashOf(s) {
+    var h = 0, i;
+    s = String(s || "");
+    for (i = 0; i < s.length; i++) { h = (h * 31 + s.charCodeAt(i)) & 0x7fffffff; }
+    return h;
+  }
+
+  // Illustrated placeholder portrait, generated from the name so a given
+  // entry always gets the same face. Sample content only - replaced the
+  // moment a real photo path is added to data.json.
+  var SKIN = [
+    ["#F4D9C0", "#E3BE9F"], ["#EDC7A4", "#D8A87E"], ["#DCA97C", "#C08A5C"],
+    ["#C4885A", "#A66B41"], ["#A2683E", "#84502C"], ["#7A4A2B", "#5E361C"],
+    ["#5A3520", "#432414"]
+  ];
+  var HAIRC = ["#241C15", "#3E2E20", "#6B4A2C", "#A8752F", "#C9A227", "#8E8E8E", "#E4E0D8", "#5B3A46"];
+  var SHIRT = ["#1B3A5C", "#E0522C", "#2E6E6A", "#6B3A5B", "#47566B", "#B4552C", "#3C5E3A"];
+  var BG = ["#DCE6EF", "#EFE3D5", "#E2EBE1", "#EEE0E6", "#E6E4F0", "#E9E9E2"];
+
+  function personAvatar(name) {
+    var h = hashOf(name);
+    var pick = function (arr, shift) { return arr[(h >> shift) % arr.length]; };
+
+    var skin = pick(SKIN, 0);
+    var hair = pick(HAIRC, 3);
+    var shirt = pick(SHIRT, 6);
+    var bg = pick(BG, 9);
+    var style = (h >> 12) % 6;
+    var glasses = ((h >> 15) % 4) === 0;
+    var beard = ((h >> 17) % 5) === 0;
+
+    var s = [];
+    s.push('<rect x="0" y="0" width="80" height="100" fill="' + bg + '"/>');
+
+    // hair drawn behind the head for the longer styles
+    if (style === 2) s.push('<path d="M18 44 a22 22 0 0 1 44 0 l0 30 l-9 0 l0 -26 a13 13 0 0 0 -26 0 l0 26 l-9 0 z" fill="' + hair + '"/>');
+    if (style === 4) s.push('<path d="M17 46 a23 23 0 0 1 46 0 l2 22 l-12 -4 l-24 0 l-12 4 z" fill="' + hair + '"/>');
+
+    // shoulders and collar
+    s.push('<path d="M4 100 C4 78 20 68 40 68 C60 68 76 78 76 100 Z" fill="' + shirt + '"/>');
+    s.push('<path d="M33 69 L40 79 L47 69 L43 67 L40 72 L37 67 Z" fill="#FFFFFF" fill-opacity="0.35"/>');
+
+    // neck, head, ears
+    s.push('<rect x="34" y="54" width="12" height="16" rx="5" fill="' + skin[1] + '"/>');
+    s.push('<circle cx="23" cy="45" r="3.6" fill="' + skin[1] + '"/><circle cx="57" cy="45" r="3.6" fill="' + skin[1] + '"/>');
+    s.push('<ellipse cx="40" cy="42" rx="17" ry="19" fill="' + skin[0] + '"/>');
+
+    // hair on top
+    if (style === 0) s.push('<path d="M23 40 a17 17 0 0 1 34 0 l0 -4 a17 17 0 0 0 -34 0 z M23 40 a17 17 0 0 1 34 0 l-2 -6 a15 15 0 0 0 -30 0 z" fill="' + hair + '"/><path d="M23 38 a17 17 0 0 1 34 0 a17 13 0 0 0 -34 0 z" fill="' + hair + '"/>');
+    if (style === 1) s.push('<path d="M23 40 a17 17 0 0 1 34 0 c-4 -8 -12 -6 -22 -10 c-6 -2 -10 4 -12 10 z" fill="' + hair + '"/>');
+    if (style === 2) s.push('<path d="M23 39 a17 17 0 0 1 34 0 a17 12 0 0 0 -34 0 z" fill="' + hair + '"/>');
+    if (style === 3) s.push('<circle cx="40" cy="20" r="7" fill="' + hair + '"/><path d="M23 40 a17 17 0 0 1 34 0 a17 14 0 0 0 -34 0 z" fill="' + hair + '"/>');
+    if (style === 4) s.push('<path d="M23 40 a17 17 0 0 1 34 0 a17 13 0 0 0 -34 0 z" fill="' + hair + '"/><circle cx="27" cy="31" r="6" fill="' + hair + '"/><circle cx="40" cy="26" r="7" fill="' + hair + '"/><circle cx="53" cy="31" r="6" fill="' + hair + '"/>');
+    if (style === 5) s.push('<path d="M25 38 a15 15 0 0 1 30 0 a15 7 0 0 0 -30 0 z" fill="' + hair + '" fill-opacity="0.85"/>');
+
+    // face
+    s.push('<ellipse cx="33.5" cy="43" rx="1.7" ry="2.3" fill="#2A2018"/>');
+    s.push('<ellipse cx="46.5" cy="43" rx="1.7" ry="2.3" fill="#2A2018"/>');
+    s.push('<path d="M30 38.2 q3.5 -2 7 -0.2" stroke="' + hair + '" stroke-width="1.5" fill="none" stroke-linecap="round"/>');
+    s.push('<path d="M43 38 q3.5 -1.8 7 0.2" stroke="' + hair + '" stroke-width="1.5" fill="none" stroke-linecap="round"/>');
+
+    if (beard) s.push('<path d="M25 45 c0 12 7 18 15 18 c8 0 15 -6 15 -18 c0 9 -6 12 -15 12 c-9 0 -15 -3 -15 -12 z" fill="' + hair + '" fill-opacity="0.9"/>');
+
+    s.push('<path d="M36 51.5 q4 3 8 0" stroke="#8A5541" stroke-width="1.5" fill="none" stroke-linecap="round"/>');
+
+    if (glasses) {
+      s.push('<g fill="none" stroke="#2F3A45" stroke-width="1.4" stroke-opacity="0.85">' +
+        '<circle cx="33.5" cy="43" r="5.5"/><circle cx="46.5" cy="43" r="5.5"/>' +
+        '<path d="M39 43 h2"/><path d="M28 42 l-4 1"/><path d="M52 42 l4 1"/></g>');
+    }
+
+    return '<svg viewBox="0 0 80 100" preserveAspectRatio="xMidYMid slice" role="presentation">' + s.join("") + "</svg>";
+  }
+
+  // Organizations get an abstract mark rather than a body.
+  function orgMark(name) {
+    var h = hashOf(name);
+    var lift = (h % 5) - 2;
+    return (
+      '<svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet" role="presentation">' +
+        '<g fill="var(--gold)" fill-opacity="0.42">' +
+          '<path d="M20 ' + (66 + lift) + " L50 " + (44 + lift) + " L80 " + (66 + lift) + " L80 " + (76 + lift) + " L50 " + (54 + lift) + " L20 " + (76 + lift) + ' Z"/>' +
+          '<path d="M20 ' + (48 + lift) + " L50 " + (26 + lift) + " L80 " + (48 + lift) + " L80 " + (58 + lift) + " L50 " + (36 + lift) + " L20 " + (58 + lift) + ' Z" fill-opacity="0.55"/>' +
+        "</g>" +
+      "</svg>"
+    );
+  }
+
+  function placeholderTile(item, isOrg) {
+    return '<div class="entry-placeholder" aria-hidden="true">' +
+      (isOrg ? orgMark(item.name) : personAvatar(item.name)) + "</div>";
   }
 
   // Photo paths are relative to the site root, e.g. "images/name.jpg".
-  function portrait(item) {
+  function portrait(item, isOrg) {
     var src = (item.photo || "").trim();
-    var alt = src ? esc(item.name) : "";
-    var inner = src
-      ? '<img src="' + esc(src) + '" alt="' + alt + '" loading="lazy" ' +
-        "onerror=\"this.parentNode.innerHTML='<div class=&quot;entry-monogram&quot; aria-hidden=&quot;true&quot;>" +
-        esc(initials(item.name)) + "</div>'\">"
-      : '<div class="entry-monogram" aria-hidden="true">' + esc(initials(item.name)) + "</div>";
-    return '<div class="entry-portrait">' + inner + "</div>";
+    if (!src) return '<div class="entry-portrait">' + placeholderTile(item, isOrg) + "</div>";
+    return (
+      '<div class="entry-portrait">' +
+        '<img src="' + esc(src) + '" alt="' + esc(item.name) + '" loading="lazy" ' +
+        "onerror=\"this.style.display='none'\">" +
+      "</div>"
+    );
   }
 
   function $(sel, root) { return (root || document).querySelector(sel); }
@@ -126,7 +203,12 @@
     var s = DATA.settings || {};
 
     var cycle = document.getElementById("cycle-line");
-    cycle.textContent = [s.state, s.cycle].filter(Boolean).join(" \u00B7 ");
+    var label = [s.state, s.cycle].filter(Boolean).join(" \u00B7 ");
+    if (s.demo_notice) {
+      cycle.innerHTML = '<span class="proto-flag">Prototype \u00B7 sample data only</span>' + esc(label);
+    } else {
+      cycle.textContent = label;
+    }
 
     var sub = document.getElementById("masthead-sub");
     var bits = [];
@@ -326,7 +408,7 @@
     return (
       '<article class="entry' + (org.urgent ? " org-urgent" : "") + '">' +
         '<div class="entry-head">' +
-          portrait(org) +
+          portrait(org, true) +
           '<div class="entry-headtext">' +
             '<h3 class="entry-name">' + esc(org.name) + "</h3>" +
             (tags.length ? '<div class="entry-tags">' + tags.join("") + "</div>" : "") +
