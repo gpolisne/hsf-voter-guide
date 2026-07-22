@@ -1,0 +1,238 @@
+{
+  "_README": [
+    "HSF VOTER GUIDE - SEED DATA FILE",
+    "This file is the entire content of the guide. The app renders it and adds nothing.",
+    "Edit this file to change the guide. No code changes required.",
+    "Anything marked TODO must be filled in by the publishing organization before launch.",
+    "Validate edits at jsonlint.com before publishing - one missing comma blanks the site."
+  ],
+
+  "settings": {
+    "guide_name": "HSF Voter Guide",
+    "tagline": "Hold the Line. Seize New Ground. Fight Like Hell.",
+    "state": "Arizona",
+    "cycle": "2026",
+    "publisher_name": "TODO - registered name of the publishing organization",
+    "paid_for_by": "TODO - required disclaimer string, exact wording from counsel",
+    "contact_email": "TODO",
+    "website": "TODO",
+    "last_updated": "2026-07-22",
+    "methodology_note": "TODO - two or three sentences on how entries are chosen. Readers trust a guide that shows its work.",
+    "election_dates": {
+      "primary": "TODO - verify with AZ SOS",
+      "general": "TODO - verify with AZ SOS",
+      "voter_reg_deadline_general": "TODO - verify with AZ SOS"
+    },
+    "voter_tools": {
+      "check_registration_url": "https://my.arizona.vote/",
+      "register_url": "https://servicearizona.com/VoterRegistration/selectLanguage",
+      "find_polling_place_url": "TODO"
+    }
+  },
+
+  "categories": [
+    {
+      "id": "hold_the_line",
+      "label_lead": "HOLD",
+      "label_rest": "THE LINE",
+      "blurb": "Incumbents in office who are doing the work. Defend these seats.",
+      "applies_to": "entries"
+    },
+    {
+      "id": "seize_new_ground",
+      "label_lead": "SEIZE",
+      "label_rest": "NEW GROUND",
+      "blurb": "Candidates committed to going further than the seat's current occupant.",
+      "applies_to": "entries"
+    },
+    {
+      "id": "fight_like_hell",
+      "label_lead": "FIGHT",
+      "label_rest": "LIKE HELL",
+      "blurb": "Organizations on the front lines. Show up, give, volunteer.",
+      "applies_to": "organizations"
+    }
+  ],
+
+  "counties": [
+    { "id": "pima",      "name": "Pima County",      "seat": "Tucson" },
+    { "id": "maricopa",  "name": "Maricopa County",  "seat": "Phoenix" },
+    { "id": "cochise",   "name": "Cochise County",   "seat": "Bisbee" },
+    { "id": "coconino",  "name": "Coconino County",  "seat": "Flagstaff" }
+  ],
+
+  "levels": [
+    { "id": "federal",   "label": "Federal" },
+    { "id": "state",     "label": "State" },
+    { "id": "county",    "label": "County" },
+    { "id": "municipal", "label": "City, Town and School Board" }
+  ],
+
+  "races": [
+    {
+      "id": "race-us-house-az-XX",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "AZ-XX",
+      "counties": ["pima", "cochise"],
+      "seats_open": 1,
+      "notes": "TODO - Arizona has 9 congressional districts. Create one race record per district you cover. No U.S. Senate race in Arizona this cycle - verify in Phase 3."
+    },
+    {
+      "id": "race-governor",
+      "level": "state",
+      "office": "Governor",
+      "district": null,
+      "counties": ["pima", "maricopa", "cochise", "coconino"],
+      "seats_open": 1,
+      "notes": "Statewide race - appears on every county ballot."
+    },
+    {
+      "id": "race-ld-XX-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "LD XX",
+      "counties": ["pima"],
+      "seats_open": 1,
+      "notes": "TODO - Arizona has 30 legislative districts. Some straddle county lines, so list every county a district touches."
+    },
+    {
+      "id": "race-ld-XX-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "LD XX",
+      "counties": ["pima"],
+      "seats_open": 2,
+      "notes": "Each LD elects two House members. Voters may select two."
+    },
+    {
+      "id": "race-pima-supervisor-d1",
+      "level": "county",
+      "office": "County Supervisor, District 1",
+      "district": "Supervisor District 1",
+      "counties": ["pima"],
+      "seats_open": 1,
+      "notes": ""
+    },
+    {
+      "id": "race-pima-sheriff",
+      "level": "county",
+      "office": "County Sheriff",
+      "district": null,
+      "counties": ["pima"],
+      "seats_open": 1,
+      "notes": "County sheriff and county attorney are the two local offices most directly tied to how immigration enforcement cooperation plays out on the ground."
+    },
+    {
+      "id": "race-municipal-EXAMPLE",
+      "level": "municipal",
+      "office": "TODO - City Council Ward N, Mayor, or School Governing Board",
+      "district": null,
+      "counties": ["coconino"],
+      "seats_open": 1,
+      "notes": "School board races are usually the lowest-information, highest-leverage item on the ballot."
+    }
+  ],
+
+  "entries": [
+    {
+      "id": "entry-001",
+      "category": "hold_the_line",
+      "race_id": "race-governor",
+      "name": "PLACEHOLDER - Candidate Name",
+      "incumbent": true,
+      "ballot_designation": "TODO - party or nonpartisan, publisher's call on whether to display",
+      "headline": "One line on why this seat has to hold.",
+      "summary": "Two or three sentences in the publisher's own voice. Specific record, not adjectives. What did this person actually do that earned the spot.",
+      "why_bullets": [
+        "Concrete vote, veto, or action",
+        "Second concrete item",
+        "Third concrete item"
+      ],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "status": "draft",
+      "updated": "2026-07-22"
+    },
+    {
+      "id": "entry-002",
+      "category": "seize_new_ground",
+      "race_id": "race-ld-XX-house",
+      "name": "PLACEHOLDER - Candidate Name",
+      "incumbent": false,
+      "ballot_designation": "TODO",
+      "headline": "One line on what this candidate would push further.",
+      "summary": "Where this candidate goes beyond the current occupant of the seat. Be specific about the gap - that is the whole argument of this category.",
+      "why_bullets": [
+        "Position that goes further than the incumbent",
+        "Second item",
+        "Third item"
+      ],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "status": "draft",
+      "updated": "2026-07-22"
+    }
+  ],
+
+  "organizations": [
+    {
+      "id": "org-001",
+      "name": "PLACEHOLDER - Organization Name",
+      "counties": ["pima"],
+      "statewide": false,
+      "focus_tags": ["immigrant defense", "rapid response", "know your rights"],
+      "description": "Two or three sentences on what this group actually does. Written so a stranger reading it at a doorstep understands in five seconds.",
+      "ways_to_help": [
+        "Volunteer for canvass shifts",
+        "Join the rapid response network",
+        "Donate to the bail or legal fund"
+      ],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": "",
+        "events": "",
+        "social": ""
+      },
+      "urgent": false,
+      "verified_on": "2026-07-22",
+      "status": "draft"
+    },
+    {
+      "id": "org-002",
+      "name": "PLACEHOLDER - Statewide Organization",
+      "counties": ["pima", "maricopa", "cochise", "coconino"],
+      "statewide": true,
+      "focus_tags": ["voter protection", "BIPOC organizing"],
+      "description": "",
+      "ways_to_help": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": "",
+        "events": "",
+        "social": ""
+      },
+      "urgent": false,
+      "verified_on": "2026-07-22",
+      "status": "draft"
+    }
+  ],
+
+  "theme": {
+    "navy_dark": "#12253C",
+    "navy": "#1B3A5C",
+    "orange": "#E0522C",
+    "gold": "#F5C518",
+    "paper": "#F7F4EC"
+  }
+}
