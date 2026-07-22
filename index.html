@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HSF Voter Guide</title>
+<meta name="description" content="Arizona voter guide. Hold the Line. Seize New Ground. Fight Like Hell.">
+
+<meta property="og:title" content="HSF Voter Guide">
+<meta property="og:description" content="Hold the Line. Seize New Ground. Fight Like Hell.">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Public+Sans:ital,wght@0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to the guide</a>
+
+<!-- ============ MASTHEAD ============ -->
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="eyebrow" id="cycle-line">Arizona</p>
+    <h1 class="wordmark">
+      <span class="wm-line"><span class="lead">Hold</span> the Line</span>
+      <span class="wm-line"><span class="lead">Seize</span> New Ground</span>
+      <span class="wm-line"><span class="lead">Fight</span> Like Hell</span>
+    </h1>
+    <p class="masthead-sub" id="masthead-sub"></p>
+  </div>
+</header>
+
+<!-- ============ VOTER TOOLS ============ -->
+<section class="voter-tools" aria-label="Voter registration tools">
+  <div class="tools-inner" id="voter-tools"></div>
+</section>
+
+<!-- ============ FILTER BAR ============ -->
+<nav class="filterbar" aria-label="Filter the guide">
+  <div class="filterbar-inner">
+
+    <div class="filter-group">
+      <label class="filter-label" for="county-select">Your county</label>
+      <select id="county-select" class="county-select"></select>
+    </div>
+
+    <div class="filter-group filter-group-levels" id="level-group">
+      <span class="filter-label" id="level-label">Office level</span>
+      <div class="chiprow" role="group" aria-labelledby="level-label" id="level-chips"></div>
+    </div>
+
+  </div>
+</nav>
+
+<!-- ============ MAIN ============ -->
+<main id="main">
+
+  <!-- status / error region -->
+  <div id="status" class="status" role="status" aria-live="polite"></div>
+
+  <!-- ---- CATEGORY 1: HOLD THE LINE ---- -->
+  <section class="category" id="section-hold_the_line" data-category="hold_the_line">
+    <div class="category-head">
+      <h2 class="category-title"><span class="lead">Hold</span> the Line</h2>
+      <p class="category-blurb" data-role="blurb"></p>
+      <p class="category-count" data-role="count"></p>
+    </div>
+    <div class="cardgrid" data-role="cards"></div>
+    <p class="empty" data-role="empty" hidden>No entries yet for this county.</p>
+  </section>
+
+  <!-- ---- CATEGORY 2: SEIZE NEW GROUND ---- -->
+  <section class="category" id="section-seize_new_ground" data-category="seize_new_ground">
+    <div class="category-head">
+      <h2 class="category-title"><span class="lead">Seize</span> New Ground</h2>
+      <p class="category-blurb" data-role="blurb"></p>
+      <p class="category-count" data-role="count"></p>
+    </div>
+    <div class="cardgrid" data-role="cards"></div>
+    <p class="empty" data-role="empty" hidden>No entries yet for this county.</p>
+  </section>
+
+  <!-- ---- CATEGORY 3: FIGHT LIKE HELL ---- -->
+  <section class="category category-orgs" id="section-fight_like_hell" data-category="fight_like_hell">
+    <div class="category-head">
+      <h2 class="category-title"><span class="lead">Fight</span> Like Hell</h2>
+      <p class="category-blurb" data-role="blurb"></p>
+      <p class="category-count" data-role="count"></p>
+    </div>
+    <div class="cardgrid" data-role="cards"></div>
+    <p class="empty" data-role="empty" hidden>No organizations listed yet for this county.</p>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <h2 class="footer-head">How this guide is made</h2>
+    <p id="methodology" class="footer-text"></p>
+
+    <dl class="footer-meta" id="footer-meta"></dl>
+
+    <p class="disclaimer" id="paid-for-by"></p>
+  </div>
+</footer>
+
+<noscript>
+  <div class="noscript-note">
+    This guide needs JavaScript turned on to display. Turn it on in your browser settings and reload the page.
+  </div>
+</noscript>
+
+<script src="app.js"></script>
+</body>
+</html>
