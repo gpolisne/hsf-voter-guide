@@ -40,7 +40,10 @@
     var words = String(name || "")
       .replace(/[^A-Za-z\u00C0-\u024F\s'-]/g, " ")
       .split(/\s+/)
-      .filter(function (w) { return w && !skip[w.toLowerCase()]; });
+      .filter(function (w) {
+        // must contain a real letter, so a lone dash is not treated as a name
+        return /[A-Za-z\u00C0-\u024F]/.test(w) && !skip[w.toLowerCase()];
+      });
     if (!words.length) return "?";
     var out = words[0].charAt(0);
     if (words.length > 1) out += words[words.length - 1].charAt(0);
