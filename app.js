@@ -244,9 +244,13 @@
     return (org.counties || []).indexOf(state.county) > -1;
   }
 
+  // Prototype behaviour: everything shows. Entries still carry a visible
+  // Draft badge until their status is set to "published", so the partner
+  // can see at a glance what is finished. Flip this to the commented
+  // version below when the guide goes live and drafts must stay private.
   function visibleStatus(item) {
-    if (state.preview) return true;
-    return item.status === "published";
+    return true;
+    // return state.preview || item.status === "published";
   }
 
   /* ---------- card builders ---------- */
@@ -393,8 +397,6 @@
           " to a race that does not exist in data.json. Check that each entry's " +
           "<strong>race_id</strong> exactly matches the <strong>id</strong> of a race."
       );
-    } else if (state.preview) {
-      showStatus("Preview mode", "Draft entries are visible. Remove <strong>?preview=1</strong> from the web address to see the guide as the public sees it.");
     } else {
       clearStatus();
     }
