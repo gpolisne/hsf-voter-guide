@@ -303,6 +303,58 @@ a:hover { color: var(--orange); }
   padding: 1.15rem 1.15rem 1.25rem;
 }
 
+/* ---------- card header: portrait plus name ---------- */
+.entry-head {
+  display: flex;
+  gap: 0.9rem;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.entry-headtext {
+  min-width: 0;
+  padding-top: 0.1rem;
+}
+
+/* 4:5 portrait. Cover crop weighted toward the top so heads survive
+   inconsistent source photos from campaign press kits. */
+.entry-portrait {
+  flex: 0 0 auto;
+  width: 104px;
+  aspect-ratio: 4 / 5;
+  border-radius: 2px;
+  border: 1px solid var(--rule);
+  overflow: hidden;
+  background: #EDE7D8;
+}
+
+.entry-portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 20%;
+}
+
+/* Fallback when no photo exists yet: navy halftone tile, gold initials. */
+.entry-monogram {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--navy);
+  background-image:
+    var(--halftone),
+    radial-gradient(ellipse at 40% 35%, var(--navy-lift) 0%, var(--navy-deep) 80%);
+  background-size: var(--halftone-size), cover;
+  font-family: var(--display);
+  font-size: 2.1rem;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: var(--gold);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
 .entry-race {
   font-size: 0.7rem;
   font-weight: 800;
@@ -320,13 +372,14 @@ a:hover { color: var(--orange); }
   font-size: 1.6rem;
   line-height: 1.05;
   margin: 0 0 0.15rem;
+  overflow-wrap: break-word;
 }
 
 .entry-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.35rem;
-  margin: 0.5rem 0 0.7rem;
+  margin: 0.5rem 0 0;
 }
 
 .tag {
@@ -382,8 +435,19 @@ a:hover { color: var(--orange); }
 }
 .linkbtn-primary:hover { background: var(--orange-dk); border-color: var(--orange-dk); color: #FFFFFF; }
 
-/* organizations read slightly differently from candidates */
+/* ---------- organizations read differently from candidates ---------- */
 .category-orgs .entry { border-top-color: var(--gold); }
+
+/* Logos are square and must not be cropped, unlike headshots. */
+.category-orgs .entry-portrait {
+  aspect-ratio: 1 / 1;
+  background: #FFFFFF;
+}
+.category-orgs .entry-portrait img {
+  object-fit: contain;
+  object-position: center;
+  padding: 0.4rem;
+}
 
 .org-urgent {
   border-top-color: var(--orange);
@@ -477,11 +541,16 @@ a:hover { color: var(--orange); }
     grid-template-columns: repeat(2, 1fr);
     gap: 1.25rem;
   }
+
+  .entry-portrait { width: 96px; }
+  .entry-monogram { font-size: 1.9rem; }
 }
 
 @media (min-width: 62rem) {
   .wordmark { gap: 0.35rem; }
   .category-head { padding: 2.5rem var(--pad) 2rem; }
+  .entry-portrait { width: 112px; }
+  .entry-monogram { font-size: 2.2rem; }
 }
 
 /* ============================================================
@@ -505,4 +574,5 @@ a:hover { color: var(--orange); }
   .category-blurb, .category-count { color: #333 !important; }
   .footer { background: #FFFFFF !important; color: #000; }
   .entry { break-inside: avoid; border: 1px solid #999; }
+  .entry-monogram { background: #EEE !important; color: #000 !important; text-shadow: none; }
 }

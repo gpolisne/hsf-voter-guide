@@ -33,6 +33,32 @@
     return "";
   }
 
+  // Initials for the fallback tile. Skips placeholder prefixes and
+  // short connecting words so "Maria de la Cruz" gives MC, not MD.
+  function initials(name) {
+    var skip = { de: 1, la: 1, del: 1, van: 1, von: 1, der: 1, the: 1, of: 1, and: 1, "for": 1, placeholder: 1 };
+    var words = String(name || "")
+      .replace(/[^A-Za-z\u00C0-\u024F\s'-]/g, " ")
+      .split(/\s+/)
+      .filter(function (w) { return w && !skip[w.toLowerCase()]; });
+    if (!words.length) return "?";
+    var out = words[0].charAt(0);
+    if (words.length > 1) out += words[words.length - 1].charAt(0);
+    return out.toUpperCase();
+  }
+
+  // Photo paths are relative to the site root, e.g. "images/name.jpg".
+  function portrait(item) {
+    var src = (item.photo || "").trim();
+    var alt = src ? esc(item.name) : "";
+    var inner = src
+      ? '<img src="' + esc(src) + '" alt="' + alt + '" loading="lazy" ' +
+        "onerror=\"this.parentNode.innerHTML='<div class=&quot;entry-monogram&quot; aria-hidden=&quot;true&quot;>" +
+        esc(initials(item.name)) + "</div>'\">"
+      : '<div class="entry-monogram" aria-hidden="true">' + esc(initials(item.name)) + "</div>";
+    return '<div class="entry-portrait">' + inner + "</div>";
+  }
+
   function $(sel, root) { return (root || document).querySelector(sel); }
   function $$(sel, root) { return Array.prototype.slice.call((root || document).querySelectorAll(sel)); }
 
@@ -262,9 +288,14 @@
 
     return (
       '<article class="entry">' +
-        '<p class="entry-race">' + esc(raceLabel(race)) + "</p>" +
-        '<h3 class="entry-name">' + esc(entry.name) + "</h3>" +
-        (tags.length ? '<div class="entry-tags">' + tags.join("") + "</div>" : "") +
+        '<div class="entry-head">' +
+          portrait(entry) +
+          '<div class="entry-headtext">' +
+            '<p class="entry-race">' + esc(raceLabel(race)) + "</p>" +
+            '<h3 class="entry-name">' + esc(entry.name) + "</h3>" +
+            (tags.length ? '<div class="entry-tags">' + tags.join("") + "</div>" : "") +
+          "</div>" +
+        "</div>" +
         (entry.headline ? '<p class="entry-headline">' + esc(entry.headline) + "</p>" : "") +
         (entry.summary ? '<p class="entry-summary">' + esc(entry.summary) + "</p>" : "") +
         (bullets.length
@@ -287,8 +318,13 @@
 
     return (
       '<article class="entry' + (org.urgent ? " org-urgent" : "") + '">' +
-        '<h3 class="entry-name">' + esc(org.name) + "</h3>" +
-        (tags.length ? '<div class="entry-tags">' + tags.join("") + "</div>" : "") +
+        '<div class="entry-head">' +
+          portrait(org) +
+          '<div class="entry-headtext">' +
+            '<h3 class="entry-name">' + esc(org.name) + "</h3>" +
+            (tags.length ? '<div class="entry-tags">' + tags.join("") + "</div>" : "") +
+          "</div>" +
+        "</div>" +
         (org.description ? '<p class="entry-summary">' + esc(org.description) + "</p>" : "") +
         (ways.length
           ? '<p class="entry-headline">Ways to help</p><ul class="entry-bullets">' +
