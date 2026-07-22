@@ -289,10 +289,10 @@ a:hover { color: var(--orange); }
 .cardgrid {
   max-width: var(--wrap);
   margin: 0 auto;
-  padding: 1.5rem var(--pad) 2.25rem;
+  padding: 1.4rem var(--pad) 2rem;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
+  gap: 0.9rem;
 }
 
 .entry {
@@ -300,15 +300,17 @@ a:hover { color: var(--orange); }
   border: 1px solid var(--rule);
   border-top: 4px solid var(--orange);
   border-radius: 2px;
-  padding: 1.15rem 1.15rem 1.25rem;
+  padding: 0.95rem 1rem 1.05rem;
+  font-size: 0.95rem;
+  line-height: 1.48;
 }
 
 /* ---------- card header: portrait plus name ---------- */
 .entry-head {
   display: flex;
-  gap: 0.9rem;
+  gap: 0.75rem;
   align-items: flex-start;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.6rem;
 }
 
 .entry-headtext {
@@ -320,7 +322,7 @@ a:hover { color: var(--orange); }
    inconsistent source photos from campaign press kits. */
 .entry-portrait {
   flex: 0 0 auto;
-  width: 104px;
+  width: 76px;
   aspect-ratio: 4 / 5;
   border-radius: 2px;
   border: 1px solid var(--rule);
@@ -380,9 +382,9 @@ a:hover { color: var(--orange); }
   font-weight: 400;
   text-transform: uppercase;
   color: var(--navy-deep);
-  font-size: 1.6rem;
-  line-height: 1.05;
-  margin: 0 0 0.15rem;
+  font-size: 1.25rem;
+  line-height: 1.08;
+  margin: 0 0 0.1rem;
   overflow-wrap: break-word;
 }
 
@@ -411,27 +413,27 @@ a:hover { color: var(--orange); }
 
 .entry-headline {
   font-weight: 800;
-  font-size: 1.02rem;
+  font-size: 0.95rem;
   color: var(--navy-deep);
-  margin: 0 0 0.5rem;
+  margin: 0 0 0.4rem;
 }
 
 .entry-summary { color: var(--ink); }
 
 .entry-bullets { color: var(--ink); }
-.entry-bullets li { margin-bottom: 0.3rem; }
+.entry-bullets li { margin-bottom: 0.2rem; }
 
 .entry-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 1rem;
+  gap: 0.4rem;
+  margin-top: 0.8rem;
 }
 
 .linkbtn {
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   font-weight: 800;
-  padding: 0.55rem 0.9rem;
+  padding: 0.45rem 0.75rem;
   border: 2px solid var(--orange);
   border-radius: 2px;
   color: var(--orange-dk);
@@ -550,17 +552,22 @@ a:hover { color: var(--orange); }
 
   .cardgrid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.25rem;
+    gap: 1rem;
   }
 
-  .entry-portrait { width: 96px; }
+  .entry-portrait { width: 72px; }
 
+}
+
+@media (min-width: 78rem) {
+  :root { --wrap: 78rem; }
+  .cardgrid { grid-template-columns: repeat(3, 1fr); }
 }
 
 @media (min-width: 62rem) {
   .wordmark { gap: 0.35rem; }
   .category-head { padding: 2.5rem var(--pad) 2rem; }
-  .entry-portrait { width: 112px; }
+  .entry-portrait { width: 80px; }
 
 }
 
