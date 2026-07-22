@@ -400,6 +400,8 @@
           " to a race that does not exist in data.json. Check that each entry's " +
           "<strong>race_id</strong> exactly matches the <strong>id</strong> of a race."
       );
+    } else if (DATA.settings && DATA.settings.demo_notice) {
+      showStatus("Sample content", esc(DATA.settings.demo_notice));
     } else {
       clearStatus();
     }

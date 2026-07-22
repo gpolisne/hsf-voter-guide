@@ -3,7 +3,8 @@
     "HSF VOTER GUIDE - SEED DATA FILE",
     "This file is the entire content of the guide. The app renders it and adds nothing.",
     "Edit this file to change the guide. No code changes required.",
-    "Anything marked TODO must be filled in by the publishing organization before launch.",
+    "ALL NAMES BELOW ARE INVENTED SAMPLE CONTENT. Replace before publishing.",
+    "Delete the demo_notice line in settings to remove the sample-content banner.",
     "Validate edits at jsonlint.com before publishing - one missing comma blanks the site."
   ],
 
@@ -12,12 +13,13 @@
     "tagline": "Hold the Line. Seize New Ground. Fight Like Hell.",
     "state": "Arizona",
     "cycle": "2026",
+    "demo_notice": "Everything on this page is invented sample content, shown to demonstrate the format. No real candidate or organization is listed, and nothing here is an endorsement.",
     "publisher_name": "TODO - registered name of the publishing organization",
     "paid_for_by": "TODO - required disclaimer string, exact wording from counsel",
     "contact_email": "TODO",
     "website": "TODO",
     "last_updated": "2026-07-22",
-    "methodology_note": "TODO - two or three sentences on how entries are chosen. Readers trust a guide that shows its work.",
+    "methodology_note": "TODO - two or three sentences on how entries are chosen. Readers trust a guide that shows its work. Say who decides, what they look at, and how someone suggests a change.",
     "election_dates": {
       "primary": "TODO - verify with AZ SOS",
       "general": "TODO - verify with AZ SOS",
@@ -26,7 +28,7 @@
     "voter_tools": {
       "check_registration_url": "https://my.arizona.vote/",
       "register_url": "https://servicearizona.com/VoterRegistration/selectLanguage",
-      "find_polling_place_url": "TODO"
+      "find_polling_place_url": ""
     }
   },
 
@@ -70,15 +72,6 @@
 
   "races": [
     {
-      "id": "race-us-house-az-XX",
-      "level": "federal",
-      "office": "U.S. House of Representatives",
-      "district": "AZ-XX",
-      "counties": ["pima", "cochise"],
-      "seats_open": 1,
-      "notes": "TODO - Arizona has 9 congressional districts. Create one race record per district you cover. No U.S. Senate race in Arizona this cycle - verify in Phase 3."
-    },
-    {
       "id": "race-governor",
       "level": "state",
       "office": "Governor",
@@ -88,48 +81,165 @@
       "notes": "Statewide race - appears on every county ballot."
     },
     {
-      "id": "race-ld-XX-senate",
+      "id": "race-sos",
+      "level": "state",
+      "office": "Secretary of State",
+      "district": null,
+      "counties": ["pima", "maricopa", "cochise", "coconino"],
+      "seats_open": 1,
+      "notes": "Chief elections officer for the state."
+    },
+    {
+      "id": "race-ag",
+      "level": "state",
+      "office": "Attorney General",
+      "district": null,
+      "counties": ["pima", "maricopa", "cochise", "coconino"],
+      "seats_open": 1,
+      "notes": ""
+    },
+    {
+      "id": "race-corp-comm",
+      "level": "state",
+      "office": "Corporation Commission",
+      "district": null,
+      "counties": ["pima", "maricopa", "cochise", "coconino"],
+      "seats_open": 2,
+      "notes": "Regulates utilities. Multi-seat race - confirm how many seats are up this cycle."
+    },
+    {
+      "id": "race-us-house-02",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "District 2",
+      "counties": ["coconino"],
+      "seats_open": 1,
+      "notes": "Verify district boundaries and county coverage against current maps."
+    },
+    {
+      "id": "race-us-house-06",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "District 6",
+      "counties": ["pima", "cochise"],
+      "seats_open": 1,
+      "notes": "Spans more than one county - both are listed so it appears on both filters."
+    },
+    {
+      "id": "race-us-house-07",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "District 7",
+      "counties": ["pima", "cochise"],
+      "seats_open": 1,
+      "notes": ""
+    },
+    {
+      "id": "race-ld17-senate",
       "level": "state",
       "office": "State Senate",
-      "district": "LD XX",
+      "district": "Legislative District 17",
       "counties": ["pima"],
       "seats_open": 1,
-      "notes": "TODO - Arizona has 30 legislative districts. Some straddle county lines, so list every county a district touches."
+      "notes": "Arizona has 30 legislative districts. Some cross county lines."
     },
     {
-      "id": "race-ld-XX-house",
+      "id": "race-ld18-house",
       "level": "state",
       "office": "State House of Representatives",
-      "district": "LD XX",
+      "district": "Legislative District 18",
       "counties": ["pima"],
       "seats_open": 2,
-      "notes": "Each LD elects two House members. Voters may select two."
+      "notes": "Each legislative district elects two House members. Voters may select two."
     },
     {
-      "id": "race-pima-supervisor-d1",
-      "level": "county",
-      "office": "County Supervisor, District 1",
-      "district": "Supervisor District 1",
-      "counties": ["pima"],
-      "seats_open": 1,
+      "id": "race-ld06-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 6",
+      "counties": ["coconino"],
+      "seats_open": 2,
       "notes": ""
     },
     {
       "id": "race-pima-sheriff",
       "level": "county",
-      "office": "County Sheriff",
+      "office": "Pima County Sheriff",
       "district": null,
       "counties": ["pima"],
       "seats_open": 1,
-      "notes": "County sheriff and county attorney are the two local offices most directly tied to how immigration enforcement cooperation plays out on the ground."
+      "notes": "Sheriff and County Attorney are the two local offices most directly tied to how immigration enforcement cooperation plays out on the ground."
     },
     {
-      "id": "race-municipal-EXAMPLE",
-      "level": "municipal",
-      "office": "TODO - City Council Ward N, Mayor, or School Governing Board",
+      "id": "race-pima-attorney",
+      "level": "county",
+      "office": "Pima County Attorney",
       "district": null,
+      "counties": ["pima"],
+      "seats_open": 1,
+      "notes": ""
+    },
+    {
+      "id": "race-maricopa-attorney",
+      "level": "county",
+      "office": "Maricopa County Attorney",
+      "district": null,
+      "counties": ["maricopa"],
+      "seats_open": 1,
+      "notes": ""
+    },
+    {
+      "id": "race-coconino-sup2",
+      "level": "county",
+      "office": "Coconino County Supervisor",
+      "district": "District 2",
       "counties": ["coconino"],
       "seats_open": 1,
+      "notes": ""
+    },
+    {
+      "id": "race-cochise-recorder",
+      "level": "county",
+      "office": "Cochise County Recorder",
+      "district": null,
+      "counties": ["cochise"],
+      "seats_open": 1,
+      "notes": "The Recorder runs voter registration and early ballots."
+    },
+    {
+      "id": "race-tucson-ward3",
+      "level": "municipal",
+      "office": "Tucson City Council",
+      "district": "Ward 3",
+      "counties": ["pima"],
+      "seats_open": 1,
+      "notes": ""
+    },
+    {
+      "id": "race-flagstaff-council",
+      "level": "municipal",
+      "office": "Flagstaff City Council",
+      "district": null,
+      "counties": ["coconino"],
+      "seats_open": 3,
+      "notes": "At-large council seats. Confirm how many are up."
+    },
+    {
+      "id": "race-sierra-vista-mayor",
+      "level": "municipal",
+      "office": "Sierra Vista Mayor",
+      "district": null,
+      "counties": ["cochise"],
+      "seats_open": 1,
+      "notes": ""
+    },
+    {
+      "id": "race-tusd-board",
+      "level": "municipal",
+      "office": "Tucson Unified School District Governing Board",
+      "district": null,
+      "counties": ["pima"],
+      "seats_open": 2,
       "notes": "School board races are usually the lowest-information, highest-leverage item on the ballot."
     }
   ],
@@ -139,46 +249,276 @@
       "id": "entry-001",
       "category": "hold_the_line",
       "race_id": "race-governor",
-      "name": "PLACEHOLDER - Candidate Name",
+      "name": "Adriana Vasquez-Hall",
       "incumbent": true,
-      "ballot_designation": "TODO - party or nonpartisan, publisher's call on whether to display",
-      "headline": "One line on why this seat has to hold.",
-      "summary": "Two or three sentences in the publisher's own voice. Specific record, not adjectives. What did this person actually do that earned the spot.",
+      "ballot_designation": "",
+      "headline": "The veto pen is the whole job right now.",
+      "summary": "Sample copy. She has blocked eleven bills that would have restricted early voting, expanded cooperation between local police and federal immigration agents, or stripped local governments of the ability to set their own labor standards. None of that is glamorous. All of it held.",
       "why_bullets": [
-        "Concrete vote, veto, or action",
-        "Second concrete item",
-        "Third concrete item"
+        "Vetoed the 2025 bill requiring county sheriffs to honor federal detainer requests",
+        "Restored full funding to the state housing trust fund after a decade of raids on it",
+        "Kept the drought contingency negotiations at the table rather than in court"
       ],
       "links": {
-        "website": "",
-        "volunteer": "",
+        "website": "https://example.org/vasquez-hall",
+        "volunteer": "https://example.org/vasquez-hall/volunteer",
+        "donate": "https://example.org/vasquez-hall/donate"
+      },
+      "photo": "",
+      "status": "published",
+      "updated": "2026-07-22"
+    },
+    {
+      "id": "entry-002",
+      "category": "hold_the_line",
+      "race_id": "race-sos",
+      "name": "Marcus Bell",
+      "incumbent": true,
+      "ballot_designation": "",
+      "headline": "Certified the count under threat and did not blink.",
+      "summary": "Sample copy. He certified results on schedule in 2024 while under sustained pressure not to, published the full audit trail unprompted, and has kept the voter file out of the hands of every outside group that has asked for it.",
+      "why_bullets": [
+        "Published county-level audit results within 72 hours of certification",
+        "Refused four separate requests for bulk voter file transfers",
+        "Expanded ballot drop locations on tribal land from 9 to 24"
+      ],
+      "links": {
+        "website": "https://example.org/bell",
+        "volunteer": "https://example.org/bell/volunteer",
         "donate": ""
+      },
+      "photo": "",
+      "status": "published",
+      "updated": "2026-07-22"
+    },
+    {
+      "id": "entry-003",
+      "category": "hold_the_line",
+      "race_id": "race-us-house-06",
+      "name": "Daniel Ruiz Ortega",
+      "incumbent": true,
+      "ballot_designation": "",
+      "headline": "One of the few willing to say the quiet part on the border.",
+      "summary": "Sample copy. He represents a district that runs from Tucson to the border and has spent four years refusing the easy vote on enforcement funding. He has also delivered - the Douglas port modernization is his.",
+      "why_bullets": [
+        "Voted against the 2025 detention capacity expansion",
+        "Secured funding for the Douglas port of entry rebuild",
+        "Holds in-person town halls in Cochise County, not just Tucson"
+      ],
+      "links": {
+        "website": "https://example.org/ruiz-ortega",
+        "volunteer": "https://example.org/ruiz-ortega/volunteer",
+        "donate": "https://example.org/ruiz-ortega/donate"
+      },
+      "photo": "",
+      "status": "published",
+      "updated": "2026-07-22"
+    },
+    {
+      "id": "entry-004",
+      "category": "hold_the_line",
+      "race_id": "race-ld17-senate",
+      "name": "Priya Raman",
+      "incumbent": true,
+      "ballot_designation": "",
+      "headline": "Held a one-vote margin and used it.",
+      "summary": "Sample copy. In a chamber decided by a single seat, she has been the vote that stopped the school voucher expansion twice. Her district is winnable by the other side and she has never softened to keep it.",
+      "why_bullets": [
+        "Blocked the voucher expansion in committee two sessions running",
+        "Wrote the rural broadband bill that passed with bipartisan support",
+        "Only legislator to vote against the utility rate settlement"
+      ],
+      "links": {
+        "website": "https://example.org/raman",
+        "volunteer": "https://example.org/raman/volunteer",
+        "donate": "https://example.org/raman/donate"
+      },
+      "photo": "",
+      "status": "published",
+      "updated": "2026-07-22"
+    },
+    {
+      "id": "entry-005",
+      "category": "hold_the_line",
+      "race_id": "race-pima-attorney",
+      "name": "Naomi Betsuie",
+      "incumbent": true,
+      "ballot_designation": "",
+      "headline": "Declined to prosecute what she was never required to prosecute.",
+      "summary": "Sample copy. She ended cash bail requests for non-violent misdemeanors in her first month and has not reversed under pressure. Charging data is published quarterly, which is rare and worth defending.",
+      "why_bullets": [
+        "Publishes charging and declination data every quarter",
+        "Ended cash bail requests for non-violent misdemeanors",
+        "Created the conviction integrity unit that has vacated six sentences"
+      ],
+      "links": {
+        "website": "https://example.org/betsuie",
+        "volunteer": "",
+        "donate": "https://example.org/betsuie/donate"
+      },
+      "photo": "",
+      "status": "published",
+      "updated": "2026-07-22"
+    },
+    {
+      "id": "entry-006",
+      "category": "hold_the_line",
+      "race_id": "race-coconino-sup2",
+      "name": "Frank Tsosie",
+      "incumbent": true,
+      "ballot_designation": "",
+      "headline": "Got polling places onto the reservation and kept them there.",
+      "summary": "Sample copy. Four years of steady work on a board where he is often outvoted. The early voting sites in the northern part of the county exist because he refused to let the item drop off three consecutive agendas.",
+      "why_bullets": [
+        "Added four early voting locations in the north county",
+        "Pushed through the wildfire evacuation route funding",
+        "Voted against the short-term rental exemption"
+      ],
+      "links": {
+        "website": "https://example.org/tsosie",
+        "volunteer": "https://example.org/tsosie/volunteer",
+        "donate": ""
+      },
+      "photo": "",
+      "status": "published",
+      "updated": "2026-07-22"
+    },
+    {
+      "id": "entry-007",
+      "category": "seize_new_ground",
+      "race_id": "race-us-house-02",
+      "name": "Winona Charley",
+      "incumbent": false,
+      "ballot_designation": "",
+      "headline": "The seat has never been contested this seriously.",
+      "summary": "Sample copy. She has organized in the northern part of this district for eleven years and is running on water rights and rural health care in a place where both are urgent. The incumbent has not held a public town hall since 2023.",
+      "why_bullets": [
+        "Would be the first person from the northern counties to hold this seat",
+        "Campaign is field-first, with offices already open in three towns",
+        "Committed to a moratorium on new groundwater pumping permits"
+      ],
+      "links": {
+        "website": "https://example.org/charley",
+        "volunteer": "https://example.org/charley/volunteer",
+        "donate": "https://example.org/charley/donate"
+      },
+      "photo": "",
+      "status": "published",
+      "updated": "2026-07-22"
+    },
+    {
+      "id": "entry-008",
+      "category": "seize_new_ground",
+      "race_id": "race-ld18-house",
+      "name": "Terrence Okoye",
+      "incumbent": false,
+      "ballot_designation": "",
+      "headline": "Would go further than the seat has ever gone on housing.",
+      "summary": "Sample copy. The current member votes the right way on housing and stops there. Okoye has actually written the policy - he drafted the Tucson tenant protection ordinance and knows what the state preemption fight requires.",
+      "why_bullets": [
+        "Drafted the city tenant protection ordinance now in force",
+        "Supports repealing state preemption of local rent stabilization",
+        "Would be the only renter in the delegation"
+      ],
+      "links": {
+        "website": "https://example.org/okoye",
+        "volunteer": "https://example.org/okoye/volunteer",
+        "donate": "https://example.org/okoye/donate"
+      },
+      "photo": "",
+      "status": "published",
+      "updated": "2026-07-22"
+    },
+    {
+      "id": "entry-009",
+      "category": "seize_new_ground",
+      "race_id": "race-pima-sheriff",
+      "name": "Rosa Delgado",
+      "incumbent": false,
+      "ballot_designation": "",
+      "headline": "The clearest break available on any ballot in this county.",
+      "summary": "Sample copy. Twenty-two years in the department and running against her own leadership on one question: whether the county jail holds people for federal immigration agents. She says no. The incumbent says it is complicated.",
+      "why_bullets": [
+        "Would end all detainer holds without a judicial warrant",
+        "Committed to publishing every use-of-force report within 30 days",
+        "Would close the jail's contract housing agreement"
+      ],
+      "links": {
+        "website": "https://example.org/delgado",
+        "volunteer": "https://example.org/delgado/volunteer",
+        "donate": "https://example.org/delgado/donate"
+      },
+      "photo": "",
+      "status": "published",
+      "updated": "2026-07-22"
+    },
+    {
+      "id": "entry-010",
+      "category": "seize_new_ground",
+      "race_id": "race-maricopa-attorney",
+      "name": "Simone Aguilar",
+      "incumbent": false,
+      "ballot_designation": "",
+      "headline": "The largest prosecutor's office in the state, and it is winnable.",
+      "summary": "Sample copy. A former public defender running for the office that has spent a decade setting the tone for criminal justice across Arizona. She has named the specific units she would dissolve, which almost no challenger does.",
+      "why_bullets": [
+        "Would dissolve the gang designation unit",
+        "Committed to declining prosecution of all abortion-related cases",
+        "Would open the charging data that has never been published"
+      ],
+      "links": {
+        "website": "https://example.org/aguilar",
+        "volunteer": "https://example.org/aguilar/volunteer",
+        "donate": "https://example.org/aguilar/donate"
       },
       "photo": "",
       "status": "draft",
       "updated": "2026-07-22"
     },
     {
-      "id": "entry-002",
+      "id": "entry-011",
       "category": "seize_new_ground",
-      "race_id": "race-ld-XX-house",
-      "name": "PLACEHOLDER - Candidate Name",
+      "race_id": "race-sierra-vista-mayor",
+      "name": "Elena Marquez",
       "incumbent": false,
-      "ballot_designation": "TODO",
-      "headline": "One line on what this candidate would push further.",
-      "summary": "Where this candidate goes beyond the current occupant of the seat. Be specific about the gap - that is the whole argument of this category.",
+      "ballot_designation": "Nonpartisan",
+      "headline": "A border city choosing what kind of border city it is.",
+      "summary": "Sample copy. Running on water infrastructure and small business support in a town where the current administration has spent three years on enforcement theater. Local races in Cochise County are decided by a few hundred votes.",
       "why_bullets": [
-        "Position that goes further than the incumbent",
-        "Second item",
-        "Third item"
+        "Would end the city's participation in the federal task force agreement",
+        "Plan to replace the aging water main system rather than defer it again",
+        "Ran the downtown merchants association through the 2024 closures"
       ],
       "links": {
-        "website": "",
-        "volunteer": "",
+        "website": "https://example.org/marquez",
+        "volunteer": "https://example.org/marquez/volunteer",
         "donate": ""
       },
       "photo": "",
-      "status": "draft",
+      "status": "published",
+      "updated": "2026-07-22"
+    },
+    {
+      "id": "entry-012",
+      "category": "seize_new_ground",
+      "race_id": "race-tusd-board",
+      "name": "Amina Kowalski",
+      "incumbent": false,
+      "ballot_designation": "Nonpartisan",
+      "headline": "School board turnout is about nine percent. That is the opportunity.",
+      "summary": "Sample copy. A district parent and former classroom aide running against a slate that has spent two years on library content reviews. She wants the conversation back on class sizes and the teacher vacancy rate.",
+      "why_bullets": [
+        "Opposes the book review policy adopted last year",
+        "Would restore the ethnic studies elective",
+        "Committed to publishing the vacancy rate by school every month"
+      ],
+      "links": {
+        "website": "https://example.org/kowalski",
+        "volunteer": "https://example.org/kowalski/volunteer",
+        "donate": ""
+      },
+      "photo": "",
+      "status": "published",
       "updated": "2026-07-22"
     }
   ],
@@ -186,42 +526,144 @@
   "organizations": [
     {
       "id": "org-001",
-      "name": "PLACEHOLDER - Organization Name",
-      "counties": ["pima"],
+      "name": "Sonoran Rapid Response Network",
+      "counties": ["pima", "cochise"],
       "statewide": false,
       "focus_tags": ["immigrant defense", "rapid response", "know your rights"],
-      "description": "Two or three sentences on what this group actually does. Written so a stranger reading it at a doorstep understands in five seconds.",
+      "description": "Sample copy. A 24-hour hotline and verified responder network. When someone is detained, trained volunteers document the stop, notify family, and connect the household to legal help within the hour.",
       "ways_to_help": [
-        "Volunteer for canvass shifts",
-        "Join the rapid response network",
-        "Donate to the bail or legal fund"
+        "Train as a legal observer - one Saturday session",
+        "Take a shift on the hotline, remote and from home",
+        "Give to the bond fund, which is always the binding constraint"
       ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": "",
-        "events": "",
+        "website": "https://example.org/sonoran-rrn",
+        "volunteer": "https://example.org/sonoran-rrn/volunteer",
+        "donate": "https://example.org/sonoran-rrn/donate",
+        "events": "https://example.org/sonoran-rrn/events",
         "social": ""
       },
-      "urgent": false,
+      "photo": "",
+      "urgent": true,
       "verified_on": "2026-07-22",
-      "status": "draft"
+      "status": "published"
     },
     {
       "id": "org-002",
-      "name": "PLACEHOLDER - Statewide Organization",
-      "counties": ["pima", "maricopa", "cochise", "coconino"],
-      "statewide": true,
-      "focus_tags": ["voter protection", "BIPOC organizing"],
-      "description": "",
-      "ways_to_help": [],
+      "name": "Borderlands Legal Aid Project",
+      "counties": ["cochise"],
+      "statewide": false,
+      "focus_tags": ["legal services", "asylum", "family reunification"],
+      "description": "Sample copy. Two staff attorneys and a rotating bench of volunteer lawyers covering the whole southeastern corner of the state. They take the cases nobody else in the region can take.",
+      "ways_to_help": [
+        "Volunteer if you are a licensed attorney or a Spanish interpreter",
+        "Drive clients to hearings in Tucson and Phoenix",
+        "Sponsor a single case - roughly the cost of a filing fee"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": "",
+        "website": "https://example.org/borderlands-legal",
+        "volunteer": "https://example.org/borderlands-legal/volunteer",
+        "donate": "https://example.org/borderlands-legal/donate",
         "events": "",
         "social": ""
       },
+      "photo": "",
+      "urgent": false,
+      "verified_on": "2026-07-22",
+      "status": "published"
+    },
+    {
+      "id": "org-003",
+      "name": "High Desert Native Vote",
+      "counties": ["coconino"],
+      "statewide": false,
+      "focus_tags": ["voter registration", "tribal outreach", "ballot access"],
+      "description": "Sample copy. Registration and ballot access work across the northern counties, where a round trip to a polling place can take four hours. They run the shuttles, the translation, and the drop box monitoring.",
+      "ways_to_help": [
+        "Drive a ballot shuttle route on election day",
+        "Register voters at community events, training provided",
+        "Fund a fuel stipend for a rural canvasser"
+      ],
+      "links": {
+        "website": "https://example.org/hdnv",
+        "volunteer": "https://example.org/hdnv/volunteer",
+        "donate": "https://example.org/hdnv/donate",
+        "events": "https://example.org/hdnv/events",
+        "social": ""
+      },
+      "photo": "",
+      "urgent": false,
+      "verified_on": "2026-07-22",
+      "status": "published"
+    },
+    {
+      "id": "org-004",
+      "name": "Valley Voter Defense Fund",
+      "counties": ["maricopa"],
+      "statewide": false,
+      "focus_tags": ["voter protection", "poll monitoring", "election law"],
+      "description": "Sample copy. Poll monitors, a same-day legal hotline, and the people who show up when a drop box is being watched by someone with a camera and a folding chair.",
+      "ways_to_help": [
+        "Serve as a trained poll monitor for one shift",
+        "Join the attorney response list",
+        "Give to cover the cost of election-day operations"
+      ],
+      "links": {
+        "website": "https://example.org/vvdf",
+        "volunteer": "https://example.org/vvdf/volunteer",
+        "donate": "https://example.org/vvdf/donate",
+        "events": "",
+        "social": ""
+      },
+      "photo": "",
+      "urgent": true,
+      "verified_on": "2026-07-22",
+      "status": "published"
+    },
+    {
+      "id": "org-005",
+      "name": "Arizona Doorstep Coalition",
+      "counties": ["pima", "maricopa", "cochise", "coconino"],
+      "statewide": true,
+      "focus_tags": ["canvassing", "field organizing", "BIPOC organizing"],
+      "description": "Sample copy. The canvass infrastructure that the smaller groups all borrow. Turf, training, and a data operation that does not sell what it collects.",
+      "ways_to_help": [
+        "Take a weekend canvass shift in your own neighborhood",
+        "Host a turf launch - coffee and a table is all it takes",
+        "Give monthly, which is what lets them hire organizers year round"
+      ],
+      "links": {
+        "website": "https://example.org/azdoorstep",
+        "volunteer": "https://example.org/azdoorstep/volunteer",
+        "donate": "https://example.org/azdoorstep/donate",
+        "events": "https://example.org/azdoorstep/events",
+        "social": ""
+      },
+      "photo": "",
+      "urgent": false,
+      "verified_on": "2026-07-22",
+      "status": "published"
+    },
+    {
+      "id": "org-006",
+      "name": "Old Pueblo Tenant Union",
+      "counties": ["pima"],
+      "statewide": false,
+      "focus_tags": ["housing", "eviction defense", "mutual aid"],
+      "description": "Sample copy. Eviction court accompaniment, building-level organizing, and an emergency fund that has kept a few hundred households in place. Most of their work happens the week before a hearing.",
+      "ways_to_help": [
+        "Accompany a neighbor to eviction court, no legal training needed",
+        "Join a building committee where you already live",
+        "Give to the emergency rent fund"
+      ],
+      "links": {
+        "website": "https://example.org/optu",
+        "volunteer": "https://example.org/optu/volunteer",
+        "donate": "https://example.org/optu/donate",
+        "events": "",
+        "social": ""
+      },
+      "photo": "",
       "urgent": false,
       "verified_on": "2026-07-22",
       "status": "draft"
