@@ -3,7 +3,8 @@
 
   var LS = "hsf-builder-v1";
   var base = null;
-  var state = { volunteer: "", entries: [], races: [], orgs: [], editing: null };
+  var state = { volunteer: "", entries: [], races: [], orgs: [], photos: {}, editing: null };
+  var pendingPhoto = null;
 
   /* ---------- avatar (verbatim from app.js) ---------- */
   function hashOf(s) {
@@ -61,7 +62,17 @@
       .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
   }
   function today() { return new Date().toISOString().slice(0, 10); }
-  function save() { try { localStorage.setItem(LS, JSON.stringify(state)); } catch (e) {} }
+
+  function save() {
+    try {
+      localStorage.setItem(LS, JSON.stringify(state));
+      return true;
+    } catch (e) {
+      alert("Your browser storage is full, so this was NOT saved.\n\n" +
+            "Export your work now, then use Delete all my work to make room.");
+      return false;
+    }
+  }
   function load() {
     try {
       var raw = localStorage.getItem(LS);
@@ -71,6 +82,7 @@
         state.entries = p.entries || [];
         state.races = p.races || [];
         state.orgs = p.orgs || [];
+        state.photos = p.photos || {};
       }
     } catch (e) {}
   }
@@ -82,8 +94,62 @@
     var r = allRaces().filter(function (x) { return x.id === id; });
     return r.length ? r[0] : null;
   }
-  function raceLabel(r) {
-    return r.office + (r.district ? " \u2014 " + r.district : "");
+  function raceLabel(r) { return r.office + (r.district ? " \u2014 " + r.district : ""); }
+  function kb(dataUrl) { return Math.round(dataUrl.length * 0.75 / 1024); }
+
+  /* ---------- photo pipeline ---------- */
+  function resizeImage(file, mode, cb) {
+    var reader = new FileReader();
+    reader.onerror = function () { cb(null, "Could not read that file."); };
+    reader.onload = function () {
+      var img = new Image();
+      img.onerror = function () { cb(null, "That file is not an image the browser can open."); };
+      img.onload = function () {
+        var TW = mode === "org" ? 400 : 400;
+        var TH = mode === "org" ? 400 : 500;
+        var cv = document.createElement("canvas");
+        cv.width = TW; cv.height = TH;
+        var ctx = cv.getContext("2d");
+        ctx.fillStyle = "#FFFFFF";
+        ctx.fillRect(0, 0, TW, TH);
+
+        var sw = img.naturalWidth, sh = img.naturalHeight;
+        if (!sw || !sh) { return cb(null, "That image has no dimensions."); }
+
+        if (mode === "org") {
+          var sc = Math.min(TW / sw, TH / sh);
+          var dw = sw * sc, dh = sh * sc;
+          ctx.drawImage(img, (TW - dw) / 2, (TH - dh) / 2, dw, dh);
+        } else {
+          var targetRatio = TW / TH;
+          var srcRatio = sw / sh;
+          var cx, cy, cw, ch;
+          if (srcRatio > targetRatio) {
+            ch = sh; cw = sh * targetRatio;
+            cx = (sw - cw) / 2; cy = 0;
+          } else {
+            cw = sw; ch = sw / targetRatio;
+            cx = 0; cy = (sh - ch) * 0.20;
+          }
+          ctx.drawImage(img, cx, cy, cw, ch, 0, 0, TW, TH);
+        }
+        cb(cv.toDataURL("image/jpeg", 0.82), null);
+      };
+      img.src = reader.result;
+    };
+    reader.readAsDataURL(file);
+  }
+
+  function showPhoto(dataUrl) {
+    if (!dataUrl) {
+      el("photoRow").hidden = true;
+      el("photoThumb").innerHTML = "";
+      el("photoInfo").textContent = "";
+      return;
+    }
+    el("photoRow").hidden = false;
+    el("photoThumb").innerHTML = '<img src="' + dataUrl + '" alt="">';
+    el("photoInfo").textContent = "Resized to 400 \u00d7 500, about " + kb(dataUrl) + " KB.";
   }
 
   /* ---------- form ---------- */
@@ -139,9 +205,12 @@
 
   function clearForm() {
     state.editing = null;
+    pendingPhoto = null;
     el("modeNote").textContent = "new";
     ["f_name","f_designation","f_headline","f_summary","f_website","f_volunteer","f_donate","f_credit"]
       .forEach(function (id) { el(id).value = ""; });
+    el("f_photo").value = "";
+    showPhoto(null);
     el("f_incumbent").checked = false;
     el("f_category").value = "seize_new_ground";
     el("f_status").value = "draft";
@@ -152,6 +221,8 @@
     Array.prototype.forEach.call(el("r_counties").querySelectorAll("input"), function (i) { i.checked = false; });
     setBullets(null);
     msg("formMsg", "ok", "");
+    counter("f_headline", "c_headline", 70);
+    counter("f_summary", "c_summary", 400);
     preview();
   }
 
@@ -173,7 +244,12 @@
     el("f_credit").value = c.photo_credit || "";
     el("f_status").value = c.status || "draft";
     setBullets(c.why_bullets);
+    el("f_photo").value = "";
+    pendingPhoto = state.photos[id] || null;
+    showPhoto(pendingPhoto);
     el("newRace").hidden = true;
+    counter("f_headline", "c_headline", 70);
+    counter("f_summary", "c_summary", 400);
     window.scrollTo(0, 0);
     preview();
   }
@@ -219,11 +295,16 @@
     if (!summary) { return msg("formMsg", "err", "Summary is required."); }
     var bullets = getBullets();
     if (!bullets.length) { return msg("formMsg", "err", "At least one why bullet is required."); }
+    if (pendingPhoto && !el("f_credit").value.trim()) {
+      return msg("formMsg", "err", "Add a photo credit saying where the image came from.");
+    }
 
     var id = state.editing || ("entry-" + slug(name));
     if (!state.editing && state.entries.some(function (e) { return e.id === id; })) {
       return msg("formMsg", "err", "You already have a card for that name. Edit it from the list instead.");
     }
+
+    var photoPath = pendingPhoto ? ("images/" + slug(name) + ".jpg") : "";
 
     var card = {
       id: id,
@@ -240,22 +321,26 @@
         volunteer: el("f_volunteer").value.trim(),
         donate: el("f_donate").value.trim()
       },
-      photo: "",
+      photo: photoPath,
       photo_credit: el("f_credit").value.trim(),
       status: el("f_status").value,
       created_by: state.volunteer || "unknown",
       updated: today()
     };
 
+    if (pendingPhoto) { state.photos[id] = pendingPhoto; }
+    else { delete state.photos[id]; }
+
     if (state.editing) {
       state.entries = state.entries.map(function (e) { return e.id === id ? card : e; });
     } else {
       state.entries.push(card);
     }
-    save();
+    if (!save()) { return; }
     renderList();
     fillRaceSelect("");
     clearForm();
+    updateMeter();
     msg("formMsg", "ok", "Saved " + name + ".");
   }
 
@@ -264,8 +349,11 @@
     var name = el("f_name").value.trim() || "Candidate name";
     var r = raceById(el("f_race").value);
     var bullets = getBullets();
+    var pic = pendingPhoto
+      ? '<img src="' + pendingPhoto + '" alt="">'
+      : personAvatar(name);
     el("preview").innerHTML =
-      '<div class="prevpic">' + personAvatar(name) + "</div>" +
+      '<div class="prevpic">' + pic + "</div>" +
       '<div class="prevbody">' +
         '<div class="prevrace">' + esc(r ? raceLabel(r) : "No race selected") + "</div>" +
         '<div class="prevname">' + esc(name) + "</div>" +
@@ -284,6 +372,18 @@
     c.className = "count" + (n > limit ? " over" : "");
   }
 
+  function updateMeter() {
+    var bytes = 0;
+    try { bytes = JSON.stringify(state).length; } catch (e) {}
+    var pct = Math.min(100, Math.round(bytes / (4 * 1024 * 1024) * 100));
+    var m = el("meter");
+    m.className = "meter" + (pct > 70 ? " warn" : "");
+    m.firstChild.style.width = pct + "%";
+    el("meterNote").textContent =
+      Math.round(bytes / 1024) + " KB stored" +
+      (pct > 70 ? " \u2014 getting full. Export soon." : "");
+  }
+
   function renderList() {
     var ul = el("cardlist");
     ul.innerHTML = "";
@@ -300,6 +400,7 @@
           (c.category === "hold_the_line" ? "Hold" : "Seize") + "</span>" +
         '<span class="nm"><b>' + esc(c.name) + "</b><span>" +
           esc(r ? raceLabel(r) : "unknown race") + "</span></span>" +
+        (state.photos[c.id] ? '<span class="tag pic">Photo</span>' : "") +
         (c.status === "draft" ? '<span class="tag draft">Draft</span>' : "");
       var edit = document.createElement("button");
       edit.className = "ghost sm"; edit.textContent = "Edit";
@@ -309,7 +410,8 @@
       del.addEventListener("click", function () {
         if (!confirm("Delete the card for " + c.name + "?")) return;
         state.entries = state.entries.filter(function (e) { return e.id !== c.id; });
-        save(); renderList();
+        delete state.photos[c.id];
+        save(); renderList(); updateMeter();
         if (state.editing === c.id) clearForm();
       });
       li.appendChild(edit); li.appendChild(del);
@@ -325,6 +427,11 @@
     if (!state.volunteer) {
       return msg("exportMsg", "err", "Put your name in the bar at the top first.");
     }
+    var photos = {};
+    var nPhotos = 0;
+    state.entries.forEach(function (e) {
+      if (e.photo && state.photos[e.id]) { photos[e.photo] = state.photos[e.id]; nPhotos++; }
+    });
     var frag = {
       _fragment: true,
       created_by: state.volunteer,
@@ -333,16 +440,19 @@
         var c = JSON.parse(JSON.stringify(r)); delete c._new; return c;
       }),
       entries: state.entries,
-      organizations: state.orgs
+      organizations: state.orgs,
+      photos: photos
     };
-    var blob = new Blob([JSON.stringify(frag, null, 2)], { type: "application/json" });
+    var text = JSON.stringify(frag, null, 2);
+    var blob = new Blob([text], { type: "application/json" });
     var a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
     a.download = "hsf-fragment-" + slug(state.volunteer) + "-" + today() + ".json";
     document.body.appendChild(a); a.click(); document.body.removeChild(a);
     setTimeout(function () { URL.revokeObjectURL(a.href); }, 2000);
-    msg("exportMsg", "ok", "Exported " + state.entries.length + " card(s) and " +
-      state.races.length + " new race(s). Email that file to George.");
+    msg("exportMsg", "ok", "Exported " + state.entries.length + " card(s), " +
+      nPhotos + " photo(s), " + state.races.length + " new race(s). File is about " +
+      Math.round(text.length / 1024) + " KB. Email it to George.");
   }
 
   /* ---------- boot ---------- */
@@ -377,14 +487,37 @@
     el("addBullet").addEventListener("click", function () {
       el("bullets").appendChild(bulletRow(""));
     });
+
+    el("f_photo").addEventListener("change", function () {
+      var f = this.files && this.files[0];
+      if (!f) return;
+      el("photoInfo").textContent = "Processing\u2026";
+      el("photoRow").hidden = false;
+      resizeImage(f, "person", function (dataUrl, err) {
+        if (err) {
+          el("photoRow").hidden = true;
+          return msg("formMsg", "err", err);
+        }
+        pendingPhoto = dataUrl;
+        showPhoto(dataUrl);
+        preview();
+      });
+    });
+    el("removePhoto").addEventListener("click", function () {
+      pendingPhoto = null;
+      el("f_photo").value = "";
+      showPhoto(null);
+      preview();
+    });
+
     el("saveCard").addEventListener("click", saveCard);
     el("clearForm").addEventListener("click", clearForm);
     el("exportBtn").addEventListener("click", doExport);
     el("wipeBtn").addEventListener("click", function () {
       if (!confirm("Delete every card you have made in this browser? This cannot be undone.")) return;
       if (!confirm("Really delete all of it? Export first if you have not.")) return;
-      state.entries = []; state.races = []; state.orgs = [];
-      save(); renderList(); clearForm();
+      state.entries = []; state.races = []; state.orgs = []; state.photos = {};
+      save(); renderList(); clearForm(); updateMeter();
       msg("exportMsg", "ok", "Cleared.");
     });
 
@@ -399,6 +532,7 @@
     counter("f_headline", "c_headline", 70);
     counter("f_summary", "c_summary", 400);
     renderList();
+    updateMeter();
     preview();
     el("boot").hidden = true;
     el("app").hidden = false;

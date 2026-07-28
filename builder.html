@@ -47,6 +47,7 @@
     width:100%; padding:.45rem .55rem; border:1px solid var(--rule);
     border-radius:2px; font:inherit; background:#fff;
   }
+  input[type=file] { font-size:.85rem; }
   textarea { resize:vertical; }
   .row { display:flex; gap:.6rem; align-items:center; }
   .row input[type=checkbox] { width:auto; }
@@ -71,6 +72,11 @@
   .bullet { display:flex; gap:.4rem; margin-bottom:.4rem; }
   .bullet input { flex:1; }
 
+  .photorow { display:flex; gap:.8rem; align-items:flex-start; margin-top:.5rem; }
+  .photothumb { flex:0 0 auto; width:80px; aspect-ratio:4/5; border:1px solid var(--rule);
+                overflow:hidden; background:var(--paper); border-radius:2px; }
+  .photothumb img { width:100%; height:100%; display:block; object-fit:cover; }
+
   .cardlist { list-style:none; margin:0; padding:0; }
   .cardlist li {
     border:1px solid var(--rule); border-radius:2px; padding:.55rem .7rem;
@@ -84,6 +90,7 @@
   .tag.hold { background:var(--navy); color:#fff; }
   .tag.seize { background:var(--orange); color:#fff; }
   .tag.draft { background:#EFE9DA; color:#6b6152; }
+  .tag.pic { background:var(--ok); color:#fff; }
 
   .prev { display:flex; gap:.8rem; }
   .prevpic { flex:0 0 auto; width:80px; aspect-ratio:4/5; border:1px solid var(--rule);
@@ -99,6 +106,9 @@
   .msg { padding:.6rem .8rem; border-radius:2px; margin-bottom:.9rem; font-size:.85rem; }
   .msg.err { background:#FDECEA; border:1px solid var(--orange); color:#7A1D0C; }
   .msg.ok  { background:#E8F3EC; border:1px solid var(--ok); color:#1E4A35; }
+  .meter { height:5px; background:#EFE9DA; border-radius:3px; overflow:hidden; margin-top:.5rem; }
+  .meter i { display:block; height:100%; background:var(--ok); }
+  .meter.warn i { background:var(--orange); }
   code { background:#EFE9DA; padding:.1rem .3rem; border-radius:2px; font-size:.85em; }
 </style>
 </head>
@@ -106,7 +116,7 @@
 
 <header>
   <h1>HSF Card Builder</h1>
-  <p>Internal tool. Nothing here publishes until George merges your export. Build 0.2</p>
+  <p>Internal tool. Nothing here publishes until George merges your export. Build 0.3</p>
 </header>
 
 <div class="who">
@@ -171,16 +181,28 @@
         <button type="button" class="ghost sm" id="addBullet">Add bullet</button>
         <p class="hint">Two to four. Each one a specific, checkable fact.</p>
 
+        <label for="f_photo">Photo</label>
+        <input type="file" id="f_photo" accept="image/*">
+        <p class="hint">Any size. It gets cropped to a portrait shape and shrunk automatically.
+           Faces sit best when the head is near the top of the frame.</p>
+        <div class="photorow" id="photoRow" hidden>
+          <div class="photothumb" id="photoThumb"></div>
+          <div>
+            <div id="photoInfo" class="hint" style="opacity:1;"></div>
+            <button type="button" class="danger sm" id="removePhoto" style="margin-top:.4rem;">Remove photo</button>
+          </div>
+        </div>
+
+        <label for="f_credit">Photo credit / source</label>
+        <input type="text" id="f_credit" placeholder="e.g. Provided by campaign, 2026-07-28">
+        <p class="hint">Where the image came from. Record this whenever you attach a photo.</p>
+
         <label for="f_website">Website</label>
         <input type="url" id="f_website" placeholder="https://">
         <label for="f_volunteer">Volunteer link</label>
         <input type="url" id="f_volunteer" placeholder="https://">
         <label for="f_donate">Donate link</label>
         <input type="url" id="f_donate" placeholder="https://">
-
-        <label for="f_credit">Photo credit / source <span style="font-weight:400;text-transform:none;opacity:.6;">(optional)</span></label>
-        <input type="text" id="f_credit" placeholder="e.g. Provided by campaign, 2026-07-28">
-        <p class="hint">Photos get attached in a later version. Record where the image came from now.</p>
 
         <label for="f_status">Status</label>
         <select id="f_status">
@@ -212,7 +234,10 @@
         <p class="hint" style="margin-top:0;">
           Your work is saved in this browser only. Export and email the file to George
           whenever you finish a batch, and before clearing your browser data.
+          Photos are included in the file, so there is nothing else to send.
         </p>
+        <div class="meter" id="meter"><i style="width:0"></i></div>
+        <div class="hint" id="meterNote"></div>
         <div class="actions" style="margin-top:.6rem;">
           <button type="button" id="exportBtn">Export my cards</button>
           <button type="button" class="danger" id="wipeBtn">Delete all my work</button>
