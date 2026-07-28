@@ -454,7 +454,14 @@
       var html = [];
       var hiddenDrafts = 0;
 
-      (DATA.entries || []).forEach(function (entry) {
+        var sorted = (DATA.entries || []).slice().sort(function (a, b) {
+        var ra = raceById(a.race_id), rb = raceById(b.race_id);
+        var xa = (ra && typeof ra.rank === "number") ? ra.rank : 9999;
+        var xb = (rb && typeof rb.rank === "number") ? rb.rank : 9999;
+        if (xa !== xb) { return xa - xb; }
+        return String(a.name).localeCompare(String(b.name));
+      });
+      sorted.forEach(function (entry) {
         if (entry.category !== cat) return;
         var race = raceById(entry.race_id);
         if (!race) { orphans++; return; }

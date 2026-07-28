@@ -106,7 +106,8 @@
                                        "coconino"
                                    ],
                       "seats_open":  1,
-                      "notes":  "Statewide race - appears on every county ballot."
+                      "notes":  "Statewide race - appears on every county ballot.",
+                      "rank":  200
                   },
                   {
                       "id":  "race-sos",
@@ -120,7 +121,8 @@
                                        "coconino"
                                    ],
                       "seats_open":  1,
-                      "notes":  "Chief elections officer for the state."
+                      "notes":  "Chief elections officer for the state.",
+                      "rank":  210
                   },
                   {
                       "id":  "race-ag",
@@ -134,7 +136,8 @@
                                        "coconino"
                                    ],
                       "seats_open":  1,
-                      "notes":  ""
+                      "notes":  "",
+                      "rank":  220
                   },
                   {
                       "id":  "race-corp-comm",
@@ -148,7 +151,8 @@
                                        "coconino"
                                    ],
                       "seats_open":  2,
-                      "notes":  "Regulates utilities. Multi-seat race - confirm how many seats are up this cycle."
+                      "notes":  "Regulates utilities. Multi-seat race - confirm how many seats are up this cycle.",
+                      "rank":  250
                   },
                   {
                       "id":  "race-us-house-02",
@@ -159,7 +163,8 @@
                                        "coconino"
                                    ],
                       "seats_open":  1,
-                      "notes":  "Verify district boundaries and county coverage against current maps."
+                      "notes":  "Verify district boundaries and county coverage against current maps.",
+                      "rank":  120
                   },
                   {
                       "id":  "race-us-house-06",
@@ -171,7 +176,8 @@
                                        "cochise"
                                    ],
                       "seats_open":  1,
-                      "notes":  "Spans more than one county - both are listed so it appears on both filters."
+                      "notes":  "Spans more than one county - both are listed so it appears on both filters.",
+                      "rank":  130
                   },
                   {
                       "id":  "race-us-house-07",
@@ -183,7 +189,8 @@
                                        "cochise"
                                    ],
                       "seats_open":  1,
-                      "notes":  ""
+                      "notes":  "",
+                      "rank":  140
                   },
                   {
                       "id":  "race-ld17-senate",
@@ -194,7 +201,8 @@
                                        "pima"
                                    ],
                       "seats_open":  1,
-                      "notes":  "Arizona has 30 legislative districts. Some cross county lines."
+                      "notes":  "Arizona has 30 legislative districts. Some cross county lines.",
+                      "rank":  275
                   },
                   {
                       "id":  "race-ld18-house",
@@ -205,7 +213,8 @@
                                        "pima"
                                    ],
                       "seats_open":  2,
-                      "notes":  "Each legislative district elects two House members. Voters may select two."
+                      "notes":  "Each legislative district elects two House members. Voters may select two.",
+                      "rank":  280
                   },
                   {
                       "id":  "race-ld06-house",
@@ -216,7 +225,8 @@
                                        "coconino"
                                    ],
                       "seats_open":  2,
-                      "notes":  ""
+                      "notes":  "",
+                      "rank":  270
                   },
                   {
                       "id":  "race-pima-sheriff",
@@ -227,7 +237,8 @@
                                        "pima"
                                    ],
                       "seats_open":  1,
-                      "notes":  "Sheriff and County Attorney are the two local offices most directly tied to how immigration enforcement cooperation plays out on the ground."
+                      "notes":  "Sheriff and County Attorney are the two local offices most directly tied to how immigration enforcement cooperation plays out on the ground.",
+                      "rank":  300
                   },
                   {
                       "id":  "race-pima-attorney",
@@ -238,7 +249,8 @@
                                        "pima"
                                    ],
                       "seats_open":  1,
-                      "notes":  ""
+                      "notes":  "",
+                      "rank":  310
                   },
                   {
                       "id":  "race-maricopa-attorney",
@@ -249,7 +261,8 @@
                                        "maricopa"
                                    ],
                       "seats_open":  1,
-                      "notes":  ""
+                      "notes":  "",
+                      "rank":  320
                   },
                   {
                       "id":  "race-coconino-sup2",
@@ -260,7 +273,8 @@
                                        "coconino"
                                    ],
                       "seats_open":  1,
-                      "notes":  ""
+                      "notes":  "",
+                      "rank":  340
                   },
                   {
                       "id":  "race-cochise-recorder",
@@ -271,7 +285,8 @@
                                        "cochise"
                                    ],
                       "seats_open":  1,
-                      "notes":  "The Recorder runs voter registration and early ballots."
+                      "notes":  "The Recorder runs voter registration and early ballots.",
+                      "rank":  330
                   },
                   {
                       "id":  "race-tucson-ward3",
@@ -282,7 +297,8 @@
                                        "pima"
                                    ],
                       "seats_open":  1,
-                      "notes":  ""
+                      "notes":  "",
+                      "rank":  410
                   },
                   {
                       "id":  "race-flagstaff-council",
@@ -293,7 +309,8 @@
                                        "coconino"
                                    ],
                       "seats_open":  3,
-                      "notes":  "At-large council seats. Confirm how many are up."
+                      "notes":  "At-large council seats. Confirm how many are up.",
+                      "rank":  420
                   },
                   {
                       "id":  "race-sierra-vista-mayor",
@@ -304,7 +321,8 @@
                                        "cochise"
                                    ],
                       "seats_open":  1,
-                      "notes":  ""
+                      "notes":  "",
+                      "rank":  400
                   },
                   {
                       "id":  "race-tusd-board",
@@ -315,7 +333,38 @@
                                        "pima"
                                    ],
                       "seats_open":  2,
-                      "notes":  "School board races are usually the lowest-information, highest-leverage item on the ballot."
+                      "notes":  "School board races are usually the lowest-information, highest-leverage item on the ballot.",
+                      "rank":  430
+                  },
+                  {
+                      "id":  "race-superintendent",
+                      "level":  "state",
+                      "office":  "Superintendent of Public Instruction",
+                      "district":  null,
+                      "counties":  [
+                                       "pima",
+                                       "maricopa",
+                                       "cochise",
+                                       "coconino"
+                                   ],
+                      "seats_open":  1,
+                      "notes":  "Statewide race - appears on every county ballot.",
+                      "rank":  240
+                  },
+                  {
+                      "id":  "race-mine-inspector",
+                      "level":  "state",
+                      "office":  "State Mine Inspector",
+                      "district":  null,
+                      "counties":  [
+                                       "pima",
+                                       "maricopa",
+                                       "cochise",
+                                       "coconino"
+                                   ],
+                      "seats_open":  1,
+                      "notes":  "Statewide race - appears on every county ballot.",
+                      "rank":  260
                   }
               ],
     "entries":  [
