@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>HSF Card Builder</title>
+<style>
+  :root {
+    --navy-dark:#12253C; --navy:#1B3A5C; --orange:#E0522C;
+    --gold:#F5C518; --paper:#F7F4EC; --rule:#C9BFA8; --ink:#1A1A1A;
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; background:var(--paper); color:var(--ink);
+    font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  }
+  header {
+    background:var(--navy-dark); color:#fff; padding:1.2rem 1.5rem;
+  }
+  header h1 { margin:0; font-size:1.1rem; letter-spacing:.12em; text-transform:uppercase; }
+  header p { margin:.3rem 0 0; font-size:.8rem; opacity:.75; }
+  main { max-width:60rem; margin:0 auto; padding:1.5rem; }
+  .panel {
+    background:#fff; border:1px solid var(--rule);
+    border-radius:3px; padding:1.2rem; margin-bottom:1.2rem;
+  }
+  .panel h2 {
+    margin:0 0 .8rem; font-size:.75rem; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--navy);
+  }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(140px,1fr)); gap:.6rem; }
+  .stat { background:var(--paper); border:1px solid var(--rule); padding:.7rem; border-radius:2px; }
+  .stat b { display:block; font-size:1.6rem; color:var(--navy); line-height:1.1; }
+  .stat span { font-size:.7rem; letter-spacing:.1em; text-transform:uppercase; opacity:.7; }
+  .faces { display:flex; flex-wrap:wrap; gap:1rem; }
+  .face { width:80px; }
+  .face .box {
+    width:80px; aspect-ratio:4/5; border:1px solid var(--rule);
+    overflow:hidden; background:var(--navy); border-radius:2px;
+  }
+  .face.org .box { aspect-ratio:1/1; background:var(--navy-dark); }
+  .face svg { width:100%; height:100%; display:block; }
+  .face small { display:block; font-size:.65rem; margin-top:.3rem; line-height:1.25; }
+  .err {
+    background:#FDECEA; border:1px solid var(--orange);
+    padding:1rem; border-radius:3px; color:#7A1D0C;
+  }
+  code { background:#EFE9DA; padding:.1rem .3rem; border-radius:2px; font-size:.85em; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>HSF Card Builder</h1>
+  <p>Internal tool. Nothing here publishes. Build 0.1</p>
+</header>
+
+<main>
+  <div class="panel">
+    <h2>Data file</h2>
+    <div id="status">Loading data.json&hellip;</div>
+  </div>
+
+  <div class="panel" id="statsPanel" hidden>
+    <h2>Inventory</h2>
+    <div class="grid" id="stats"></div>
+  </div>
+
+  <div class="panel" id="facesPanel" hidden>
+    <h2>Avatar parity check</h2>
+    <p style="margin:.2rem 0 1rem;font-size:.85rem;">
+      These should look identical to the same cards on the live guide.
+      If any face differs, stop and report it.
+    </p>
+    <div class="faces" id="faces"></div>
+  </div>
+</main>
+
+<script>
+(function () {
+  "use strict";
+
+  function hashOf(s) {
+    var h = 0, i;
+    for (i = 0; i < s.length; i++) { h = (h * 31 + s.charCodeAt(i)) & 0x7fffffff; }
+    return h;
+  }
+
+  var SKIN = [
+    ["#F4D9C0","#E3BE9F"],["#EDC7A4","#D8A87E"],["#DCA97C","#C08A5C"],
+    ["#C4885A","#A66B41"],["#A2683E","#84502C"],["#7A4A2B","#5E361C"],
+    ["#5A3520","#432414"]
+  ];
+  var HAIRC = ["#241C15","#3E2E20","#6B4A2C","#A8752F","#C9A227","#8E8E8E","#E4E0D8","#5B3A46"];
+  var SHIRT = ["#1B3A5C","#E0522C","#2E6E6A","#6B3A5B","#47566B","#B4552C","#3C5E3A"];
+  var BG = ["#DCE6EF","#EFE3D5","#E2EBE1","#EEE0E6","#E6E4F0","#E9E9E2"];
+
+  function personAvatar(name) {
+    var h = hashOf(name);
+    var pick = function (arr, shift) { return arr[(h >> shift) % arr.length]; };
+    var skin = pick(SKIN,0), hair = pick(HAIRC,3), shirt = pick(SHIRT,6), bg = pick(BG,9);
+    var style = (h >> 12) % 6;
+    var glasses = ((h >> 15) % 4) === 0;
+    var beard = ((h >> 17) % 5) === 0;
+    var s = [];
+    s.push('<rect x="0" y="0" width="80" height="100" fill="' + bg + '"/>');
+    if (style === 2) s.push('<path d="M18 44 a22 22 0 0 1 44 0 l0 30 l-9 0 l0 -26 a13 13 0 0 0 -26 0 l0 26 l-9 0 z" fill="' + hair + '"/>');
+    if (style === 4) s.push('<path d="M17 46 a23 23 0 0 1 46 0 l2 22 l-12 -4 l-24 0 l-12 4 z" fill="' + hair + '"/>');
+    s.push('<path d="M4 100 C4 78 20 68 40 68 C60 68 76 78 76 100 Z" fill="' + shirt + '"/>');
+    s.push('<path d="M33 69 L40 79 L47 69 L43 67 L40 72 L37 67 Z" fill="#FFFFFF" fill-opacity="0.35"/>');
+    s.push('<rect x="34" y="54" width="12" height="16" rx="5" fill="' + skin[1] + '"/>');
+    s.push('<circle cx="23" cy="45" r="3.6" fill="' + skin[1] + '"/><circle cx="57" cy="45" r="3.6" fill="' + skin[1] + '"/>');
+    s.push('<ellipse cx="40" cy="42" rx="17" ry="19" fill="' + skin[0] + '"/>');
+    if (style === 0) s.push('<path d="M23 40 a17 17 0 0 1 34 0 l0 -4 a17 17 0 0 0 -34 0 z M23 40 a17 17 0 0 1 34 0 l-2 -6 a15 15 0 0 0 -30 0 z" fill="' + hair + '"/><path d="M23 38 a17 17 0 0 1 34 0 a17 13 0 0 0 -34 0 z" fill="' + hair + '"/>');
+    if (style === 1) s.push('<path d="M23 40 a17 17 0 0 1 34 0 c-4 -8 -12 -6 -22 -10 c-6 -2 -10 4 -12 10 z" fill="' + hair + '"/>');
+    if (style === 2) s.push('<path d="M23 39 a17 17 0 0 1 34 0 a17 12 0 0 0 -34 0 z" fill="' + hair + '"/>');
+    if (style === 3) s.push('<circle cx="40" cy="20" r="7" fill="' + hair + '"/><path d="M23 40 a17 17 0 0 1 34 0 a17 14 0 0 0 -34 0 z" fill="' + hair + '"/>');
+    if (style === 4) s.push('<path d="M23 40 a17 17 0 0 1 34 0 a17 13 0 0 0 -34 0 z" fill="' + hair + '"/><circle cx="27" cy="31" r="6" fill="' + hair + '"/><circle cx="40" cy="26" r="7" fill="' + hair + '"/><circle cx="53" cy="31" r="6" fill="' + hair + '"/>');
+    if (style === 5) s.push('<path d="M25 38 a15 15 0 0 1 30 0 a15 7 0 0 0 -30 0 z" fill="' + hair + '" fill-opacity="0.85"/>');
+    s.push('<ellipse cx="33.5" cy="43" rx="1.7" ry="2.3" fill="#2A2018"/>');
+    s.push('<ellipse cx="46.5" cy="43" rx="1.7" ry="2.3" fill="#2A2018"/>');
+    s.push('<path d="M30 38.2 q3.5 -2 7 -0.2" stroke="' + hair + '" stroke-width="1.5" fill="none" stroke-linecap="round"/>');
+    s.push('<path d="M43 38 q3.5 -1.8 7 0.2" stroke="' + hair + '" stroke-width="1.5" fill="none" stroke-linecap="round"/>');
+    if (beard) s.push('<path d="M25 45 c0 12 7 18 15 18 c8 0 15 -6 15 -18 c0 9 -6 12 -15 12 c-9 0 -15 -3 -15 -12 z" fill="' + hair + '" fill-opacity="0.9"/>');
+    s.push('<path d="M36 51.5 q4 3 8 0" stroke="#8A5541" stroke-width="1.5" fill="none" stroke-linecap="round"/>');
+    if (glasses) {
+      s.push('<g fill="none" stroke="#2F3A45" stroke-width="1.4" stroke-opacity="0.85">' +
+        '<circle cx="33.5" cy="43" r="5.5"/><circle cx="46.5" cy="43" r="5.5"/>' +
+        '<path d="M39 43 h2"/><path d="M28 42 l-4 1"/><path d="M52 42 l4 1"/></g>');
+    }
+    return '<svg viewBox="0 0 80 100" preserveAspectRatio="xMidYMid slice" role="presentation">' + s.join("") + "</svg>";
+  }
+
+  function orgMark(name) {
+    var h = hashOf(name);
+    var lift = (h % 5) - 2;
+    return (
+      '<svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet" role="presentation">' +
+        '<g fill="var(--gold)" fill-opacity="0.42">' +
+          '<path d="M20 ' + (66+lift) + " L50 " + (44+lift) + " L80 " + (66+lift) + " L80 " + (76+lift) + " L50 " + (54+lift) + " L20 " + (76+lift) + ' Z"/>' +
+          '<path d="M20 ' + (48+lift) + " L50 " + (26+lift) + " L80 " + (48+lift) + " L80 " + (58+lift) + " L50 " + (36+lift) + " L20 " + (58+lift) + ' Z" fill-opacity="0.55"/>' +
+        "</g>" +
+      "</svg>"
+    );
+  }
+
+  function el(id) { return document.getElementById(id); }
+
+  function esc(t) {
+    return String(t).replace(/[&<>"]/g, function (c) {
+      return { "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c];
+    });
+  }
+
+  function stat(n, label) {
+    return '<div class="stat"><b>' + n + '</b><span>' + label + '</span></div>';
+  }
+
+  function render(d) {
+    el("status").innerHTML =
+      '<strong style="color:#1B3A5C;">Loaded.</strong> ' +
+      esc(d.settings.guide_name) + " &middot; " +
+      esc(d.settings.state) + " &middot; cycle " + esc(d.settings.cycle) +
+      " &middot; last updated " + esc(d.settings.last_updated);
+
+    var entries = d.entries || [];
+    var orgs = d.organizations || [];
+    var pub = entries.filter(function (e) { return e.status === "published"; }).length;
+    var draft = entries.filter(function (e) { return e.status === "draft"; }).length;
+
+    el("stats").innerHTML =
+      stat((d.races || []).length, "Races") +
+      stat(entries.length, "Candidate cards") +
+      stat(orgs.length, "Org cards") +
+      stat((d.measures || []).length, "Measures") +
+      stat(pub, "Published") +
+      stat(draft, "Draft") +
+      stat((d.counties || []).length, "Counties") +
+      stat((d.categories || []).length, "Categories");
+    el("statsPanel").hidden = false;
+
+    var html = "";
+    entries.slice(0, 5).forEach(function (e) {
+      html += '<div class="face"><div class="box">' + personAvatar(e.name) +
+              "</div><small>" + esc(e.name) + "</small></div>";
+    });
+    orgs.slice(0, 2).forEach(function (o) {
+      html += '<div class="face org"><div class="box">' + orgMark(o.name) +
+              "</div><small>" + esc(o.name) + "</small></div>";
+    });
+    el("faces").innerHTML = html;
+    el("facesPanel").hidden = false;
+  }
+
+  fetch("data.json?t=" + Date.now())
+    .then(function (r) {
+      if (!r.ok) { throw new Error("HTTP " + r.status); }
+      return r.json();
+    })
+    .then(render)
+    .catch(function (err) {
+      el("status").innerHTML =
+        '<div class="err"><strong>Could not load data.json.</strong><br>' +
+        esc(err.message) + "<br><br>If this page was opened from disk, that is the cause. " +
+        "The builder must be viewed over http, not as a local file.</div>";
+    });
+})();
+</script>
+</body>
+</html>
