@@ -392,29 +392,6 @@
                         "updated":  "2026-07-22"
                     },
                     {
-                        "id":  "entry-003",
-                        "category":  "hold_the_line",
-                        "race_id":  "race-us-house-06",
-                        "name":  "Daniel Ruiz Ortega",
-                        "incumbent":  true,
-                        "ballot_designation":  "",
-                        "headline":  "One of the few willing to say the quiet part on the border.",
-                        "summary":  "Sample copy. He represents a district that runs from Tucson to the border and has spent four years refusing the easy vote on enforcement funding. He has also delivered - the Douglas port modernization is his.",
-                        "why_bullets":  [
-                                            "Voted against the 2025 detention capacity expansion",
-                                            "Secured funding for the Douglas port of entry rebuild",
-                                            "Holds in-person town halls in Cochise County, not just Tucson"
-                                        ],
-                        "links":  {
-                                      "website":  "https://example.org/ruiz-ortega",
-                                      "volunteer":  "https://example.org/ruiz-ortega/volunteer",
-                                      "donate":  "https://example.org/ruiz-ortega/donate"
-                                  },
-                        "photo":  "",
-                        "status":  "published",
-                        "updated":  "2026-07-22"
-                    },
-                    {
                         "id":  "entry-004",
                         "category":  "hold_the_line",
                         "race_id":  "race-ld17-senate",
@@ -501,29 +478,6 @@
                                       "website":  "https://example.org/charley",
                                       "volunteer":  "https://example.org/charley/volunteer",
                                       "donate":  "https://example.org/charley/donate"
-                                  },
-                        "photo":  "",
-                        "status":  "published",
-                        "updated":  "2026-07-22"
-                    },
-                    {
-                        "id":  "entry-008",
-                        "category":  "seize_new_ground",
-                        "race_id":  "race-ld18-house",
-                        "name":  "Terrence Okoye",
-                        "incumbent":  false,
-                        "ballot_designation":  "",
-                        "headline":  "Would go further than the seat has ever gone on housing.",
-                        "summary":  "Sample copy. The current member votes the right way on housing and stops there. Okoye has actually written the policy - he drafted the Tucson tenant protection ordinance and knows what the state preemption fight requires.",
-                        "why_bullets":  [
-                                            "Drafted the city tenant protection ordinance now in force",
-                                            "Supports repealing state preemption of local rent stabilization",
-                                            "Would be the only renter in the delegation"
-                                        ],
-                        "links":  {
-                                      "website":  "https://example.org/okoye",
-                                      "volunteer":  "https://example.org/okoye/volunteer",
-                                      "donate":  "https://example.org/okoye/donate"
                                   },
                         "photo":  "",
                         "status":  "published",
@@ -654,7 +608,7 @@
                         "incumbent":  false,
                         "ballot_designation":  "Democratic Party",
                         "headline":  "JoAnna is a proud mom, dedicated public servant, & retired U.S.Marine.",
-                        "summary":  "JoAnna has spent her life answering the call to serve, from defending the nation and training future military leaders to helping veterans navigate broken systems. Now she is running to represent Arizonaâ€™s 6th Congressional District, bringing battle-tested leadership to Washington to fight for working families and lower the costs of food, gas, housing, and child care.",
+                        "summary":  "JoAnna has spent her life answering the call to serve, from defending the nation and training future military leaders to helping veterans navigate broken systems. Now she is running to represent ArizonaÃ¢â‚¬â„¢s 6th Congressional District, bringing battle-tested leadership to Washington to fight for working families and lower the costs of food, gas, housing, and child care.",
                         "why_bullets":  [
                                             "Lowering Costs.",
                                             "Strengthening Healthcare.",
