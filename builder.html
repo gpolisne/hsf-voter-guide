@@ -9,43 +9,96 @@
   :root {
     --navy-dark:#12253C; --navy:#1B3A5C; --orange:#E0522C;
     --gold:#F5C518; --paper:#F7F4EC; --rule:#C9BFA8; --ink:#1A1A1A;
+    --ok:#2E6E4F;
   }
   * { box-sizing:border-box; }
   body {
     margin:0; background:var(--paper); color:var(--ink);
-    font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
   }
-  header {
-    background:var(--navy-dark); color:#fff; padding:1.2rem 1.5rem;
+  header { background:var(--navy-dark); color:#fff; padding:1rem 1.5rem; }
+  header h1 { margin:0; font-size:1rem; letter-spacing:.12em; text-transform:uppercase; }
+  header p { margin:.25rem 0 0; font-size:.75rem; opacity:.75; }
+
+  .who {
+    background:var(--navy); color:#fff; padding:.6rem 1.5rem;
+    display:flex; gap:.6rem; align-items:center; flex-wrap:wrap; font-size:.8rem;
   }
-  header h1 { margin:0; font-size:1.1rem; letter-spacing:.12em; text-transform:uppercase; }
-  header p { margin:.3rem 0 0; font-size:.8rem; opacity:.75; }
-  main { max-width:60rem; margin:0 auto; padding:1.5rem; }
+  .who input { padding:.35rem .5rem; border:0; border-radius:2px; font:inherit; min-width:14rem; }
+
+  main { max-width:74rem; margin:0 auto; padding:1.25rem; }
+  .cols { display:grid; grid-template-columns:1fr; gap:1.25rem; }
+  @media (min-width:60rem) { .cols { grid-template-columns:1.35fr 1fr; align-items:start; } }
+
   .panel {
     background:#fff; border:1px solid var(--rule);
-    border-radius:3px; padding:1.2rem; margin-bottom:1.2rem;
+    border-radius:3px; padding:1.1rem; margin-bottom:1.25rem;
   }
   .panel h2 {
-    margin:0 0 .8rem; font-size:.75rem; letter-spacing:.14em;
+    margin:0 0 .9rem; font-size:.72rem; letter-spacing:.14em;
     text-transform:uppercase; color:var(--navy);
   }
-  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(140px,1fr)); gap:.6rem; }
-  .stat { background:var(--paper); border:1px solid var(--rule); padding:.7rem; border-radius:2px; }
-  .stat b { display:block; font-size:1.6rem; color:var(--navy); line-height:1.1; }
-  .stat span { font-size:.7rem; letter-spacing:.1em; text-transform:uppercase; opacity:.7; }
-  .faces { display:flex; flex-wrap:wrap; gap:1rem; }
-  .face { width:80px; }
-  .face .box {
-    width:80px; aspect-ratio:4/5; border:1px solid var(--rule);
-    overflow:hidden; background:var(--navy); border-radius:2px;
+  .panel h2 .sub { float:right; letter-spacing:0; text-transform:none; opacity:.6; font-weight:400; }
+
+  label { display:block; font-size:.72rem; letter-spacing:.08em; text-transform:uppercase;
+          color:var(--navy); margin:.9rem 0 .25rem; font-weight:700; }
+  label:first-of-type { margin-top:0; }
+  input[type=text], input[type=url], input[type=number], select, textarea {
+    width:100%; padding:.45rem .55rem; border:1px solid var(--rule);
+    border-radius:2px; font:inherit; background:#fff;
   }
-  .face.org .box { aspect-ratio:1/1; background:var(--navy-dark); }
-  .face svg { width:100%; height:100%; display:block; }
-  .face small { display:block; font-size:.65rem; margin-top:.3rem; line-height:1.25; }
-  .err {
-    background:#FDECEA; border:1px solid var(--orange);
-    padding:1rem; border-radius:3px; color:#7A1D0C;
+  textarea { resize:vertical; }
+  .row { display:flex; gap:.6rem; align-items:center; }
+  .row input[type=checkbox] { width:auto; }
+  .row label { margin:0; text-transform:none; letter-spacing:0; font-size:.85rem; font-weight:400; }
+  .hint { font-size:.72rem; opacity:.65; margin:.2rem 0 0; }
+  .count { font-size:.7rem; opacity:.6; float:right; font-weight:400; letter-spacing:0; text-transform:none; }
+  .count.over { color:var(--orange); opacity:1; font-weight:700; }
+
+  button {
+    font:inherit; padding:.5rem .9rem; border-radius:2px; cursor:pointer;
+    border:1px solid var(--navy); background:var(--navy); color:#fff;
   }
+  button.ghost { background:#fff; color:var(--navy); }
+  button.danger { border-color:var(--orange); background:#fff; color:var(--orange); }
+  button.sm { padding:.25rem .5rem; font-size:.75rem; }
+  .actions { margin-top:1.1rem; display:flex; gap:.6rem; flex-wrap:wrap; }
+
+  .newrace { border:1px dashed var(--rule); padding:.9rem; margin-top:.6rem; background:var(--paper); border-radius:2px; }
+  .cty { display:flex; gap:.9rem; flex-wrap:wrap; margin-top:.3rem; }
+  .cty label { margin:0; text-transform:none; letter-spacing:0; font-weight:400; font-size:.85rem; }
+
+  .bullet { display:flex; gap:.4rem; margin-bottom:.4rem; }
+  .bullet input { flex:1; }
+
+  .cardlist { list-style:none; margin:0; padding:0; }
+  .cardlist li {
+    border:1px solid var(--rule); border-radius:2px; padding:.55rem .7rem;
+    margin-bottom:.5rem; display:flex; gap:.6rem; align-items:center;
+  }
+  .cardlist .nm { flex:1; min-width:0; }
+  .cardlist .nm b { display:block; font-size:.9rem; }
+  .cardlist .nm span { font-size:.72rem; opacity:.65; }
+  .tag { font-size:.62rem; letter-spacing:.1em; text-transform:uppercase; padding:.15rem .35rem;
+         border-radius:2px; font-weight:700; }
+  .tag.hold { background:var(--navy); color:#fff; }
+  .tag.seize { background:var(--orange); color:#fff; }
+  .tag.draft { background:#EFE9DA; color:#6b6152; }
+
+  .prev { display:flex; gap:.8rem; }
+  .prevpic { flex:0 0 auto; width:80px; aspect-ratio:4/5; border:1px solid var(--rule);
+             overflow:hidden; background:var(--navy); border-radius:2px; }
+  .prevpic svg, .prevpic img { width:100%; height:100%; display:block; object-fit:cover; object-position:50% 20%; }
+  .prevbody { min-width:0; }
+  .prevrace { font-size:.66rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; opacity:.6; }
+  .prevname { font-size:1.05rem; font-weight:800; margin:.15rem 0; }
+  .prevhead { font-size:.9rem; font-style:italic; color:var(--navy); margin:0 0 .4rem; }
+  .prevsum { font-size:.82rem; margin:0 0 .4rem; }
+  .prevbul { margin:0; padding-left:1.1rem; font-size:.78rem; }
+
+  .msg { padding:.6rem .8rem; border-radius:2px; margin-bottom:.9rem; font-size:.85rem; }
+  .msg.err { background:#FDECEA; border:1px solid var(--orange); color:#7A1D0C; }
+  .msg.ok  { background:#E8F3EC; border:1px solid var(--ok); color:#1E4A35; }
   code { background:#EFE9DA; padding:.1rem .3rem; border-radius:2px; font-size:.85em; }
 </style>
 </head>
@@ -53,159 +106,123 @@
 
 <header>
   <h1>HSF Card Builder</h1>
-  <p>Internal tool. Nothing here publishes. Build 0.1</p>
+  <p>Internal tool. Nothing here publishes until George merges your export. Build 0.2</p>
 </header>
 
+<div class="who">
+  <span>Your name:</span>
+  <input type="text" id="volunteer" placeholder="e.g. Dana Ruiz" autocomplete="off">
+  <span id="whoNote" style="opacity:.7;"></span>
+</div>
+
 <main>
-  <div class="panel">
-    <h2>Data file</h2>
-    <div id="status">Loading data.json&hellip;</div>
-  </div>
+  <div id="boot" class="panel">Loading data.json&hellip;</div>
 
-  <div class="panel" id="statsPanel" hidden>
-    <h2>Inventory</h2>
-    <div class="grid" id="stats"></div>
-  </div>
+  <div class="cols" id="app" hidden>
+    <div>
+      <div class="panel">
+        <h2>Candidate card <span class="sub" id="modeNote">new</span></h2>
+        <div id="formMsg"></div>
 
-  <div class="panel" id="facesPanel" hidden>
-    <h2>Avatar parity check</h2>
-    <p style="margin:.2rem 0 1rem;font-size:.85rem;">
-      These should look identical to the same cards on the live guide.
-      If any face differs, stop and report it.
-    </p>
-    <div class="faces" id="faces"></div>
+        <label for="f_name">Candidate name</label>
+        <input type="text" id="f_name" autocomplete="off" placeholder="Full name as it appears on the ballot">
+
+        <label for="f_race">Race</label>
+        <select id="f_race"></select>
+        <div class="newrace" id="newRace" hidden>
+          <label for="r_office">Office</label>
+          <input type="text" id="r_office" placeholder="e.g. Pima County Sheriff">
+          <label for="r_level">Level</label>
+          <select id="r_level"></select>
+          <label for="r_district">District <span style="font-weight:400;text-transform:none;opacity:.6;">(leave blank if none)</span></label>
+          <input type="text" id="r_district" placeholder="e.g. Legislative District 17">
+          <label>Counties</label>
+          <div class="cty" id="r_counties"></div>
+          <label for="r_seats">Seats open</label>
+          <input type="number" id="r_seats" value="1" min="1" max="10" style="width:6rem;">
+          <p class="hint">New races are flagged for George to review before publishing.</p>
+        </div>
+
+        <div class="row" style="margin-top:.9rem;">
+          <input type="checkbox" id="f_incumbent">
+          <label for="f_incumbent">Incumbent (currently holds this seat)</label>
+        </div>
+
+        <label for="f_category">Category</label>
+        <select id="f_category">
+          <option value="hold_the_line">HOLD THE LINE &mdash; defend this seat</option>
+          <option value="seize_new_ground">SEIZE NEW GROUND &mdash; challenger</option>
+        </select>
+        <p class="hint">Set automatically from the incumbent box. Change it only if you mean to.</p>
+
+        <label for="f_designation">Ballot designation <span style="font-weight:400;text-transform:none;opacity:.6;">(optional)</span></label>
+        <input type="text" id="f_designation" placeholder="e.g. Nonpartisan">
+
+        <label for="f_headline">Headline <span class="count" id="c_headline"></span></label>
+        <input type="text" id="f_headline" placeholder="One sentence. The single reason this person is on the list.">
+        <p class="hint">Aim for under 70 characters. Present tense, concrete, no slogans.</p>
+
+        <label for="f_summary">Summary <span class="count" id="c_summary"></span></label>
+        <textarea id="f_summary" rows="5" placeholder="Two to four sentences. What they have done, not what they believe."></textarea>
+        <p class="hint">Aim for 250 to 400 characters.</p>
+
+        <label>Why bullets</label>
+        <div id="bullets"></div>
+        <button type="button" class="ghost sm" id="addBullet">Add bullet</button>
+        <p class="hint">Two to four. Each one a specific, checkable fact.</p>
+
+        <label for="f_website">Website</label>
+        <input type="url" id="f_website" placeholder="https://">
+        <label for="f_volunteer">Volunteer link</label>
+        <input type="url" id="f_volunteer" placeholder="https://">
+        <label for="f_donate">Donate link</label>
+        <input type="url" id="f_donate" placeholder="https://">
+
+        <label for="f_credit">Photo credit / source <span style="font-weight:400;text-transform:none;opacity:.6;">(optional)</span></label>
+        <input type="text" id="f_credit" placeholder="e.g. Provided by campaign, 2026-07-28">
+        <p class="hint">Photos get attached in a later version. Record where the image came from now.</p>
+
+        <label for="f_status">Status</label>
+        <select id="f_status">
+          <option value="draft">Draft &mdash; not ready</option>
+          <option value="published">Ready to publish</option>
+        </select>
+
+        <div class="actions">
+          <button type="button" id="saveCard">Save card</button>
+          <button type="button" class="ghost" id="clearForm">Clear form</button>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="panel">
+        <h2>Preview</h2>
+        <div id="preview" class="prev"></div>
+      </div>
+
+      <div class="panel">
+        <h2>Your cards <span class="sub" id="cardCount"></span></h2>
+        <ul class="cardlist" id="cardlist"></ul>
+        <p class="hint" id="emptyNote">No cards yet. Fill in the form and click Save card.</p>
+      </div>
+
+      <div class="panel">
+        <h2>Export</h2>
+        <p class="hint" style="margin-top:0;">
+          Your work is saved in this browser only. Export and email the file to George
+          whenever you finish a batch, and before clearing your browser data.
+        </p>
+        <div class="actions" style="margin-top:.6rem;">
+          <button type="button" id="exportBtn">Export my cards</button>
+          <button type="button" class="danger" id="wipeBtn">Delete all my work</button>
+        </div>
+        <div id="exportMsg"></div>
+      </div>
+    </div>
   </div>
 </main>
 
-<script>
-(function () {
-  "use strict";
-
-  function hashOf(s) {
-    var h = 0, i;
-    for (i = 0; i < s.length; i++) { h = (h * 31 + s.charCodeAt(i)) & 0x7fffffff; }
-    return h;
-  }
-
-  var SKIN = [
-    ["#F4D9C0","#E3BE9F"],["#EDC7A4","#D8A87E"],["#DCA97C","#C08A5C"],
-    ["#C4885A","#A66B41"],["#A2683E","#84502C"],["#7A4A2B","#5E361C"],
-    ["#5A3520","#432414"]
-  ];
-  var HAIRC = ["#241C15","#3E2E20","#6B4A2C","#A8752F","#C9A227","#8E8E8E","#E4E0D8","#5B3A46"];
-  var SHIRT = ["#1B3A5C","#E0522C","#2E6E6A","#6B3A5B","#47566B","#B4552C","#3C5E3A"];
-  var BG = ["#DCE6EF","#EFE3D5","#E2EBE1","#EEE0E6","#E6E4F0","#E9E9E2"];
-
-  function personAvatar(name) {
-    var h = hashOf(name);
-    var pick = function (arr, shift) { return arr[(h >> shift) % arr.length]; };
-    var skin = pick(SKIN,0), hair = pick(HAIRC,3), shirt = pick(SHIRT,6), bg = pick(BG,9);
-    var style = (h >> 12) % 6;
-    var glasses = ((h >> 15) % 4) === 0;
-    var beard = ((h >> 17) % 5) === 0;
-    var s = [];
-    s.push('<rect x="0" y="0" width="80" height="100" fill="' + bg + '"/>');
-    if (style === 2) s.push('<path d="M18 44 a22 22 0 0 1 44 0 l0 30 l-9 0 l0 -26 a13 13 0 0 0 -26 0 l0 26 l-9 0 z" fill="' + hair + '"/>');
-    if (style === 4) s.push('<path d="M17 46 a23 23 0 0 1 46 0 l2 22 l-12 -4 l-24 0 l-12 4 z" fill="' + hair + '"/>');
-    s.push('<path d="M4 100 C4 78 20 68 40 68 C60 68 76 78 76 100 Z" fill="' + shirt + '"/>');
-    s.push('<path d="M33 69 L40 79 L47 69 L43 67 L40 72 L37 67 Z" fill="#FFFFFF" fill-opacity="0.35"/>');
-    s.push('<rect x="34" y="54" width="12" height="16" rx="5" fill="' + skin[1] + '"/>');
-    s.push('<circle cx="23" cy="45" r="3.6" fill="' + skin[1] + '"/><circle cx="57" cy="45" r="3.6" fill="' + skin[1] + '"/>');
-    s.push('<ellipse cx="40" cy="42" rx="17" ry="19" fill="' + skin[0] + '"/>');
-    if (style === 0) s.push('<path d="M23 40 a17 17 0 0 1 34 0 l0 -4 a17 17 0 0 0 -34 0 z M23 40 a17 17 0 0 1 34 0 l-2 -6 a15 15 0 0 0 -30 0 z" fill="' + hair + '"/><path d="M23 38 a17 17 0 0 1 34 0 a17 13 0 0 0 -34 0 z" fill="' + hair + '"/>');
-    if (style === 1) s.push('<path d="M23 40 a17 17 0 0 1 34 0 c-4 -8 -12 -6 -22 -10 c-6 -2 -10 4 -12 10 z" fill="' + hair + '"/>');
-    if (style === 2) s.push('<path d="M23 39 a17 17 0 0 1 34 0 a17 12 0 0 0 -34 0 z" fill="' + hair + '"/>');
-    if (style === 3) s.push('<circle cx="40" cy="20" r="7" fill="' + hair + '"/><path d="M23 40 a17 17 0 0 1 34 0 a17 14 0 0 0 -34 0 z" fill="' + hair + '"/>');
-    if (style === 4) s.push('<path d="M23 40 a17 17 0 0 1 34 0 a17 13 0 0 0 -34 0 z" fill="' + hair + '"/><circle cx="27" cy="31" r="6" fill="' + hair + '"/><circle cx="40" cy="26" r="7" fill="' + hair + '"/><circle cx="53" cy="31" r="6" fill="' + hair + '"/>');
-    if (style === 5) s.push('<path d="M25 38 a15 15 0 0 1 30 0 a15 7 0 0 0 -30 0 z" fill="' + hair + '" fill-opacity="0.85"/>');
-    s.push('<ellipse cx="33.5" cy="43" rx="1.7" ry="2.3" fill="#2A2018"/>');
-    s.push('<ellipse cx="46.5" cy="43" rx="1.7" ry="2.3" fill="#2A2018"/>');
-    s.push('<path d="M30 38.2 q3.5 -2 7 -0.2" stroke="' + hair + '" stroke-width="1.5" fill="none" stroke-linecap="round"/>');
-    s.push('<path d="M43 38 q3.5 -1.8 7 0.2" stroke="' + hair + '" stroke-width="1.5" fill="none" stroke-linecap="round"/>');
-    if (beard) s.push('<path d="M25 45 c0 12 7 18 15 18 c8 0 15 -6 15 -18 c0 9 -6 12 -15 12 c-9 0 -15 -3 -15 -12 z" fill="' + hair + '" fill-opacity="0.9"/>');
-    s.push('<path d="M36 51.5 q4 3 8 0" stroke="#8A5541" stroke-width="1.5" fill="none" stroke-linecap="round"/>');
-    if (glasses) {
-      s.push('<g fill="none" stroke="#2F3A45" stroke-width="1.4" stroke-opacity="0.85">' +
-        '<circle cx="33.5" cy="43" r="5.5"/><circle cx="46.5" cy="43" r="5.5"/>' +
-        '<path d="M39 43 h2"/><path d="M28 42 l-4 1"/><path d="M52 42 l4 1"/></g>');
-    }
-    return '<svg viewBox="0 0 80 100" preserveAspectRatio="xMidYMid slice" role="presentation">' + s.join("") + "</svg>";
-  }
-
-  function orgMark(name) {
-    var h = hashOf(name);
-    var lift = (h % 5) - 2;
-    return (
-      '<svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet" role="presentation">' +
-        '<g fill="var(--gold)" fill-opacity="0.42">' +
-          '<path d="M20 ' + (66+lift) + " L50 " + (44+lift) + " L80 " + (66+lift) + " L80 " + (76+lift) + " L50 " + (54+lift) + " L20 " + (76+lift) + ' Z"/>' +
-          '<path d="M20 ' + (48+lift) + " L50 " + (26+lift) + " L80 " + (48+lift) + " L80 " + (58+lift) + " L50 " + (36+lift) + " L20 " + (58+lift) + ' Z" fill-opacity="0.55"/>' +
-        "</g>" +
-      "</svg>"
-    );
-  }
-
-  function el(id) { return document.getElementById(id); }
-
-  function esc(t) {
-    return String(t).replace(/[&<>"]/g, function (c) {
-      return { "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c];
-    });
-  }
-
-  function stat(n, label) {
-    return '<div class="stat"><b>' + n + '</b><span>' + label + '</span></div>';
-  }
-
-  function render(d) {
-    el("status").innerHTML =
-      '<strong style="color:#1B3A5C;">Loaded.</strong> ' +
-      esc(d.settings.guide_name) + " &middot; " +
-      esc(d.settings.state) + " &middot; cycle " + esc(d.settings.cycle) +
-      " &middot; last updated " + esc(d.settings.last_updated);
-
-    var entries = d.entries || [];
-    var orgs = d.organizations || [];
-    var pub = entries.filter(function (e) { return e.status === "published"; }).length;
-    var draft = entries.filter(function (e) { return e.status === "draft"; }).length;
-
-    el("stats").innerHTML =
-      stat((d.races || []).length, "Races") +
-      stat(entries.length, "Candidate cards") +
-      stat(orgs.length, "Org cards") +
-      stat((d.measures || []).length, "Measures") +
-      stat(pub, "Published") +
-      stat(draft, "Draft") +
-      stat((d.counties || []).length, "Counties") +
-      stat((d.categories || []).length, "Categories");
-    el("statsPanel").hidden = false;
-
-    var html = "";
-    entries.slice(0, 5).forEach(function (e) {
-      html += '<div class="face"><div class="box">' + personAvatar(e.name) +
-              "</div><small>" + esc(e.name) + "</small></div>";
-    });
-    orgs.slice(0, 2).forEach(function (o) {
-      html += '<div class="face org"><div class="box">' + orgMark(o.name) +
-              "</div><small>" + esc(o.name) + "</small></div>";
-    });
-    el("faces").innerHTML = html;
-    el("facesPanel").hidden = false;
-  }
-
-  fetch("data.json?t=" + Date.now())
-    .then(function (r) {
-      if (!r.ok) { throw new Error("HTTP " + r.status); }
-      return r.json();
-    })
-    .then(render)
-    .catch(function (err) {
-      el("status").innerHTML =
-        '<div class="err"><strong>Could not load data.json.</strong><br>' +
-        esc(err.message) + "<br><br>If this page was opened from disk, that is the cause. " +
-        "The builder must be viewed over http, not as a local file.</div>";
-    });
-})();
-</script>
+<script src="builder.js"></script>
 </body>
 </html>
