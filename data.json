@@ -645,6 +645,31 @@
                         "status":  "published",
                         "created_by":  "George A. Polisner",
                         "updated":  "2026-07-28"
+                    },
+                    {
+                        "id":  "entry-joanna-mendoza",
+                        "category":  "seize_new_ground",
+                        "race_id":  "race-us-house-06",
+                        "name":  "JoAnna Mendoza",
+                        "incumbent":  false,
+                        "ballot_designation":  "Democratic Party",
+                        "headline":  "JoAnna is a proud mom, dedicated public servant, & retired U.S.Marine.",
+                        "summary":  "JoAnna has spent her life answering the call to serve, from defending the nation and training future military leaders to helping veterans navigate broken systems. Now she is running to represent Arizonaâ€™s 6th Congressional District, bringing battle-tested leadership to Washington to fight for working families and lower the costs of food, gas, housing, and child care.",
+                        "why_bullets":  [
+                                            "Lowering Costs.",
+                                            "Strengthening Healthcare.",
+                                            "Restoring trust."
+                                        ],
+                        "links":  {
+                                      "website":  "https://www.joannamendoza.com/",
+                                      "volunteer":  "https://www.joannamendoza.com/get-involved/volunteer",
+                                      "donate":  "https://secure.actblue.com/donate/web-mfc-ga"
+                                  },
+                        "photo":  "images/joanna-mendoza.jpg",
+                        "photo_credit":  "Emily's List",
+                        "status":  "published",
+                        "created_by":  "George A. Polisner",
+                        "updated":  "2026-07-28"
                     }
                 ],
     "organizations":  [
