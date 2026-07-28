@@ -320,29 +320,6 @@
               ],
     "entries":  [
                     {
-                        "id":  "entry-001",
-                        "category":  "hold_the_line",
-                        "race_id":  "race-governor",
-                        "name":  "Adriana Vasquez-Hall",
-                        "incumbent":  true,
-                        "ballot_designation":  "",
-                        "headline":  "The veto pen is the whole job right now.",
-                        "summary":  "Sample copy. She has blocked eleven bills that would have restricted early voting, expanded cooperation between local police and federal immigration agents, or stripped local governments of the ability to set their own labor standards. None of that is glamorous. All of it held.",
-                        "why_bullets":  [
-                                            "Vetoed the 2025 bill requiring county sheriffs to honor federal detainer requests",
-                                            "Restored full funding to the state housing trust fund after a decade of raids on it",
-                                            "Kept the drought contingency negotiations at the table rather than in court"
-                                        ],
-                        "links":  {
-                                      "website":  "https://example.org/vasquez-hall",
-                                      "volunteer":  "https://example.org/vasquez-hall/volunteer",
-                                      "donate":  "https://example.org/vasquez-hall/donate"
-                                  },
-                        "photo":  "",
-                        "status":  "published",
-                        "updated":  "2026-07-22"
-                    },
-                    {
                         "id":  "entry-002",
                         "category":  "hold_the_line",
                         "race_id":  "race-sos",
