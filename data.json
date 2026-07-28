@@ -670,6 +670,31 @@
                         "status":  "published",
                         "created_by":  "George A. Polisner",
                         "updated":  "2026-07-28"
+                    },
+                    {
+                        "id":  "entry-rep-nancy-gutierrez",
+                        "category":  "hold_the_line",
+                        "race_id":  "race-ld18-house",
+                        "name":  "Rep. Nancy Gutierrez",
+                        "incumbent":  true,
+                        "ballot_designation":  "Democratic Party",
+                        "headline":  "A teacher's voice for Arizona!",
+                        "summary":  "Nancy serves as the Assistant Minority Leader in the AZ State House. She's the Ranking member on the Education Committee and is on the Appropriations Committee. She attended public school in Arizona from K-12 to earning a Bachelor of Science in Elementary Education with an emphasis in Mathematics.",
+                        "why_bullets":  [
+                                            "Public Education",
+                                            "Water Coonservation",
+                                            "Healthcare"
+                                        ],
+                        "links":  {
+                                      "website":  "https://www.nancyforaz.com/",
+                                      "volunteer":  "",
+                                      "donate":  "https://secure.actblue.com/donate/nancyforaz24"
+                                  },
+                        "photo":  "images/rep-nancy-gutierrez.jpg",
+                        "photo_credit":  "From Official Campaign Website",
+                        "status":  "published",
+                        "created_by":  "George A. Polisner",
+                        "updated":  "2026-07-28"
                     }
                 ],
     "organizations":  [
