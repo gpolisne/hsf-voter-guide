@@ -1,0 +1,114 @@
+{
+  "_README": [
+    "HSF VOTER GUIDE - BASE FILE (configuration and legal copy)",
+    "",
+    "This file holds everything volunteers must NOT touch: settings, the paid-for",
+    "disclaimer, publisher name, methodology note, category labels, county list,",
+    "ballot level order, and theme colors.",
+    "",
+    "HOW THE PIECES FIT TOGETHER:",
+    "  data.base.json     (this file)  - config and legal copy. Editor-owned.",
+    "  data.content.json               - races, entries, organizations. Comes from the Google Sheet.",
+    "  data.json          (generated)  - the two above merged. This is what the site reads.",
+    "",
+    "Never hand-edit data.json. Edit this file or the sheet, then re-run the converter.",
+    "",
+    "STILL OUTSTANDING IN THIS FILE:",
+    "Replace every TODO in settings before publishing.",
+    "Delete the demo_notice line once all sample content and TODO fields are gone.",
+    "Validate edits before publishing - one missing comma blanks the site."
+  ],
+  "settings": {
+    "guide_name": "HSF Voter Guide",
+    "tagline": "Hold the Line. Seize New Ground. Fight Like Hell.",
+    "state": "Arizona",
+    "cycle": "2026",
+    "demo_notice": "Everything on this page is invented sample content, shown to demonstrate the format. No real candidate or organization is listed, and nothing here is an endorsement.",
+    "publisher_name": "TODO - registered name of the publishing organization",
+    "paid_for_by": "TODO - required disclaimer string, exact wording from counsel",
+    "contact_email": "TODO",
+    "website": "TODO",
+    "last_updated": "2026-08-02",
+    "methodology_note": "TODO - two or three sentences on how entries are chosen. Readers trust a guide that shows its work. Say who decides, what they look at, and how someone suggests a change.",
+    "election_dates": {
+      "primary": "TODO - verify with AZ SOS",
+      "general": "TODO - verify with AZ SOS",
+      "voter_reg_deadline_general": "TODO - verify with AZ SOS"
+    },
+    "voter_tools": {
+      "check_registration_url": "https://my.arizona.vote/",
+      "register_url": "https://servicearizona.com/VoterRegistration/selectLanguage",
+      "find_polling_place_url": ""
+    }
+  },
+  "categories": [
+    {
+      "id": "hold_the_line",
+      "label_lead": "HOLD",
+      "label_rest": "THE LINE",
+      "blurb": "Incumbents in office who are doing the work. Defend these seats.",
+      "applies_to": "entries"
+    },
+    {
+      "id": "seize_new_ground",
+      "label_lead": "SEIZE",
+      "label_rest": "NEW GROUND",
+      "blurb": "Candidates committed to going further than the seat's current occupant.",
+      "applies_to": "entries"
+    },
+    {
+      "id": "fight_like_hell",
+      "label_lead": "FIGHT",
+      "label_rest": "LIKE HELL",
+      "blurb": "Organizations on the front lines. Show up, give, volunteer.",
+      "applies_to": "organizations"
+    }
+  ],
+  "counties": [
+    {
+      "id": "pima",
+      "name": "Pima County",
+      "seat": "Tucson"
+    },
+    {
+      "id": "maricopa",
+      "name": "Maricopa County",
+      "seat": "Phoenix"
+    },
+    {
+      "id": "cochise",
+      "name": "Cochise County",
+      "seat": "Bisbee"
+    },
+    {
+      "id": "coconino",
+      "name": "Coconino County",
+      "seat": "Flagstaff"
+    }
+  ],
+  "levels": [
+    {
+      "id": "federal",
+      "label": "Federal"
+    },
+    {
+      "id": "state",
+      "label": "State"
+    },
+    {
+      "id": "county",
+      "label": "County"
+    },
+    {
+      "id": "municipal",
+      "label": "City, Town and School Board"
+    }
+  ],
+  "theme": {
+    "navy_dark": "#12253C",
+    "navy": "#1B3A5C",
+    "orange": "#E0522C",
+    "gold": "#F5C518",
+    "paper": "#F7F4EC"
+  }
+}
