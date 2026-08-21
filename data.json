@@ -1,13 +1,11 @@
 {
   "_README": [
     "HSF VOTER GUIDE - DATA FILE",
-    "This file is the entire content of the guide. The app renders it and adds nothing.",
-    "Edit this file to change the guide. No code changes required.",
-    "Invented sample candidates have been removed. All candidate entries are now real people.",
-    "The six organizations under 'Fight Like Hell' are STILL INVENTED SAMPLE CONTENT. Replace before publishing.",
-    "Many entries are status 'draft' with TODO headline and summary fields. Write these before publishing.",
-    "Delete the demo_notice line in settings once all sample content and TODO fields are gone.",
-    "Validate edits before publishing - one missing comma blanks the site."
+    "",
+    "GENERATED FILE. DO NOT EDIT BY HAND. Your changes will be overwritten.",
+    "",
+    "Config and legal copy   -> edit data.base.json",
+    "Races, candidates, orgs -> edit the Google Sheet, then run build_data.py"
   ],
   "settings": {
     "guide_name": "HSF Voter Guide",
@@ -95,7 +93,52 @@
       "label": "City, Town and School Board"
     }
   ],
+  "theme": {
+    "navy_dark": "#12253C",
+    "navy": "#1B3A5C",
+    "orange": "#E0522C",
+    "gold": "#F5C518",
+    "paper": "#F7F4EC"
+  },
   "races": [
+    {
+      "id": "race-us-house-02",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "District 2",
+      "counties": [
+        "coconino"
+      ],
+      "seats_open": 1,
+      "notes": "Verify district boundaries and county coverage against current maps.",
+      "rank": 120
+    },
+    {
+      "id": "race-us-house-06",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "District 6",
+      "counties": [
+        "pima",
+        "cochise"
+      ],
+      "seats_open": 1,
+      "notes": "Spans more than one county - both are listed so it appears on both filters.",
+      "rank": 130
+    },
+    {
+      "id": "race-us-house-07",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "District 7",
+      "counties": [
+        "pima",
+        "cochise"
+      ],
+      "seats_open": 1,
+      "notes": "",
+      "rank": 140
+    },
     {
       "id": "race-governor",
       "level": "state",
@@ -142,203 +185,6 @@
       "rank": 220
     },
     {
-      "id": "race-corp-comm",
-      "level": "state",
-      "office": "Corporation Commission",
-      "district": null,
-      "counties": [
-        "pima",
-        "maricopa",
-        "cochise",
-        "coconino"
-      ],
-      "seats_open": 2,
-      "notes": "Regulates utilities. Multi-seat race - confirm how many seats are up this cycle.",
-      "rank": 250
-    },
-    {
-      "id": "race-us-house-02",
-      "level": "federal",
-      "office": "U.S. House of Representatives",
-      "district": "District 2",
-      "counties": [
-        "coconino"
-      ],
-      "seats_open": 1,
-      "notes": "Verify district boundaries and county coverage against current maps.",
-      "rank": 120
-    },
-    {
-      "id": "race-us-house-06",
-      "level": "federal",
-      "office": "U.S. House of Representatives",
-      "district": "District 6",
-      "counties": [
-        "pima",
-        "cochise"
-      ],
-      "seats_open": 1,
-      "notes": "Spans more than one county - both are listed so it appears on both filters.",
-      "rank": 130
-    },
-    {
-      "id": "race-us-house-07",
-      "level": "federal",
-      "office": "U.S. House of Representatives",
-      "district": "District 7",
-      "counties": [
-        "pima",
-        "cochise"
-      ],
-      "seats_open": 1,
-      "notes": "",
-      "rank": 140
-    },
-    {
-      "id": "race-ld17-senate",
-      "level": "state",
-      "office": "State Senate",
-      "district": "Legislative District 17",
-      "counties": [
-        "pima"
-      ],
-      "seats_open": 1,
-      "notes": "Arizona has 30 legislative districts. Some cross county lines.",
-      "rank": 275
-    },
-    {
-      "id": "race-ld18-house",
-      "level": "state",
-      "office": "State House of Representatives",
-      "district": "Legislative District 18",
-      "counties": [
-        "pima"
-      ],
-      "seats_open": 2,
-      "notes": "Each legislative district elects two House members. Voters may select two.",
-      "rank": 280
-    },
-    {
-      "id": "race-ld06-house",
-      "level": "state",
-      "office": "State House of Representatives",
-      "district": "Legislative District 6",
-      "counties": [
-        "coconino"
-      ],
-      "seats_open": 2,
-      "notes": "",
-      "rank": 270
-    },
-    {
-      "id": "race-pima-sheriff",
-      "level": "county",
-      "office": "Pima County Sheriff",
-      "district": null,
-      "counties": [
-        "pima"
-      ],
-      "seats_open": 1,
-      "notes": "Sheriff and County Attorney are the two local offices most directly tied to how immigration enforcement cooperation plays out on the ground.",
-      "rank": 300
-    },
-    {
-      "id": "race-pima-attorney",
-      "level": "county",
-      "office": "Pima County Attorney",
-      "district": null,
-      "counties": [
-        "pima"
-      ],
-      "seats_open": 1,
-      "notes": "",
-      "rank": 310
-    },
-    {
-      "id": "race-maricopa-attorney",
-      "level": "county",
-      "office": "Maricopa County Attorney",
-      "district": null,
-      "counties": [
-        "maricopa"
-      ],
-      "seats_open": 1,
-      "notes": "",
-      "rank": 320
-    },
-    {
-      "id": "race-coconino-sup2",
-      "level": "county",
-      "office": "Coconino County Supervisor",
-      "district": "District 2",
-      "counties": [
-        "coconino"
-      ],
-      "seats_open": 1,
-      "notes": "",
-      "rank": 340
-    },
-    {
-      "id": "race-cochise-recorder",
-      "level": "county",
-      "office": "Cochise County Recorder",
-      "district": null,
-      "counties": [
-        "cochise"
-      ],
-      "seats_open": 1,
-      "notes": "The Recorder runs voter registration and early ballots.",
-      "rank": 330
-    },
-    {
-      "id": "race-tucson-ward3",
-      "level": "municipal",
-      "office": "Tucson City Council",
-      "district": "Ward 3",
-      "counties": [
-        "pima"
-      ],
-      "seats_open": 1,
-      "notes": "",
-      "rank": 410
-    },
-    {
-      "id": "race-flagstaff-council",
-      "level": "municipal",
-      "office": "Flagstaff City Council",
-      "district": null,
-      "counties": [
-        "coconino"
-      ],
-      "seats_open": 3,
-      "notes": "At-large council seats. Confirm how many are up.",
-      "rank": 420
-    },
-    {
-      "id": "race-sierra-vista-mayor",
-      "level": "municipal",
-      "office": "Sierra Vista Mayor",
-      "district": null,
-      "counties": [
-        "cochise"
-      ],
-      "seats_open": 1,
-      "notes": "",
-      "rank": 400
-    },
-    {
-      "id": "race-tusd-board",
-      "level": "municipal",
-      "office": "Tucson Unified School District Governing Board",
-      "district": null,
-      "counties": [
-        "pima"
-      ],
-      "seats_open": 2,
-      "notes": "School board races are usually the lowest-information, highest-leverage item on the ballot.",
-      "rank": 430
-    },
-    {
       "id": "race-superintendent",
       "level": "state",
       "office": "Superintendent of Public Instruction",
@@ -354,6 +200,21 @@
       "rank": 240
     },
     {
+      "id": "race-corp-comm",
+      "level": "state",
+      "office": "Corporation Commission",
+      "district": null,
+      "counties": [
+        "pima",
+        "maricopa",
+        "cochise",
+        "coconino"
+      ],
+      "seats_open": 2,
+      "notes": "Regulates utilities. Multi-seat race - confirm how many seats are up this cycle.",
+      "rank": 250
+    },
+    {
       "id": "race-mine-inspector",
       "level": "state",
       "office": "State Mine Inspector",
@@ -367,6 +228,18 @@
       "seats_open": 1,
       "notes": "Statewide race - appears on every county ballot.",
       "rank": 260
+    },
+    {
+      "id": "race-ld06-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 6",
+      "counties": [
+        "coconino"
+      ],
+      "seats_open": 2,
+      "notes": "",
+      "rank": 270
     },
     {
       "id": "race-ld02-senate",
@@ -393,6 +266,18 @@
       "rank": 273
     },
     {
+      "id": "race-ld17-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 17",
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 1,
+      "notes": "Arizona has 30 legislative districts. Some cross county lines.",
+      "rank": 275
+    },
+    {
       "id": "race-ld13-senate",
       "level": "state",
       "office": "State Senate",
@@ -416,6 +301,18 @@
       "seats_open": 1,
       "notes": "Majority of this district's precincts are in Pinal County, which this guide does not currently cover.",
       "rank": 279
+    },
+    {
+      "id": "race-ld18-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 18",
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 2,
+      "notes": "Each legislative district elects two House members. Voters may select two.",
+      "rank": 280
     },
     {
       "id": "race-ld02-house",
@@ -501,9 +398,142 @@
       "seats_open": 2,
       "notes": "",
       "rank": 287
+    },
+    {
+      "id": "race-pima-sheriff",
+      "level": "county",
+      "office": "Pima County Sheriff",
+      "district": null,
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 1,
+      "notes": "Sheriff and County Attorney are the two local offices most directly tied to how immigration enforcement cooperation plays out on the ground.",
+      "rank": 300
+    },
+    {
+      "id": "race-pima-attorney",
+      "level": "county",
+      "office": "Pima County Attorney",
+      "district": null,
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 1,
+      "notes": "",
+      "rank": 310
+    },
+    {
+      "id": "race-maricopa-attorney",
+      "level": "county",
+      "office": "Maricopa County Attorney",
+      "district": null,
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "",
+      "rank": 320
+    },
+    {
+      "id": "race-cochise-recorder",
+      "level": "county",
+      "office": "Cochise County Recorder",
+      "district": null,
+      "counties": [
+        "cochise"
+      ],
+      "seats_open": 1,
+      "notes": "The Recorder runs voter registration and early ballots.",
+      "rank": 330
+    },
+    {
+      "id": "race-coconino-sup2",
+      "level": "county",
+      "office": "Coconino County Supervisor",
+      "district": "District 2",
+      "counties": [
+        "coconino"
+      ],
+      "seats_open": 1,
+      "notes": "",
+      "rank": 340
+    },
+    {
+      "id": "race-sierra-vista-mayor",
+      "level": "municipal",
+      "office": "Sierra Vista Mayor",
+      "district": null,
+      "counties": [
+        "cochise"
+      ],
+      "seats_open": 1,
+      "notes": "",
+      "rank": 400
+    },
+    {
+      "id": "race-tucson-ward3",
+      "level": "municipal",
+      "office": "Tucson City Council",
+      "district": "Ward 3",
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 1,
+      "notes": "",
+      "rank": 410
+    },
+    {
+      "id": "race-flagstaff-council",
+      "level": "municipal",
+      "office": "Flagstaff City Council",
+      "district": null,
+      "counties": [
+        "coconino"
+      ],
+      "seats_open": 3,
+      "notes": "At-large council seats. Confirm how many are up.",
+      "rank": 420
+    },
+    {
+      "id": "race-tusd-board",
+      "level": "municipal",
+      "office": "Tucson Unified School District Governing Board",
+      "district": null,
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 2,
+      "notes": "School board races are usually the lowest-information, highest-leverage item on the ballot.",
+      "rank": 430
     }
   ],
   "entries": [
+    {
+      "id": "entry-joanna-mendoza",
+      "category": "seize_new_ground",
+      "race_id": "race-us-house-06",
+      "name": "JoAnna Mendoza",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "JoAnna is a proud mom, dedicated public servant, & retired U.S. Marine.",
+      "summary": "JoAnna has spent her life answering the call to serve, from defending the nation and training future military leaders to helping veterans navigate broken systems. Now she is running to represent Arizona's 6th Congressional District, bringing battle-tested leadership to Washington to fight for working families and lower the costs of food, gas, housing, and child care.",
+      "why_bullets": [
+        "Lowering Costs.",
+        "Strengthening Healthcare.",
+        "Restoring trust."
+      ],
+      "links": {
+        "website": "https://www.joannamendoza.com/",
+        "volunteer": "https://www.joannamendoza.com/get-involved/volunteer",
+        "donate": "https://secure.actblue.com/donate/web-mfc-ga"
+      },
+      "photo": "images/joanna-mendoza.jpg",
+      "photo_credit": "Emily's List",
+      "status": "published",
+      "created_by": "George A. Polisner",
+      "updated": "2026-07-28"
+    },
     {
       "id": "entry-katie-hobbs",
       "category": "hold_the_line",
@@ -530,29 +560,115 @@
       "updated": "2026-07-28"
     },
     {
-      "id": "entry-joanna-mendoza",
+      "id": "entry-amelia-gallitano-mendel",
       "category": "seize_new_ground",
-      "race_id": "race-us-house-06",
-      "name": "JoAnna Mendoza",
+      "race_id": "race-ld02-senate",
+      "name": "Dr. Amelia Gallitano-Mendel",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "JoAnna is a proud mom, dedicated public servant, & retired U.S. Marine.",
-      "summary": "JoAnna has spent her life answering the call to serve, from defending the nation and training future military leaders to helping veterans navigate broken systems. Now she is running to represent Arizona's 6th Congressional District, bringing battle-tested leadership to Washington to fight for working families and lower the costs of food, gas, housing, and child care.",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. NOTE - the source lists identical issues for this candidate and for Julia Gusse, which looks like a data error. Verify with the campaign before publishing.",
       "why_bullets": [
-        "Lowering Costs.",
-        "Strengthening Healthcare.",
-        "Restoring trust."
+        "Supporting Veterans",
+        "Fiscal Responsibility",
+        "Strong Schools",
+        "Safe Communities"
       ],
       "links": {
-        "website": "https://www.joannamendoza.com/",
-        "volunteer": "https://www.joannamendoza.com/get-involved/volunteer",
-        "donate": "https://secure.actblue.com/donate/web-mfc-ga"
+        "website": "",
+        "volunteer": "",
+        "donate": ""
       },
-      "photo": "images/joanna-mendoza.jpg",
-      "photo_credit": "Emily's List",
-      "status": "published",
+      "photo": "images/amelia-gallitano-mendel.jpg",
+      "photo_credit": "Arizona List / WomenCount, used with permission",
+      "source": "Arizona List | 2026 General Election slate",
+      "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
+      "status": "draft",
       "created_by": "George A. Polisner",
-      "updated": "2026-07-28"
+      "updated": "2026-08-02"
+    },
+    {
+      "id": "entry-kiana-maria-sears",
+      "category": "hold_the_line",
+      "race_id": "race-ld09-senate",
+      "name": "Kiana Maria Sears",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on why this seat is worth defending.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [
+        "Access to educational opportunity with access to high paying jobs",
+        "Access to healthcare and nutritious meals",
+        "Access to community centered, obtainable affordable housing"
+      ],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "images/kiana-maria-sears.jpg",
+      "photo_credit": "Arizona List / WomenCount, used with permission",
+      "source": "Arizona List | 2026 General Election slate",
+      "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-08-02"
+    },
+    {
+      "id": "entry-kristie-obrien",
+      "category": "seize_new_ground",
+      "race_id": "race-ld13-senate",
+      "name": "Kristie O'Brien",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [
+        "Affordable Arizona",
+        "Lowering Healthcare Costs",
+        "Fully Funding Schools",
+        "A Sustainable Future"
+      ],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "images/kristie-obrien.jpeg",
+      "photo_credit": "Arizona List / WomenCount, used with permission",
+      "source": "Arizona List | 2026 General Election slate",
+      "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-08-02"
+    },
+    {
+      "id": "entry-elaine-aldrete",
+      "category": "seize_new_ground",
+      "race_id": "race-ld16-senate",
+      "name": "Elaine Aldrete",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [
+        "Healthcare",
+        "Housing",
+        "Affordability",
+        "Education"
+      ],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "images/elaine-aldrete.jpg",
+      "photo_credit": "Arizona List / WomenCount, used with permission",
+      "source": "Arizona List | 2026 General Election slate",
+      "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-08-02"
     },
     {
       "id": "entry-rep-nancy-gutierrez",
@@ -608,52 +724,25 @@
       "updated": "2026-08-02"
     },
     {
-      "id": "entry-lorena-austin",
-      "category": "hold_the_line",
-      "race_id": "race-ld09-house",
-      "name": "Lorena Austin",
-      "incumbent": true,
+      "id": "entry-karen-gresham",
+      "category": "seize_new_ground",
+      "race_id": "race-ld04-house",
+      "name": "Karen Gresham",
+      "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on why this seat is worth defending.",
+      "headline": "TODO - one line on what this candidate would change.",
       "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
       "why_bullets": [
-        "Education",
-        "Affordable Housing",
-        "Healthcare"
+        "Public Education",
+        "Healthcare",
+        "Reproductive Freedom"
       ],
       "links": {
         "website": "",
         "volunteer": "",
         "donate": ""
       },
-      "photo": "images/lorena-austin.jpg",
-      "photo_credit": "Arizona List / WomenCount, used with permission",
-      "source": "Arizona List | 2026 General Election slate",
-      "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
-      "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-08-02"
-    },
-    {
-      "id": "entry-kiana-maria-sears",
-      "category": "hold_the_line",
-      "race_id": "race-ld09-senate",
-      "name": "Kiana Maria Sears",
-      "incumbent": true,
-      "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on why this seat is worth defending.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [
-        "Access to educational opportunity with access to high paying jobs",
-        "Access to healthcare and nutritious meals",
-        "Access to community centered, obtainable affordable housing"
-      ],
-      "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
-      },
-      "photo": "images/kiana-maria-sears.jpg",
+      "photo": "images/karen-gresham.jpg",
       "photo_credit": "Arizona List / WomenCount, used with permission",
       "source": "Arizona List | 2026 General Election slate",
       "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
@@ -690,25 +779,25 @@
       "updated": "2026-08-02"
     },
     {
-      "id": "entry-karen-gresham",
-      "category": "seize_new_ground",
-      "race_id": "race-ld04-house",
-      "name": "Karen Gresham",
-      "incumbent": false,
+      "id": "entry-lorena-austin",
+      "category": "hold_the_line",
+      "race_id": "race-ld09-house",
+      "name": "Lorena Austin",
+      "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
+      "headline": "TODO - one line on why this seat is worth defending.",
       "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
       "why_bullets": [
-        "Public Education",
-        "Healthcare",
-        "Reproductive Freedom"
+        "Education",
+        "Affordable Housing",
+        "Healthcare"
       ],
       "links": {
         "website": "",
         "volunteer": "",
         "donate": ""
       },
-      "photo": "images/karen-gresham.jpg",
+      "photo": "images/lorena-austin.jpg",
       "photo_credit": "Arizona List / WomenCount, used with permission",
       "source": "Arizona List | 2026 General Election slate",
       "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
@@ -825,90 +914,6 @@
         "donate": ""
       },
       "photo": "images/deborah-howard.jpg",
-      "photo_credit": "Arizona List / WomenCount, used with permission",
-      "source": "Arizona List | 2026 General Election slate",
-      "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
-      "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-08-02"
-    },
-    {
-      "id": "entry-amelia-gallitano-mendel",
-      "category": "seize_new_ground",
-      "race_id": "race-ld02-senate",
-      "name": "Dr. Amelia Gallitano-Mendel",
-      "incumbent": false,
-      "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. NOTE - the source lists identical issues for this candidate and for Julia Gusse, which looks like a data error. Verify with the campaign before publishing.",
-      "why_bullets": [
-        "Supporting Veterans",
-        "Fiscal Responsibility",
-        "Strong Schools",
-        "Safe Communities"
-      ],
-      "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
-      },
-      "photo": "images/amelia-gallitano-mendel.jpg",
-      "photo_credit": "Arizona List / WomenCount, used with permission",
-      "source": "Arizona List | 2026 General Election slate",
-      "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
-      "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-08-02"
-    },
-    {
-      "id": "entry-kristie-obrien",
-      "category": "seize_new_ground",
-      "race_id": "race-ld13-senate",
-      "name": "Kristie O'Brien",
-      "incumbent": false,
-      "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [
-        "Affordable Arizona",
-        "Lowering Healthcare Costs",
-        "Fully Funding Schools",
-        "A Sustainable Future"
-      ],
-      "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
-      },
-      "photo": "images/kristie-obrien.jpeg",
-      "photo_credit": "Arizona List / WomenCount, used with permission",
-      "source": "Arizona List | 2026 General Election slate",
-      "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
-      "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-08-02"
-    },
-    {
-      "id": "entry-elaine-aldrete",
-      "category": "seize_new_ground",
-      "race_id": "race-ld16-senate",
-      "name": "Elaine Aldrete",
-      "incumbent": false,
-      "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [
-        "Healthcare",
-        "Housing",
-        "Affordability",
-        "Education"
-      ],
-      "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
-      },
-      "photo": "images/elaine-aldrete.jpg",
       "photo_credit": "Arizona List / WomenCount, used with permission",
       "source": "Arizona List | 2026 General Election slate",
       "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
@@ -1102,12 +1107,5 @@
       "verified_on": "2026-07-22",
       "status": "draft"
     }
-  ],
-  "theme": {
-    "navy_dark": "#12253C",
-    "navy": "#1B3A5C",
-    "orange": "#E0522C",
-    "gold": "#F5C518",
-    "paper": "#F7F4EC"
-  }
+  ]
 }
