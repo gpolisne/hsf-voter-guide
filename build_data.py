@@ -34,8 +34,19 @@ RULES IT ENFORCES
           incumbent_race_seat TRUE  -> hold_the_line
           incumbent_race_seat FALSE -> seize_new_ground
 
+ORGANIZATION LOGOS
+    Not entered in the sheet. The logo file is named after the organization id
+    and lives in the images folder:
+
+        images/org-007.png
+
+    .png .jpg .jpeg .svg .webp and .gif are all accepted. If no matching file
+    is present the organization simply has no logo, and a warning is printed
+    if it is published.
+
 WARNINGS (printed, but do not stop the build)
-    - a photo with no photo_credit
+    - a candidate photo with no photo_credit
+    - a published organization with no logo file
     - an organization link pointing at example.org
 """
 
@@ -50,6 +61,10 @@ EXPORT_DIR = os.path.join(HERE, "sheet-export")
 BASE_FILE = os.path.join(HERE, "data.base.json")
 CONTENT_FILE = os.path.join(HERE, "data.content.json")
 OUT_FILE = os.path.join(HERE, "data.json")
+IMAGES_DIR = os.path.join(HERE, "images")
+
+# a logo may arrive in any of these formats
+LOGO_EXTENSIONS = [".png", ".jpg", ".jpeg", ".svg", ".webp", ".gif"]
 
 errors = []
 warnings = []
@@ -138,8 +153,25 @@ CAND_COLS = ["id", "race_id", "name", "incumbent_race_seat", "ballot_designation
              "status", "created_by", "updated"]
 ORG_COLS = ["id", "name", "counties", "statewide", "focus_tags", "description",
             "ways_to_help", "link_website", "link_volunteer", "link_donate",
-            "link_events", "link_social", "photo_filename", "urgent",
-            "verified_on", "status"]
+            "link_events", "link_social", "urgent", "verified_on", "status"]
+
+
+def find_logo(org_id):
+    """Logos are named after the org id: images/org-007.png and so on.
+
+    Returns the path to write into the JSON, or "" if no file is present.
+    Any of the extensions in LOGO_EXTENSIONS will be found.
+    """
+    if not os.path.isdir(IMAGES_DIR):
+        return ""
+    for ext in LOGO_EXTENSIONS:
+        if os.path.exists(os.path.join(IMAGES_DIR, org_id + ext)):
+            return "images/" + org_id + ext
+    # also tolerate an upper-case extension from a volunteer's phone
+    for ext in LOGO_EXTENSIONS:
+        if os.path.exists(os.path.join(IMAGES_DIR, org_id + ext.upper())):
+            return "images/" + org_id + ext.upper()
+    return ""
 
 
 def build_races(rows):
@@ -240,7 +272,6 @@ def build_orgs(rows):
             err("%s: id is empty (name '%s')" % (where, name))
             continue
 
-        photo = get(row, "photo_filename", where)
         o = OrderedDict()
         o["id"] = oid
         o["name"] = name
@@ -256,10 +287,15 @@ def build_orgs(rows):
             ("events", get(row, "link_events", where)),
             ("social", get(row, "link_social", where)),
         ])
-        o["photo"] = ("images/" + photo) if photo else ""
+        o["photo"] = find_logo(oid)
         o["urgent"] = to_bool(get(row, "urgent", where), where, "urgent")
         o["verified_on"] = get(row, "verified_on", where)
         o["status"] = check_status(get(row, "status", where), where)
+
+        if o["status"] == "published" and not o["photo"]:
+            warn("%s: %s is published but has no logo. Expected a file named "
+                 "%s.png (or .jpg/.svg) in the images folder."
+                 % (where, name, oid))
 
         if o["status"] == "published":
             for link in o["links"].values():
