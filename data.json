@@ -55,16 +55,6 @@
   ],
   "counties": [
     {
-      "id": "pima",
-      "name": "Pima County",
-      "seat": "Tucson"
-    },
-    {
-      "id": "maricopa",
-      "name": "Maricopa County",
-      "seat": "Phoenix"
-    },
-    {
       "id": "cochise",
       "name": "Cochise County",
       "seat": "Bisbee"
@@ -73,6 +63,16 @@
       "id": "coconino",
       "name": "Coconino County",
       "seat": "Flagstaff"
+    },
+    {
+      "id": "maricopa",
+      "name": "Maricopa County",
+      "seat": "Phoenix"
+    },
+    {
+      "id": "pima",
+      "name": "Pima County",
+      "seat": "Tucson"
     }
   ],
   "levels": [

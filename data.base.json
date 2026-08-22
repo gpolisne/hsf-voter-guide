@@ -13,6 +13,10 @@
     "",
     "Never hand-edit data.json. Edit this file or the sheet, then re-run the converter.",
     "",
+    "counties lists all 15 Arizona counties. This is the MASTER list the",
+    "converter validates against. data.json only carries the counties that",
+    "actually have published content, so voters never hit an empty filter.",
+    "",
     "STILL OUTSTANDING IN THIS FILE:",
     "Replace every TODO in settings before publishing.",
     "Delete the demo_notice line once all sample content and TODO fields are gone.",
@@ -66,14 +70,9 @@
   ],
   "counties": [
     {
-      "id": "pima",
-      "name": "Pima County",
-      "seat": "Tucson"
-    },
-    {
-      "id": "maricopa",
-      "name": "Maricopa County",
-      "seat": "Phoenix"
+      "id": "apache",
+      "name": "Apache County",
+      "seat": "St. Johns"
     },
     {
       "id": "cochise",
@@ -84,6 +83,66 @@
       "id": "coconino",
       "name": "Coconino County",
       "seat": "Flagstaff"
+    },
+    {
+      "id": "gila",
+      "name": "Gila County",
+      "seat": "Globe"
+    },
+    {
+      "id": "graham",
+      "name": "Graham County",
+      "seat": "Safford"
+    },
+    {
+      "id": "greenlee",
+      "name": "Greenlee County",
+      "seat": "Clifton"
+    },
+    {
+      "id": "la_paz",
+      "name": "La Paz County",
+      "seat": "Parker"
+    },
+    {
+      "id": "maricopa",
+      "name": "Maricopa County",
+      "seat": "Phoenix"
+    },
+    {
+      "id": "mohave",
+      "name": "Mohave County",
+      "seat": "Kingman"
+    },
+    {
+      "id": "navajo",
+      "name": "Navajo County",
+      "seat": "Holbrook"
+    },
+    {
+      "id": "pima",
+      "name": "Pima County",
+      "seat": "Tucson"
+    },
+    {
+      "id": "pinal",
+      "name": "Pinal County",
+      "seat": "Florence"
+    },
+    {
+      "id": "santa_cruz",
+      "name": "Santa Cruz County",
+      "seat": "Nogales"
+    },
+    {
+      "id": "yavapai",
+      "name": "Yavapai County",
+      "seat": "Prescott"
+    },
+    {
+      "id": "yuma",
+      "name": "Yuma County",
+      "seat": "Yuma"
     }
   ],
   "levels": [

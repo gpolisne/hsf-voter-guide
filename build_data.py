@@ -25,11 +25,21 @@ WHAT IT WRITES
 
     Nothing is written if any error is found. The old data.json is left alone.
 
+COUNTIES
+    data.base.json holds all 15 Arizona counties. That is the master list.
+    A county typed in the sheet may be written any reasonable way -
+    "Santa Cruz", "santa cruz", "Santa Cruz County" - and is normalized to the
+    canonical id. Anything that is not an Arizona county is a hard error.
+
+    data.json only carries the counties that have published content behind
+    them, so the guide never shows a filter that leads to an empty page.
+
 RULES IT ENFORCES
     - every race_id on a candidate must exist in Races
     - status must be exactly  draft  or  published
     - incumbent_race_seat must be exactly  TRUE  or  FALSE
     - no duplicate ids
+    - every county must be one of the 15 in data.base.json
     - category is DERIVED, not entered:
           incumbent_race_seat TRUE  -> hold_the_line
           incumbent_race_seat FALSE -> seize_new_ground
@@ -145,6 +155,53 @@ def check_dupes(ids, label):
 
 
 # ----------------------------------------------------------------- races
+# Filled in from data.base.json at run time: {normalized form -> canonical id}
+COUNTY_LOOKUP = {}
+COUNTY_ORDER = []
+
+
+def load_counties(base):
+    """Build the lookup that lets a volunteer type any reasonable form.
+
+    'Santa Cruz', 'santa cruz', 'Santa Cruz County', 'santa-cruz' and
+    'santa_cruz' all resolve to the canonical id 'santa_cruz'.
+    """
+    COUNTY_LOOKUP.clear()
+    del COUNTY_ORDER[:]
+    for c in base.get("counties", []):
+        cid = c["id"]
+        COUNTY_ORDER.append(cid)
+        for form in (cid, c.get("name", ""), c.get("name", "").replace(" County", "")):
+            key = normalize_county(form)
+            if key:
+                COUNTY_LOOKUP[key] = cid
+
+
+def normalize_county(value):
+    v = (value or "").strip().lower()
+    if v.endswith(" county"):
+        v = v[: -len(" county")]
+    for ch in (" ", "-", "."):
+        v = v.replace(ch, "_")
+    while "__" in v:
+        v = v.replace("__", "_")
+    return v.strip("_")
+
+
+def resolve_counties(value, where, col="counties"):
+    """Split on the pipe, resolve each to a canonical id, error on anything else."""
+    out = []
+    for raw in split_pipe(value):
+        cid = COUNTY_LOOKUP.get(normalize_county(raw))
+        if cid is None:
+            err("%s: column '%s' has '%s', which is not an Arizona county. "
+                "Valid: %s" % (where, col, raw, ", ".join(COUNTY_ORDER)))
+            continue
+        if cid not in out:
+            out.append(cid)
+    return out
+
+
 RACE_COLS = ["id", "level", "office", "district", "counties",
              "seats_open", "notes", "rank"]
 CAND_COLS = ["id", "race_id", "name", "incumbent_race_seat", "ballot_designation",
@@ -190,7 +247,7 @@ def build_races(rows):
         r["office"] = get(row, "office", where)
         district = get(row, "district", where)
         r["district"] = district if district else None
-        r["counties"] = split_pipe(get(row, "counties", where))
+        r["counties"] = resolve_counties(get(row, "counties", where), where)
         r["seats_open"] = to_int(get(row, "seats_open", where), where, "seats_open")
         r["notes"] = get(row, "notes", where)
         r["rank"] = to_int(get(row, "rank", where), where, "rank", default=999)
@@ -275,7 +332,7 @@ def build_orgs(rows):
         o = OrderedDict()
         o["id"] = oid
         o["name"] = name
-        o["counties"] = split_pipe(get(row, "counties", where))
+        o["counties"] = resolve_counties(get(row, "counties", where), where)
         o["statewide"] = to_bool(get(row, "statewide", where), where, "statewide")
         o["focus_tags"] = split_pipe(get(row, "focus_tags", where))
         o["description"] = get(row, "description", where)
@@ -326,6 +383,11 @@ def main():
     with open(BASE_FILE, encoding="utf-8") as f:
         base = json.load(f, object_pairs_hook=OrderedDict)
 
+    load_counties(base)
+    if not COUNTY_ORDER:
+        print("ERROR: data.base.json has no counties list.")
+        return 1
+
     races = build_races(read_csv("Races.csv"))
     race_ids = {r["id"] for r in races}
     entries = build_entries(read_csv("Candidates.csv"), race_ids)
@@ -364,6 +426,23 @@ def main():
     for k, v in base.items():
         if k != "_README":
             merged[k] = v
+    # Only ship county filters that actually have published content behind them,
+    # so a voter never clicks their county and finds an empty page.
+    race_by_id = {r["id"]: r for r in races}
+    live = set()
+    for e in entries:
+        if e["status"] == "published":
+            live.update(race_by_id.get(e["race_id"], {}).get("counties", []))
+    for o in orgs:
+        if o["status"] == "published":
+            live.update(o["counties"])
+
+    if live:
+        merged["counties"] = [c for c in base["counties"] if c["id"] in live]
+    else:
+        warn("Nothing is published yet, so all %d counties are being listed."
+             % len(base["counties"]))
+
     merged["races"] = races
     merged["entries"] = entries
     merged["organizations"] = orgs
@@ -384,6 +463,9 @@ def main():
     print("               %3d hold, %d seize" % (hold, seize))
     print("Organizations  %3d   (%d published, %d draft)"
           % (len(orgs), pub_o, len(orgs) - pub_o))
+    print("Counties       %3d of %d shown (those with published content):"
+          % (len(merged["counties"]), len(base["counties"])))
+    print("               " + ", ".join(c["id"] for c in merged["counties"]))
 
     if warnings:
         print("\n%d warning(s) - the files were still written:\n" % len(warnings))
