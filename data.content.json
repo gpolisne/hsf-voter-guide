@@ -19,7 +19,7 @@
       ],
       "seats_open": 1,
       "notes": "Verify district boundaries and county coverage against current maps.",
-      "rank": 120
+      "rank": 1020
     },
     {
       "id": "race-us-house-06",
@@ -32,7 +32,7 @@
       ],
       "seats_open": 1,
       "notes": "Spans more than one county - both are listed so it appears on both filters.",
-      "rank": 130
+      "rank": 1060
     },
     {
       "id": "race-us-house-07",
@@ -45,7 +45,7 @@
       ],
       "seats_open": 1,
       "notes": "",
-      "rank": 140
+      "rank": 1070
     },
     {
       "id": "race-governor",
@@ -53,14 +53,25 @@
       "office": "Governor",
       "district": null,
       "counties": [
-        "pima",
-        "maricopa",
+        "apache",
         "cochise",
-        "coconino"
+        "coconino",
+        "gila",
+        "graham",
+        "greenlee",
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "navajo",
+        "pima",
+        "pinal",
+        "santa_cruz",
+        "yavapai",
+        "yuma"
       ],
       "seats_open": 1,
       "notes": "Statewide race - appears on every county ballot.",
-      "rank": 200
+      "rank": 2010
     },
     {
       "id": "race-sos",
@@ -68,14 +79,25 @@
       "office": "Secretary of State",
       "district": null,
       "counties": [
-        "pima",
-        "maricopa",
+        "apache",
         "cochise",
-        "coconino"
+        "coconino",
+        "gila",
+        "graham",
+        "greenlee",
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "navajo",
+        "pima",
+        "pinal",
+        "santa_cruz",
+        "yavapai",
+        "yuma"
       ],
       "seats_open": 1,
       "notes": "Chief elections officer for the state.",
-      "rank": 210
+      "rank": 2030
     },
     {
       "id": "race-ag",
@@ -83,14 +105,25 @@
       "office": "Attorney General",
       "district": null,
       "counties": [
-        "pima",
-        "maricopa",
+        "apache",
         "cochise",
-        "coconino"
+        "coconino",
+        "gila",
+        "graham",
+        "greenlee",
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "navajo",
+        "pima",
+        "pinal",
+        "santa_cruz",
+        "yavapai",
+        "yuma"
       ],
       "seats_open": 1,
       "notes": "",
-      "rank": 220
+      "rank": 2040
     },
     {
       "id": "race-superintendent",
@@ -98,14 +131,25 @@
       "office": "Superintendent of Public Instruction",
       "district": null,
       "counties": [
-        "pima",
-        "maricopa",
+        "apache",
         "cochise",
-        "coconino"
+        "coconino",
+        "gila",
+        "graham",
+        "greenlee",
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "navajo",
+        "pima",
+        "pinal",
+        "santa_cruz",
+        "yavapai",
+        "yuma"
       ],
       "seats_open": 1,
       "notes": "Statewide race - appears on every county ballot.",
-      "rank": 240
+      "rank": 2060
     },
     {
       "id": "race-corp-comm",
@@ -113,14 +157,25 @@
       "office": "Corporation Commission",
       "district": null,
       "counties": [
-        "pima",
-        "maricopa",
+        "apache",
         "cochise",
-        "coconino"
+        "coconino",
+        "gila",
+        "graham",
+        "greenlee",
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "navajo",
+        "pima",
+        "pinal",
+        "santa_cruz",
+        "yavapai",
+        "yuma"
       ],
       "seats_open": 2,
       "notes": "Regulates utilities. Multi-seat race - confirm how many seats are up this cycle.",
-      "rank": 250
+      "rank": 2080
     },
     {
       "id": "race-mine-inspector",
@@ -128,14 +183,25 @@
       "office": "State Mine Inspector",
       "district": null,
       "counties": [
-        "pima",
-        "maricopa",
+        "apache",
         "cochise",
-        "coconino"
+        "coconino",
+        "gila",
+        "graham",
+        "greenlee",
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "navajo",
+        "pima",
+        "pinal",
+        "santa_cruz",
+        "yavapai",
+        "yuma"
       ],
       "seats_open": 1,
       "notes": "Statewide race - appears on every county ballot.",
-      "rank": 260
+      "rank": 2070
     },
     {
       "id": "race-ld06-house",
@@ -147,7 +213,7 @@
       ],
       "seats_open": 2,
       "notes": "",
-      "rank": 270
+      "rank": 3061
     },
     {
       "id": "race-ld02-senate",
@@ -159,7 +225,7 @@
       ],
       "seats_open": 1,
       "notes": "TODO verify county coverage against current AIRC map.",
-      "rank": 271
+      "rank": 3020
     },
     {
       "id": "race-ld09-senate",
@@ -171,7 +237,7 @@
       ],
       "seats_open": 1,
       "notes": "TODO verify county coverage against current AIRC map.",
-      "rank": 273
+      "rank": 3090
     },
     {
       "id": "race-ld17-senate",
@@ -183,7 +249,7 @@
       ],
       "seats_open": 1,
       "notes": "Arizona has 30 legislative districts. Some cross county lines.",
-      "rank": 275
+      "rank": 3170
     },
     {
       "id": "race-ld13-senate",
@@ -195,7 +261,7 @@
       ],
       "seats_open": 1,
       "notes": "District also includes part of Pinal County, which this guide does not currently cover.",
-      "rank": 277
+      "rank": 3130
     },
     {
       "id": "race-ld16-senate",
@@ -208,7 +274,7 @@
       ],
       "seats_open": 1,
       "notes": "Majority of this district's precincts are in Pinal County, which this guide does not currently cover.",
-      "rank": 279
+      "rank": 3160
     },
     {
       "id": "race-ld18-house",
@@ -220,7 +286,7 @@
       ],
       "seats_open": 2,
       "notes": "Each legislative district elects two House members. Voters may select two.",
-      "rank": 280
+      "rank": 3181
     },
     {
       "id": "race-ld02-house",
@@ -232,7 +298,7 @@
       ],
       "seats_open": 2,
       "notes": "Each legislative district elects two House members. Voters may select two.",
-      "rank": 281
+      "rank": 3021
     },
     {
       "id": "race-ld04-house",
@@ -244,7 +310,7 @@
       ],
       "seats_open": 2,
       "notes": "Two seats open. This guide lists two candidates for this district.",
-      "rank": 282
+      "rank": 3041
     },
     {
       "id": "race-ld09-house",
@@ -256,7 +322,7 @@
       ],
       "seats_open": 2,
       "notes": "",
-      "rank": 283
+      "rank": 3091
     },
     {
       "id": "race-ld13-house",
@@ -268,7 +334,7 @@
       ],
       "seats_open": 2,
       "notes": "District also includes part of Pinal County, which this guide does not currently cover.",
-      "rank": 284
+      "rank": 3131
     },
     {
       "id": "race-ld16-house",
@@ -281,7 +347,7 @@
       ],
       "seats_open": 2,
       "notes": "Majority of this district's precincts are in Pinal County, which this guide does not currently cover.",
-      "rank": 285
+      "rank": 3161
     },
     {
       "id": "race-ld17-house",
@@ -293,7 +359,7 @@
       ],
       "seats_open": 2,
       "notes": "",
-      "rank": 286
+      "rank": 3171
     },
     {
       "id": "race-ld27-house",
@@ -305,7 +371,7 @@
       ],
       "seats_open": 2,
       "notes": "",
-      "rank": 287
+      "rank": 3271
     },
     {
       "id": "race-pima-sheriff",
@@ -317,7 +383,7 @@
       ],
       "seats_open": 1,
       "notes": "Sheriff and County Attorney are the two local offices most directly tied to how immigration enforcement cooperation plays out on the ground.",
-      "rank": 300
+      "rank": 4010
     },
     {
       "id": "race-pima-attorney",
@@ -329,7 +395,7 @@
       ],
       "seats_open": 1,
       "notes": "",
-      "rank": 310
+      "rank": 4020
     },
     {
       "id": "race-maricopa-attorney",
@@ -341,7 +407,7 @@
       ],
       "seats_open": 1,
       "notes": "",
-      "rank": 320
+      "rank": 4030
     },
     {
       "id": "race-cochise-recorder",
@@ -353,7 +419,7 @@
       ],
       "seats_open": 1,
       "notes": "The Recorder runs voter registration and early ballots.",
-      "rank": 330
+      "rank": 4040
     },
     {
       "id": "race-coconino-sup2",
@@ -365,7 +431,7 @@
       ],
       "seats_open": 1,
       "notes": "",
-      "rank": 340
+      "rank": 4050
     },
     {
       "id": "race-sierra-vista-mayor",
@@ -377,7 +443,7 @@
       ],
       "seats_open": 1,
       "notes": "",
-      "rank": 400
+      "rank": 5010
     },
     {
       "id": "race-tucson-ward3",
@@ -389,7 +455,7 @@
       ],
       "seats_open": 1,
       "notes": "",
-      "rank": 410
+      "rank": 5020
     },
     {
       "id": "race-flagstaff-council",
@@ -401,7 +467,7 @@
       ],
       "seats_open": 3,
       "notes": "At-large council seats. Confirm how many are up.",
-      "rank": 420
+      "rank": 5030
     },
     {
       "id": "race-tusd-board",
@@ -413,7 +479,252 @@
       ],
       "seats_open": 2,
       "notes": "School board races are usually the lowest-information, highest-leverage item on the ballot.",
-      "rank": 430
+      "rank": 5040
+    },
+    {
+      "id": "race-us-house-01",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "District 1",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map.",
+      "rank": 1010
+    },
+    {
+      "id": "race-us-house-03",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "District 3",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map.",
+      "rank": 1030
+    },
+    {
+      "id": "race-us-house-04",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "District 4",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map.",
+      "rank": 1040
+    },
+    {
+      "id": "race-us-house-05",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "District 5",
+      "counties": [
+        "maricopa",
+        "pinal"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map. Believed to include part of Pinal.",
+      "rank": 1050
+    },
+    {
+      "id": "race-us-house-08",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "District 8",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map.",
+      "rank": 1080
+    },
+    {
+      "id": "race-us-house-09",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "District 9",
+      "counties": [
+        "mohave",
+        "la_paz",
+        "yuma",
+        "yavapai",
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map. Large western district, county list is a best guess.",
+      "rank": 1090
+    },
+    {
+      "id": "race-lt-governor",
+      "level": "state",
+      "office": "Lieutenant Governor",
+      "district": null,
+      "counties": [
+        "apache",
+        "cochise",
+        "coconino",
+        "gila",
+        "graham",
+        "greenlee",
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "navajo",
+        "pima",
+        "pinal",
+        "santa_cruz",
+        "yavapai",
+        "yuma"
+      ],
+      "seats_open": 1,
+      "notes": "New office, first election this cycle. Statewide race, appears on every county ballot.",
+      "rank": 2020
+    },
+    {
+      "id": "race-treasurer",
+      "level": "state",
+      "office": "State Treasurer",
+      "district": null,
+      "counties": [
+        "apache",
+        "cochise",
+        "coconino",
+        "gila",
+        "graham",
+        "greenlee",
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "navajo",
+        "pima",
+        "pinal",
+        "santa_cruz",
+        "yavapai",
+        "yuma"
+      ],
+      "seats_open": 1,
+      "notes": "Statewide race, appears on every county ballot.",
+      "rank": 2050
+    },
+    {
+      "id": "race-ld18-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 18",
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map.",
+      "rank": 3180
+    },
+    {
+      "id": "race-ld19-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 19",
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map.",
+      "rank": 3190
+    },
+    {
+      "id": "race-ld19-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 19",
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 2,
+      "notes": "TODO verify county coverage against current AIRC map. Two seats open, voters may select two.",
+      "rank": 3191
+    },
+    {
+      "id": "race-ld20-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 20",
+      "counties": [
+        "pima",
+        "santa_cruz"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map.",
+      "rank": 3200
+    },
+    {
+      "id": "race-ld20-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 20",
+      "counties": [
+        "pima",
+        "santa_cruz"
+      ],
+      "seats_open": 2,
+      "notes": "TODO verify county coverage against current AIRC map. Two seats open, voters may select two.",
+      "rank": 3201
+    },
+    {
+      "id": "race-ld21-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 21",
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map.",
+      "rank": 3210
+    },
+    {
+      "id": "race-ld21-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 21",
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 2,
+      "notes": "TODO verify county coverage against current AIRC map. Two seats open, voters may select two.",
+      "rank": 3211
+    },
+    {
+      "id": "race-ld23-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 23",
+      "counties": [
+        "yuma",
+        "santa_cruz",
+        "la_paz",
+        "pima"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map. Spans several counties, list is a best guess.",
+      "rank": 3230
+    },
+    {
+      "id": "race-ld23-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 23",
+      "counties": [
+        "yuma",
+        "santa_cruz",
+        "la_paz",
+        "pima"
+      ],
+      "seats_open": 2,
+      "notes": "TODO verify county coverage against current AIRC map. Two seats open, voters may select two. Spans several counties.",
+      "rank": 3231
     }
   ],
   "entries": [

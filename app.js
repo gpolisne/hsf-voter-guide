@@ -277,7 +277,7 @@
 
   function buildCountySelect() {
     var sel = document.getElementById("county-select");
-    var opts = ['<option value="all">All four counties</option>'];
+    var opts = ['<option value="all">All counties</option>'];
     (DATA.counties || []).forEach(function (c) {
       opts.push('<option value="' + esc(c.id) + '">' + esc(c.name) + "</option>");
     });
