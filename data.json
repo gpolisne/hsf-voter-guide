@@ -169,18 +169,6 @@
       "rank": 1010
     },
     {
-      "id": "race-coconino-sup2",
-      "level": "county",
-      "office": "Coconino County Supervisor",
-      "district": "District 2",
-      "counties": [
-        "coconino"
-      ],
-      "seats_open": 1,
-      "notes": "",
-      "rank": 4050
-    },
-    {
       "id": "race-us-house-02",
       "level": "federal",
       "office": "U.S. House of Representatives",
@@ -298,380 +286,6 @@
       "rank": 1090
     },
     {
-      "id": "race-ld13-house",
-      "level": "state",
-      "office": "State House of Representatives",
-      "district": "Legislative District 13",
-      "counties": [
-        "maricopa"
-      ],
-      "seats_open": 2,
-      "notes": "District also includes part of Pinal County, which this guide does not currently cover.",
-      "rank": 3131
-    },
-    {
-      "id": "race-ld13-senate",
-      "level": "state",
-      "office": "State Senate",
-      "district": "Legislative District 13",
-      "counties": [
-        "maricopa"
-      ],
-      "seats_open": 1,
-      "notes": "District also includes part of Pinal County, which this guide does not currently cover.",
-      "rank": 3130
-    },
-    {
-      "id": "race-ld16-house",
-      "level": "state",
-      "office": "State House of Representatives",
-      "district": "Legislative District 16",
-      "counties": [
-        "maricopa",
-        "pima"
-      ],
-      "seats_open": 2,
-      "notes": "Majority of this district's precincts are in Pinal County, which this guide does not currently cover.",
-      "rank": 3161
-    },
-    {
-      "id": "race-ld16-senate",
-      "level": "state",
-      "office": "State Senate",
-      "district": "Legislative District 16",
-      "counties": [
-        "maricopa",
-        "pima"
-      ],
-      "seats_open": 1,
-      "notes": "Majority of this district's precincts are in Pinal County, which this guide does not currently cover.",
-      "rank": 3160
-    },
-    {
-      "id": "race-ld17-house",
-      "level": "state",
-      "office": "State House of Representatives",
-      "district": "Legislative District 17",
-      "counties": [
-        "pima"
-      ],
-      "seats_open": 2,
-      "notes": "",
-      "rank": 3171
-    },
-    {
-      "id": "race-ld17-senate",
-      "level": "state",
-      "office": "State Senate",
-      "district": "Legislative District 17",
-      "counties": [
-        "pima"
-      ],
-      "seats_open": 1,
-      "notes": "Arizona has 30 legislative districts. Some cross county lines.",
-      "rank": 3170
-    },
-    {
-      "id": "race-ld18-house",
-      "level": "state",
-      "office": "State House of Representatives",
-      "district": "Legislative District 18",
-      "counties": [
-        "pima"
-      ],
-      "seats_open": 2,
-      "notes": "Each legislative district elects two House members. Voters may select two.",
-      "rank": 3181
-    },
-    {
-      "id": "race-ld18-senate",
-      "level": "state",
-      "office": "State Senate",
-      "district": "Legislative District 18",
-      "counties": [
-        "pima"
-      ],
-      "seats_open": 1,
-      "notes": "TODO verify county coverage against current AIRC map.",
-      "rank": 3180
-    },
-    {
-      "id": "race-ld19-house",
-      "level": "state",
-      "office": "State House of Representatives",
-      "district": "Legislative District 19",
-      "counties": [
-        "pima"
-      ],
-      "seats_open": 2,
-      "notes": "TODO verify county coverage against current AIRC map. Two seats open, voters may select two.",
-      "rank": 3191
-    },
-    {
-      "id": "race-ld19-senate",
-      "level": "state",
-      "office": "State Senate",
-      "district": "Legislative District 19",
-      "counties": [
-        "pima"
-      ],
-      "seats_open": 1,
-      "notes": "TODO verify county coverage against current AIRC map.",
-      "rank": 3190
-    },
-    {
-      "id": "race-ld02-house",
-      "level": "state",
-      "office": "State House of Representatives",
-      "district": "Legislative District 2",
-      "counties": [
-        "maricopa"
-      ],
-      "seats_open": 2,
-      "notes": "Each legislative district elects two House members. Voters may select two.",
-      "rank": 3021
-    },
-    {
-      "id": "race-ld02-senate",
-      "level": "state",
-      "office": "State Senate",
-      "district": "Legislative District 2",
-      "counties": [
-        "maricopa"
-      ],
-      "seats_open": 1,
-      "notes": "TODO verify county coverage against current AIRC map.",
-      "rank": 3020
-    },
-    {
-      "id": "race-ld20-house",
-      "level": "state",
-      "office": "State House of Representatives",
-      "district": "Legislative District 20",
-      "counties": [
-        "pima",
-        "santa_cruz"
-      ],
-      "seats_open": 2,
-      "notes": "TODO verify county coverage against current AIRC map. Two seats open, voters may select two.",
-      "rank": 3201
-    },
-    {
-      "id": "race-ld20-senate",
-      "level": "state",
-      "office": "State Senate",
-      "district": "Legislative District 20",
-      "counties": [
-        "pima",
-        "santa_cruz"
-      ],
-      "seats_open": 1,
-      "notes": "TODO verify county coverage against current AIRC map.",
-      "rank": 3200
-    },
-    {
-      "id": "race-ld21-house",
-      "level": "state",
-      "office": "State House of Representatives",
-      "district": "Legislative District 21",
-      "counties": [
-        "pima"
-      ],
-      "seats_open": 2,
-      "notes": "TODO verify county coverage against current AIRC map. Two seats open, voters may select two.",
-      "rank": 3211
-    },
-    {
-      "id": "race-ld21-senate",
-      "level": "state",
-      "office": "State Senate",
-      "district": "Legislative District 21",
-      "counties": [
-        "pima"
-      ],
-      "seats_open": 1,
-      "notes": "TODO verify county coverage against current AIRC map.",
-      "rank": 3210
-    },
-    {
-      "id": "race-ld23-house",
-      "level": "state",
-      "office": "State House of Representatives",
-      "district": "Legislative District 23",
-      "counties": [
-        "yuma",
-        "santa_cruz",
-        "la_paz",
-        "pima"
-      ],
-      "seats_open": 2,
-      "notes": "TODO verify county coverage against current AIRC map. Two seats open, voters may select two. Spans several counties.",
-      "rank": 3231
-    },
-    {
-      "id": "race-ld23-senate",
-      "level": "state",
-      "office": "State Senate",
-      "district": "Legislative District 23",
-      "counties": [
-        "yuma",
-        "santa_cruz",
-        "la_paz",
-        "pima"
-      ],
-      "seats_open": 1,
-      "notes": "TODO verify county coverage against current AIRC map. Spans several counties, list is a best guess.",
-      "rank": 3230
-    },
-    {
-      "id": "race-ld27-house",
-      "level": "state",
-      "office": "State House of Representatives",
-      "district": "Legislative District 27",
-      "counties": [
-        "maricopa"
-      ],
-      "seats_open": 2,
-      "notes": "",
-      "rank": 3271
-    },
-    {
-      "id": "race-ld04-house",
-      "level": "state",
-      "office": "State House of Representatives",
-      "district": "Legislative District 4",
-      "counties": [
-        "maricopa"
-      ],
-      "seats_open": 2,
-      "notes": "Two seats open. This guide lists two candidates for this district.",
-      "rank": 3041
-    },
-    {
-      "id": "race-ld06-house",
-      "level": "state",
-      "office": "State House of Representatives",
-      "district": "Legislative District 6",
-      "counties": [
-        "coconino"
-      ],
-      "seats_open": 2,
-      "notes": "",
-      "rank": 3061
-    },
-    {
-      "id": "race-ld09-house",
-      "level": "state",
-      "office": "State House of Representatives",
-      "district": "Legislative District 9",
-      "counties": [
-        "maricopa"
-      ],
-      "seats_open": 2,
-      "notes": "",
-      "rank": 3091
-    },
-    {
-      "id": "race-ld09-senate",
-      "level": "state",
-      "office": "State Senate",
-      "district": "Legislative District 9",
-      "counties": [
-        "maricopa"
-      ],
-      "seats_open": 1,
-      "notes": "TODO verify county coverage against current AIRC map.",
-      "rank": 3090
-    },
-    {
-      "id": "race-tucson-ward3",
-      "level": "municipal",
-      "office": "Tucson City Council",
-      "district": "Ward 3",
-      "counties": [
-        "pima"
-      ],
-      "seats_open": 1,
-      "notes": "",
-      "rank": 5020
-    },
-    {
-      "id": "race-ag",
-      "level": "state",
-      "office": "Attorney General",
-      "district": null,
-      "counties": [
-        "apache",
-        "cochise",
-        "coconino",
-        "gila",
-        "graham",
-        "greenlee",
-        "la_paz",
-        "maricopa",
-        "mohave",
-        "navajo",
-        "pima",
-        "pinal",
-        "santa_cruz",
-        "yavapai",
-        "yuma"
-      ],
-      "seats_open": 1,
-      "notes": "",
-      "rank": 2040
-    },
-    {
-      "id": "race-cochise-recorder",
-      "level": "county",
-      "office": "Cochise County Recorder",
-      "district": null,
-      "counties": [
-        "cochise"
-      ],
-      "seats_open": 1,
-      "notes": "The Recorder runs voter registration and early ballots.",
-      "rank": 4040
-    },
-    {
-      "id": "race-corp-comm",
-      "level": "state",
-      "office": "Corporation Commission",
-      "district": null,
-      "counties": [
-        "apache",
-        "cochise",
-        "coconino",
-        "gila",
-        "graham",
-        "greenlee",
-        "la_paz",
-        "maricopa",
-        "mohave",
-        "navajo",
-        "pima",
-        "pinal",
-        "santa_cruz",
-        "yavapai",
-        "yuma"
-      ],
-      "seats_open": 2,
-      "notes": "Regulates utilities. Multi-seat race - confirm how many seats are up this cycle.",
-      "rank": 2080
-    },
-    {
-      "id": "race-flagstaff-council",
-      "level": "municipal",
-      "office": "Flagstaff City Council",
-      "district": null,
-      "counties": [
-        "coconino"
-      ],
-      "seats_open": 3,
-      "notes": "At-large council seats. Confirm how many are up.",
-      "rank": 5030
-    },
-    {
       "id": "race-governor",
       "level": "state",
       "office": "Governor",
@@ -696,106 +310,6 @@
       "seats_open": 1,
       "notes": "Statewide race - appears on every county ballot.",
       "rank": 2010
-    },
-    {
-      "id": "race-lt-governor",
-      "level": "state",
-      "office": "Lieutenant Governor",
-      "district": null,
-      "counties": [
-        "apache",
-        "cochise",
-        "coconino",
-        "gila",
-        "graham",
-        "greenlee",
-        "la_paz",
-        "maricopa",
-        "mohave",
-        "navajo",
-        "pima",
-        "pinal",
-        "santa_cruz",
-        "yavapai",
-        "yuma"
-      ],
-      "seats_open": 1,
-      "notes": "New office, first election this cycle. Statewide race, appears on every county ballot.",
-      "rank": 2020
-    },
-    {
-      "id": "race-maricopa-attorney",
-      "level": "county",
-      "office": "Maricopa County Attorney",
-      "district": null,
-      "counties": [
-        "maricopa"
-      ],
-      "seats_open": 1,
-      "notes": "",
-      "rank": 4030
-    },
-    {
-      "id": "race-mine-inspector",
-      "level": "state",
-      "office": "State Mine Inspector",
-      "district": null,
-      "counties": [
-        "apache",
-        "cochise",
-        "coconino",
-        "gila",
-        "graham",
-        "greenlee",
-        "la_paz",
-        "maricopa",
-        "mohave",
-        "navajo",
-        "pima",
-        "pinal",
-        "santa_cruz",
-        "yavapai",
-        "yuma"
-      ],
-      "seats_open": 1,
-      "notes": "Statewide race - appears on every county ballot.",
-      "rank": 2070
-    },
-    {
-      "id": "race-pima-attorney",
-      "level": "county",
-      "office": "Pima County Attorney",
-      "district": null,
-      "counties": [
-        "pima"
-      ],
-      "seats_open": 1,
-      "notes": "",
-      "rank": 4020
-    },
-    {
-      "id": "race-pima-sheriff",
-      "level": "county",
-      "office": "Pima County Sheriff",
-      "district": null,
-      "counties": [
-        "pima"
-      ],
-      "seats_open": 1,
-      "notes": "Sheriff and County Attorney are the two local offices most directly tied to how immigration enforcement cooperation plays out on the ground.",
-      "rank": 4010
-    },
-    {
-      "id": "race-sierra-vista-mayor",
-      "level": "municipal",
-      "office": "Sierra Vista Mayor",
-      "district": null,
-      "counties": [
-        "cochise"
-      ],
-      "seats_open": 1,
-      "notes": "",
-      "rank": 5010
     },
     {
       "id": "race-sos",
@@ -824,9 +338,9 @@
       "rank": 2030
     },
     {
-      "id": "race-superintendent",
+      "id": "race-ag",
       "level": "state",
-      "office": "Superintendent of Public Instruction",
+      "office": "Attorney General",
       "district": null,
       "counties": [
         "apache",
@@ -846,8 +360,8 @@
         "yuma"
       ],
       "seats_open": 1,
-      "notes": "Statewide race - appears on every county ballot.",
-      "rank": 2060
+      "notes": "",
+      "rank": 2040
     },
     {
       "id": "race-treasurer",
@@ -876,6 +390,956 @@
       "rank": 2050
     },
     {
+      "id": "race-superintendent",
+      "level": "state",
+      "office": "Superintendent of Public Instruction",
+      "district": null,
+      "counties": [
+        "apache",
+        "cochise",
+        "coconino",
+        "gila",
+        "graham",
+        "greenlee",
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "navajo",
+        "pima",
+        "pinal",
+        "santa_cruz",
+        "yavapai",
+        "yuma"
+      ],
+      "seats_open": 1,
+      "notes": "Statewide race - appears on every county ballot.",
+      "rank": 2060
+    },
+    {
+      "id": "race-mine-inspector",
+      "level": "state",
+      "office": "State Mine Inspector",
+      "district": null,
+      "counties": [
+        "apache",
+        "cochise",
+        "coconino",
+        "gila",
+        "graham",
+        "greenlee",
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "navajo",
+        "pima",
+        "pinal",
+        "santa_cruz",
+        "yavapai",
+        "yuma"
+      ],
+      "seats_open": 1,
+      "notes": "Statewide race - appears on every county ballot.",
+      "rank": 2070
+    },
+    {
+      "id": "race-corp-comm",
+      "level": "state",
+      "office": "Corporation Commission",
+      "district": null,
+      "counties": [
+        "apache",
+        "cochise",
+        "coconino",
+        "gila",
+        "graham",
+        "greenlee",
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "navajo",
+        "pima",
+        "pinal",
+        "santa_cruz",
+        "yavapai",
+        "yuma"
+      ],
+      "seats_open": 2,
+      "notes": "Regulates utilities. Multi-seat race - confirm how many seats are up this cycle.",
+      "rank": 2080
+    },
+    {
+      "id": "race-ld01-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 1",
+      "counties": [
+        "yavapai",
+        "coconino"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. Coconino portion is one precinct covering Sedona.",
+      "rank": 3010
+    },
+    {
+      "id": "race-ld01-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 1",
+      "counties": [
+        "yavapai",
+        "coconino"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3011
+    },
+    {
+      "id": "race-ld02-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 2",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map.",
+      "rank": 3020
+    },
+    {
+      "id": "race-ld02-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 2",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Each legislative district elects two House members. Voters may select two.",
+      "rank": 3021
+    },
+    {
+      "id": "race-ld03-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 3",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3030
+    },
+    {
+      "id": "race-ld03-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 3",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3031
+    },
+    {
+      "id": "race-ld04-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 4",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3040
+    },
+    {
+      "id": "race-ld04-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 4",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open. This guide lists two candidates for this district.",
+      "rank": 3041
+    },
+    {
+      "id": "race-ld05-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 5",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3050
+    },
+    {
+      "id": "race-ld05-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 5",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3051
+    },
+    {
+      "id": "race-ld06-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 6",
+      "counties": [
+        "apache",
+        "coconino",
+        "gila",
+        "graham",
+        "mohave",
+        "navajo",
+        "pinal"
+      ],
+      "seats_open": 1,
+      "notes": "All of Apache County plus sections of six others. Drawn as a majority Native American district.",
+      "rank": 3060
+    },
+    {
+      "id": "race-ld06-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 6",
+      "counties": [
+        "apache",
+        "coconino",
+        "gila",
+        "graham",
+        "mohave",
+        "navajo",
+        "pinal"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. All of Apache County plus sections of six others. Corrected against AIRC 2022 map.",
+      "rank": 3061
+    },
+    {
+      "id": "race-ld07-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 7",
+      "counties": [
+        "coconino",
+        "gila",
+        "navajo",
+        "pinal"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. Spans four counties.",
+      "rank": 3070
+    },
+    {
+      "id": "race-ld07-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 7",
+      "counties": [
+        "coconino",
+        "gila",
+        "navajo",
+        "pinal"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Spans four counties.",
+      "rank": 3071
+    },
+    {
+      "id": "race-ld08-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 8",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3080
+    },
+    {
+      "id": "race-ld08-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 8",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3081
+    },
+    {
+      "id": "race-ld09-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 9",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map.",
+      "rank": 3090
+    },
+    {
+      "id": "race-ld09-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 9",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "",
+      "rank": 3091
+    },
+    {
+      "id": "race-ld10-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 10",
+      "counties": [
+        "maricopa",
+        "pinal"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. Pinal portion covers Apache Junction.",
+      "rank": 3100
+    },
+    {
+      "id": "race-ld10-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 10",
+      "counties": [
+        "maricopa",
+        "pinal"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Pinal portion covers Apache Junction.",
+      "rank": 3101
+    },
+    {
+      "id": "race-ld11-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 11",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3110
+    },
+    {
+      "id": "race-ld11-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 11",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3111
+    },
+    {
+      "id": "race-ld12-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 12",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3120
+    },
+    {
+      "id": "race-ld12-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 12",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3121
+    },
+    {
+      "id": "race-ld13-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 13",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All 45 precincts are in Maricopa.",
+      "rank": 3130
+    },
+    {
+      "id": "race-ld13-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 13",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. All 45 precincts are in Maricopa.",
+      "rank": 3131
+    },
+    {
+      "id": "race-ld14-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 14",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3140
+    },
+    {
+      "id": "race-ld14-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 14",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3141
+    },
+    {
+      "id": "race-ld15-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 15",
+      "counties": [
+        "maricopa",
+        "pinal"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. Substantial Pinal share, San Tan Valley area.",
+      "rank": 3150
+    },
+    {
+      "id": "race-ld15-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 15",
+      "counties": [
+        "maricopa",
+        "pinal"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Substantial Pinal share, San Tan Valley area.",
+      "rank": 3151
+    },
+    {
+      "id": "race-ld16-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 16",
+      "counties": [
+        "maricopa",
+        "pima",
+        "pinal"
+      ],
+      "seats_open": 1,
+      "notes": "Corrected against AIRC 2022 map. Most precincts are in Pinal County. Highly competitive district.",
+      "rank": 3160
+    },
+    {
+      "id": "race-ld16-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 16",
+      "counties": [
+        "maricopa",
+        "pima",
+        "pinal"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Most precincts are in Pinal County. Highly competitive district.",
+      "rank": 3161
+    },
+    {
+      "id": "race-ld17-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 17",
+      "counties": [
+        "pima",
+        "pinal"
+      ],
+      "seats_open": 1,
+      "notes": "Corrected against AIRC 2022 map. Mostly Pima, with a small Pinal section.",
+      "rank": 3170
+    },
+    {
+      "id": "race-ld17-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 17",
+      "counties": [
+        "pima",
+        "pinal"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Mostly Pima, with a small Pinal section.",
+      "rank": 3171
+    },
+    {
+      "id": "race-ld18-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 18",
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map.",
+      "rank": 3180
+    },
+    {
+      "id": "race-ld18-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 18",
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 2,
+      "notes": "Each legislative district elects two House members. Voters may select two.",
+      "rank": 3181
+    },
+    {
+      "id": "race-ld19-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 19",
+      "counties": [
+        "cochise",
+        "graham",
+        "greenlee",
+        "pima",
+        "santa_cruz"
+      ],
+      "seats_open": 1,
+      "notes": "Corrected against AIRC 2022 map. All of Greenlee County plus sections of four others.",
+      "rank": 3190
+    },
+    {
+      "id": "race-ld19-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 19",
+      "counties": [
+        "cochise",
+        "graham",
+        "greenlee",
+        "pima",
+        "santa_cruz"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. All of Greenlee County plus sections of four others.",
+      "rank": 3191
+    },
+    {
+      "id": "race-ld20-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 20",
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 1,
+      "notes": "Corrected against AIRC 2022 map. All 56 precincts are in Pima.",
+      "rank": 3200
+    },
+    {
+      "id": "race-ld20-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 20",
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. All 56 precincts are in Pima.",
+      "rank": 3201
+    },
+    {
+      "id": "race-ld21-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 21",
+      "counties": [
+        "cochise",
+        "pima",
+        "santa_cruz"
+      ],
+      "seats_open": 1,
+      "notes": "Corrected against AIRC 2022 map. Spans three southern counties.",
+      "rank": 3210
+    },
+    {
+      "id": "race-ld21-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 21",
+      "counties": [
+        "cochise",
+        "pima",
+        "santa_cruz"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Spans three southern counties.",
+      "rank": 3211
+    },
+    {
+      "id": "race-ld22-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 22",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3220
+    },
+    {
+      "id": "race-ld22-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 22",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3221
+    },
+    {
+      "id": "race-ld23-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 23",
+      "counties": [
+        "maricopa",
+        "pima",
+        "pinal",
+        "yuma"
+      ],
+      "seats_open": 1,
+      "notes": "Corrected against AIRC 2022 map. Largest share of precincts is in Yuma. La Paz and Santa Cruz are not in this district.",
+      "rank": 3230
+    },
+    {
+      "id": "race-ld23-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 23",
+      "counties": [
+        "maricopa",
+        "pima",
+        "pinal",
+        "yuma"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Largest share of precincts is in Yuma. La Paz and Santa Cruz are not in this district.",
+      "rank": 3231
+    },
+    {
+      "id": "race-ld24-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 24",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3240
+    },
+    {
+      "id": "race-ld24-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 24",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3241
+    },
+    {
+      "id": "race-ld25-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 25",
+      "counties": [
+        "maricopa",
+        "yuma"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. Spans western Maricopa and Yuma.",
+      "rank": 3250
+    },
+    {
+      "id": "race-ld25-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 25",
+      "counties": [
+        "maricopa",
+        "yuma"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Spans western Maricopa and Yuma.",
+      "rank": 3251
+    },
+    {
+      "id": "race-ld26-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 26",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3260
+    },
+    {
+      "id": "race-ld26-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 26",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3261
+    },
+    {
+      "id": "race-ld27-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 27",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3270
+    },
+    {
+      "id": "race-ld27-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 27",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "",
+      "rank": 3271
+    },
+    {
+      "id": "race-ld28-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 28",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3280
+    },
+    {
+      "id": "race-ld28-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 28",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3281
+    },
+    {
+      "id": "race-ld29-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 29",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3290
+    },
+    {
+      "id": "race-ld29-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 29",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3291
+    },
+    {
+      "id": "race-ld30-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 30",
+      "counties": [
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "yavapai"
+      ],
+      "seats_open": 1,
+      "notes": "All of La Paz County plus sections of Maricopa, Mohave, and Yavapai.",
+      "rank": 3300
+    },
+    {
+      "id": "race-ld30-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 30",
+      "counties": [
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "yavapai"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. All of La Paz plus three partial counties.",
+      "rank": 3301
+    },
+    {
+      "id": "race-pima-sheriff",
+      "level": "county",
+      "office": "Pima County Sheriff",
+      "district": null,
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 1,
+      "notes": "Sheriff and County Attorney are the two local offices most directly tied to how immigration enforcement cooperation plays out on the ground.",
+      "rank": 4010
+    },
+    {
+      "id": "race-pima-attorney",
+      "level": "county",
+      "office": "Pima County Attorney",
+      "district": null,
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 1,
+      "notes": "",
+      "rank": 4020
+    },
+    {
+      "id": "race-maricopa-attorney",
+      "level": "county",
+      "office": "Maricopa County Attorney",
+      "district": null,
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "",
+      "rank": 4030
+    },
+    {
+      "id": "race-cochise-recorder",
+      "level": "county",
+      "office": "Cochise County Recorder",
+      "district": null,
+      "counties": [
+        "cochise"
+      ],
+      "seats_open": 1,
+      "notes": "The Recorder runs voter registration and early ballots.",
+      "rank": 4040
+    },
+    {
+      "id": "race-coconino-sup2",
+      "level": "county",
+      "office": "Coconino County Supervisor",
+      "district": "District 2",
+      "counties": [
+        "coconino"
+      ],
+      "seats_open": 1,
+      "notes": "",
+      "rank": 4050
+    },
+    {
+      "id": "race-sierra-vista-mayor",
+      "level": "municipal",
+      "office": "Sierra Vista Mayor",
+      "district": null,
+      "counties": [
+        "cochise"
+      ],
+      "seats_open": 1,
+      "notes": "",
+      "rank": 5010
+    },
+    {
+      "id": "race-tucson-ward3",
+      "level": "municipal",
+      "office": "Tucson City Council",
+      "district": "Ward 3",
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 1,
+      "notes": "",
+      "rank": 5020
+    },
+    {
+      "id": "race-flagstaff-council",
+      "level": "municipal",
+      "office": "Flagstaff City Council",
+      "district": null,
+      "counties": [
+        "coconino"
+      ],
+      "seats_open": 3,
+      "notes": "At-large council seats. Confirm how many are up.",
+      "rank": 5030
+    },
+    {
       "id": "race-tusd-board",
       "level": "municipal",
       "office": "Tucson Unified School District Governing Board",
@@ -896,7 +1360,7 @@
       "name": "JoAnna Mendoza",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "JoAnna is a proud mom, dedicated public servant, & retired U.S. Marine.",
+      "headline": "Proud mom, dedicated public servant, & retired U.S. Marine.",
       "summary": "JoAnna has spent her life answering the call to serve, from defending the nation and training future military leaders to helping veterans navigate broken systems. Now she is running to represent Arizona's 6th Congressional District, bringing battle-tested leadership to Washington to fight for working families and lower the costs of food, gas, housing, and child care.",
       "why_bullets": [
         "Lowering Costs.",
@@ -921,8 +1385,8 @@
       "name": "Katie Hobbs",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "Protecting Democracy in Arizona",
-      "summary": "Governor Katie Hobbs continues to protect all Arizonans from a corrupt and abusive federal government.",
+      "headline": "Protecting democracy in Arizona",
+      "summary": "Governor Katie Hobbs has protected all Arizonans from a corrupt and abusive federal government. During her time in office, Katie has granted tax rebates to Arizonan families, defended reporductive rights, and passed policy to protect our water. She is running for again to continue making a positive impact on the lives of of Arizonans.",
       "why_bullets": [
         "Protects Public Education",
         "Fair taxation",
@@ -946,8 +1410,8 @@
       "name": "Dr. Amelia Gallitano-Mendel",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. NOTE - the source lists identical issues for this candidate and for Julia Gusse, which looks like a data error. Verify with the campaign before publishing.",
+      "headline": "Tenured professor dedicated to innovative solutions",
+      "summary": "Dr. Gallitano is running to represent Arizona's 2nd Legislative District in the Senate. She runs as an advocate for Arizonan families and and seeks to lower the costs of every day life. She is commited to practical, evidence based solutions that will protect our future and bring integrity to the State Senate.",
       "why_bullets": [
         "Supporting Veterans",
         "Fiscal Responsibility",
@@ -974,10 +1438,10 @@
       "name": "Kiana Maria Sears",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on why this seat is worth defending.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "headline": "Continuing more than 20 years of public service",
+      "summary": "As an Arizona State Senator, Kiana has been a champion for Arizonan families. She has funded nutrition programs, fought for affordable housing, and protected public education. Kiana is running to represent Arizona's 9th Legislative District in the Senate in order to continue her service.",
       "why_bullets": [
-        "Access to educational opportunity with access to high paying jobs",
+        "Access to educational opportunity",
         "Access to healthcare and nutritious meals",
         "Access to community centered, obtainable affordable housing"
       ],
@@ -1001,8 +1465,8 @@
       "name": "Kristie O'Brien",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "headline": "Lawyer-turned-mediator committed to Arizona",
+      "summary": "Kristie has centered her life around public service. After spending time working on Capitol Hill to craft policy and staff 10 senators, she came home to Arizona and serve as a lawyer to protect people's rights. Now, she is running to represent Arizona's 13th Legislative District in the Senate so that she can work to bring common-sense solutions to the table.",
       "why_bullets": [
         "Affordable Arizona",
         "Lowering Healthcare Costs",
@@ -1029,8 +1493,8 @@
       "name": "Elaine Aldrete",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "headline": "Experienced community leader devoted to Arizona",
+      "summary": "Elaine has undertaken numerous projects in her community to further the lives of those around her, including starting her non-profit Teaching Life Choices and serving as a State Committee Member. She is now running for Arizona's 16th Legislative District in the Senate to pursue advocating for affordable healthcare, housing, and utilities.",
       "why_bullets": [
         "Healthcare",
         "Housing",
@@ -1082,8 +1546,8 @@
       "name": "Stephanie Simacek",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on why this seat is worth defending.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "headline": "Mother and representative proud to advocate for all",
+      "summary": "Stephanie is passionate about public education and has advocated as a state representative for tighter control Arizona's ESA program to ensure that our schools can be properly funded. Likewise, Stephanie also recognizes the lack of basic affordability impacting Arizonans and seeks to hold corporate companies accountable. To continue her service, she is running for Arizona's 2nd Legislative District in the House.",
       "why_bullets": [
         "Education",
         "Housing",
@@ -1110,8 +1574,8 @@
       "name": "Karen Gresham",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "headline": "Third generation Arizonan committed to public service",
+      "summary": "Karen has a background in budgeting and analyzinag data as well as in public education advocacy. She has served on Madison Elementary School District's governing board and now seeks to advocate for the needs of teachers, parents, and students on a higher policy level by running for the State House as a representative of Legislative District 4.",
       "why_bullets": [
         "Public Education",
         "Healthcare",
@@ -1308,8 +1772,8 @@
       "name": "Amish Shah",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "",
-      "summary": "",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
       "why_bullets": [],
       "links": {
         "website": "",
@@ -1329,8 +1793,8 @@
       "name": "Jonathan Nez",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "",
-      "summary": "",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
       "why_bullets": [],
       "links": {
         "website": "",
@@ -1350,8 +1814,8 @@
       "name": "Yassamin Ansari",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "",
-      "summary": "",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
       "why_bullets": [],
       "links": {
         "website": "",
@@ -1371,8 +1835,8 @@
       "name": "Greg Stanton",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "",
-      "summary": "",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
       "why_bullets": [],
       "links": {
         "website": "",
@@ -1392,8 +1856,8 @@
       "name": "Elizabeth Lee",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "",
-      "summary": "",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
       "why_bullets": [],
       "links": {
         "website": "",
@@ -1413,8 +1877,8 @@
       "name": "Adelita Grijalva",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "",
-      "summary": "",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
       "why_bullets": [],
       "links": {
         "website": "",
@@ -1434,8 +1898,8 @@
       "name": "Bernadette Greene-Placentia",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "",
-      "summary": "",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
       "why_bullets": [],
       "links": {
         "website": "",
@@ -1455,8 +1919,8 @@
       "name": "Danielle Sterbinsky",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "",
-      "summary": "",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
       "why_bullets": [],
       "links": {
         "website": "",
@@ -1468,6 +1932,1455 @@
       "status": "draft",
       "created_by": "George A. Polisner",
       "updated": "2026-08-10"
+    },
+    {
+      "id": "entry-adrian-fontes",
+      "category": "hold_the_line",
+      "race_id": "race-sos",
+      "name": "Adrian Fontes",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-kris-mayes",
+      "category": "hold_the_line",
+      "race_id": "race-ag",
+      "name": "Kris Mayes",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-nick-mansour",
+      "category": "seize_new_ground",
+      "race_id": "race-treasurer",
+      "name": "Nick Mansour",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-teresa-leyba-ruiz",
+      "category": "seize_new_ground",
+      "race_id": "race-superintendent",
+      "name": "Teresa Leyba Ruiz",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-brian-matlock",
+      "category": "seize_new_ground",
+      "race_id": "race-mine-inspector",
+      "name": "Brian Matlock",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-jonathon-hill",
+      "category": "seize_new_ground",
+      "race_id": "race-corp-comm",
+      "name": "Jonathon Hill",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-clara-pratte",
+      "category": "seize_new_ground",
+      "race_id": "race-corp-comm",
+      "name": "Clara Pratte",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-christine-dargon",
+      "category": "seize_new_ground",
+      "race_id": "race-ld01-senate",
+      "name": "Christine Dargon",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-jeff-fortney",
+      "category": "seize_new_ground",
+      "race_id": "race-ld03-senate",
+      "name": "Jeff Fortney",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-aaron-lieberman",
+      "category": "seize_new_ground",
+      "race_id": "race-ld04-senate",
+      "name": "Aaron Lieberman",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-christine-marsh",
+      "category": "seize_new_ground",
+      "race_id": "race-ld05-senate",
+      "name": "Christine Marsh",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-blair-moses",
+      "category": "seize_new_ground",
+      "race_id": "race-ld10-senate",
+      "name": "Blair Moses",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-catherine-miranda",
+      "category": "hold_the_line",
+      "race_id": "race-ld11-senate",
+      "name": "Catherine Miranda",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-patty-contreras",
+      "category": "seize_new_ground",
+      "race_id": "race-ld12-senate",
+      "name": "Patty Contreras",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-stephanie-walsh",
+      "category": "seize_new_ground",
+      "race_id": "race-ld14-senate",
+      "name": "Stephanie Walsh",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-edgar-soto",
+      "category": "seize_new_ground",
+      "race_id": "race-ld17-senate",
+      "name": "Edgar Soto",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-priya-sundareshan",
+      "category": "hold_the_line",
+      "race_id": "race-ld18-senate",
+      "name": "Priya Sundareshan",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-ryan-slawson",
+      "category": "seize_new_ground",
+      "race_id": "race-ld19-senate",
+      "name": "Ryan Slawson",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-rosanna-gabaldon",
+      "category": "hold_the_line",
+      "race_id": "race-ld21-senate",
+      "name": "Rosanna Gabaldón",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-eva-diaz",
+      "category": "hold_the_line",
+      "race_id": "race-ld22-senate",
+      "name": "Eva Diaz",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-brian-fernandez",
+      "category": "hold_the_line",
+      "race_id": "race-ld23-senate",
+      "name": "Brian Fernandez",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-analise-ortiz",
+      "category": "hold_the_line",
+      "race_id": "race-ld24-senate",
+      "name": "Analise Ortiz",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-laura-huber",
+      "category": "seize_new_ground",
+      "race_id": "race-ld25-senate",
+      "name": "Laura Huber",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-flavio-bravo",
+      "category": "hold_the_line",
+      "race_id": "race-ld26-senate",
+      "name": "Flavio Bravo",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-kyle-clayton",
+      "category": "seize_new_ground",
+      "race_id": "race-ld27-senate",
+      "name": "Kyle Clayton",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-michael-braun",
+      "category": "seize_new_ground",
+      "race_id": "race-ld28-senate",
+      "name": "Michael Braun",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-eric-stafford",
+      "category": "seize_new_ground",
+      "race_id": "race-ld29-senate",
+      "name": "Eric Stafford",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-lauren-kuby",
+      "category": "hold_the_line",
+      "race_id": "race-ld08-senate",
+      "name": "Lauren Kuby",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-alma-hernandez",
+      "category": "seize_new_ground",
+      "race_id": "race-ld20-senate",
+      "name": "Alma Hernandez",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-mae-peshlakai",
+      "category": "hold_the_line",
+      "race_id": "race-ld06-house",
+      "name": "Mae Peshlakai",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-ian-teller",
+      "category": "seize_new_ground",
+      "race_id": "race-ld06-house",
+      "name": "Ian Teller",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-janeen-connolly",
+      "category": "hold_the_line",
+      "race_id": "race-ld08-house",
+      "name": "Janeen Connolly",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-brian-garcia",
+      "category": "hold_the_line",
+      "race_id": "race-ld08-house",
+      "name": "Brian Garcia",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-sally-ann-gonzales",
+      "category": "seize_new_ground",
+      "race_id": "race-ld20-house",
+      "name": "Sally Ann Gonzales",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-betty-villegas",
+      "category": "hold_the_line",
+      "race_id": "race-ld20-house",
+      "name": "Betty Villegas",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-sandy-zalecki",
+      "category": "seize_new_ground",
+      "race_id": "race-ld01-house",
+      "name": "Sandy Zalecki",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-julie-gable",
+      "category": "seize_new_ground",
+      "race_id": "race-ld03-house",
+      "name": "Julie Gable",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-rick-spargo",
+      "category": "seize_new_ground",
+      "race_id": "race-ld03-house",
+      "name": "Rick Spargo",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-sarah-liguori",
+      "category": "hold_the_line",
+      "race_id": "race-ld05-house",
+      "name": "Sarah Liguori",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-aaron-marquez",
+      "category": "hold_the_line",
+      "race_id": "race-ld05-house",
+      "name": "Aaron Márquez",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-samuel-martin",
+      "category": "seize_new_ground",
+      "race_id": "race-ld07-house",
+      "name": "Samuel Martin",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-jacob-martinez",
+      "category": "seize_new_ground",
+      "race_id": "race-ld09-house",
+      "name": "Jacob Martinez",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-helen-hunter",
+      "category": "seize_new_ground",
+      "race_id": "race-ld10-house",
+      "name": "Helen Hunter",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-brian-calaway",
+      "category": "seize_new_ground",
+      "race_id": "race-ld10-house",
+      "name": "Brian Calaway",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-oscar-de-los-santos",
+      "category": "hold_the_line",
+      "race_id": "race-ld11-house",
+      "name": "Oscar De Los Santos",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-junelle-cavero",
+      "category": "hold_the_line",
+      "race_id": "race-ld11-house",
+      "name": "Junelle Cavero",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-stacey-travers",
+      "category": "hold_the_line",
+      "race_id": "race-ld12-house",
+      "name": "Stacey Travers",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-armando-montero",
+      "category": "seize_new_ground",
+      "race_id": "race-ld12-house",
+      "name": "Armando Montero",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-jacob-weinberg",
+      "category": "seize_new_ground",
+      "race_id": "race-ld13-house",
+      "name": "Jacob Weinberg",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-mary-rose",
+      "category": "seize_new_ground",
+      "race_id": "race-ld14-house",
+      "name": "Mary Rose",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-kevin-volk",
+      "category": "hold_the_line",
+      "race_id": "race-ld17-house",
+      "name": "Kevin Volk",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-chris-mathis",
+      "category": "hold_the_line",
+      "race_id": "race-ld18-house",
+      "name": "Chris Mathis",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-jackie-anderson",
+      "category": "seize_new_ground",
+      "race_id": "race-ld19-house",
+      "name": "Jackie Anderson",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-aiden-swallow",
+      "category": "seize_new_ground",
+      "race_id": "race-ld19-house",
+      "name": "Aiden Swallow",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-consuelo-hernandez",
+      "category": "hold_the_line",
+      "race_id": "race-ld21-house",
+      "name": "Consuelo Hernandez",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-miranda-lopez",
+      "category": "seize_new_ground",
+      "race_id": "race-ld21-house",
+      "name": "Miranda Lopez",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-elda-luna-najera",
+      "category": "hold_the_line",
+      "race_id": "race-ld22-house",
+      "name": "Elda Luna-Nájera",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-betsy-munoz",
+      "category": "seize_new_ground",
+      "race_id": "race-ld22-house",
+      "name": "Betsy Munoz",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-mariana-sandoval",
+      "category": "hold_the_line",
+      "race_id": "race-ld23-house",
+      "name": "Mariana Sandoval",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-emilia-cortez",
+      "category": "seize_new_ground",
+      "race_id": "race-ld23-house",
+      "name": "Emilia Cortez",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-alberto-flores",
+      "category": "seize_new_ground",
+      "race_id": "race-ld24-house",
+      "name": "Alberto Flores",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-lisbeth-arescurenaga",
+      "category": "seize_new_ground",
+      "race_id": "race-ld24-house",
+      "name": "Lisbeth Arescurenaga",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-tiffany-byrne",
+      "category": "seize_new_ground",
+      "race_id": "race-ld25-house",
+      "name": "Tiffany Byrne",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-cesar-aguilar",
+      "category": "hold_the_line",
+      "race_id": "race-ld26-house",
+      "name": "Cesar Aguilar",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-quanta-crews",
+      "category": "hold_the_line",
+      "race_id": "race-ld26-house",
+      "name": "Quantá Crews",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-barbara-fike",
+      "category": "seize_new_ground",
+      "race_id": "race-ld28-house",
+      "name": "Barbara Fike",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-marc-graham",
+      "category": "seize_new_ground",
+      "race_id": "race-ld28-house",
+      "name": "Marc Graham",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-christine-scianna",
+      "category": "seize_new_ground",
+      "race_id": "race-ld29-house",
+      "name": "Christine Scianna",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
+    },
+    {
+      "id": "entry-brian-mcmahan",
+      "category": "seize_new_ground",
+      "race_id": "race-ld30-house",
+      "name": "Brian McMahan",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "TODO - one line on what this candidate would change.",
+      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "why_bullets": [],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "",
+      "photo_credit": "",
+      "status": "draft",
+      "created_by": "George A. Polisner",
+      "updated": "2026-09-05"
     }
   ],
   "organizations": [
@@ -1627,7 +3540,7 @@
     },
     {
       "id": "org-006",
-      "name": "Old Pueblo Tenant Union",
+      "name": "ACLU",
       "counties": [
         "pima"
       ],
