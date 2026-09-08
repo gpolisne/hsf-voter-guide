@@ -1454,26 +1454,26 @@
       "name": "Tammy Caputi",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "headline": "Experienced community leader focused on practical results",
+      "summary": "Caputi's campaign emphasizes practical leadership, integrity, and community-focused problem solving, with priorities centered on safer communities, economic opportunity, and responsible government.",
       "why_bullets": [
-        "Safer Communities",
-        "Stronger Economy",
-        "Better Opportunities for Families",
-        "Responsible Leadership"
+        "Safer communities",
+        "Stronger local economy",
+        "Opportunities for families",
+        "Responsible leadership"
       ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://tammycaputi.com/",
+        "volunteer": "https://tammycaputi.com/volunteer",
+        "donate": "https://tammycaputi.com/"
       },
       "photo": "images/tammy-caputi.jpg",
       "photo_credit": "Arizona List / WomenCount, used with permission",
       "source": "Arizona List | 2026 General Election slate",
       "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-08-02"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-lorena-austin",
@@ -1482,25 +1482,26 @@
       "name": "Lorena Austin",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on why this seat is worth defending.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "headline": "Fifth-generation Arizonan and community-rooted legislator",
+      "summary": "Austin's campaign highlights deep Mesa roots and a record of community advocacy, with a focus on strengthening public education, addressing housing costs, and protecting Arizona's long-term water future.",
       "why_bullets": [
-        "Education",
-        "Affordable Housing",
-        "Healthcare"
+        "Public education",
+        "Affordable housing",
+        "Healthcare access",
+        "Water and climate resilience"
       ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.lorenaaustin.com/",
+        "volunteer": "https://docs.google.com/forms/d/e/1FAIpQLSfW9sPZHo0pwvKoaV2vGr0QKEZmMQj44Tw1_Wu0HSQMVzLLtg/viewform?usp=header",
+        "donate": "https://www.lorenaaustin.com/"
       },
       "photo": "images/lorena-austin.jpg",
       "photo_credit": "Arizona List / WomenCount, used with permission",
       "source": "Arizona List | 2026 General Election slate",
       "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-08-02"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-rockee-armstrong",
@@ -1509,28 +1510,26 @@
       "name": "Rockee Armstrong",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "headline": "Educator, administrator, and advocate for stronger schools",
+      "summary": "Dr. Racquel 'Rockee' Armstrong brings experience as a teacher, school administrator, and education advocate and is campaigning on stronger schools, affordable housing, and a more secure future for Arizona families.",
       "why_bullets": [
-        "Lowering Costs",
-        "A Stronger Economy for All",
-        "Public Safety",
-        "Protecting Our Water Supply",
-        "Infrastructure",
-        "Education"
+        "Public education",
+        "Lower costs",
+        "Affordable housing",
+        "Water and infrastructure"
       ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://rockee4az.com/",
+        "volunteer": "https://docs.google.com/forms/d/e/1FAIpQLSd4uCdltJAnoJ5_NnHGsnb5fG5uRuvFwRzauqg_8P20KpA_BA/viewform",
+        "donate": "https://rockee4az.com/"
       },
       "photo": "images/rockee-armstrong.jpg",
       "photo_credit": "Arizona List / WomenCount, used with permission",
       "source": "Arizona List | 2026 General Election slate",
       "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-08-02"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-julia-gusse",
@@ -1539,26 +1538,26 @@
       "name": "Julia Gusse",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. NOTE - the source lists identical issues for this candidate and for Amelia Gallitano-Mendel, which looks like a data error. Verify with the campaign before publishing.",
+      "headline": "Air Force veteran and former Maricopa councilmember",
+      "summary": "Gusse's campaign highlights her Air Force service, local-government experience, and commitment to practical, people-first leadership focused on veterans, schools, public safety, and household costs.",
       "why_bullets": [
-        "Supporting Veterans",
-        "Fiscal Responsibility",
-        "Strong Schools",
-        "Safe Communities"
+        "Lower costs",
+        "Veterans",
+        "Strong schools",
+        "Safe communities"
       ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.juliaforarizona.com/",
+        "volunteer": "https://www.juliaforarizona.com/",
+        "donate": "https://www.juliaforarizona.com/"
       },
       "photo": "images/julia-gusse.jpg",
       "photo_credit": "Arizona List / WomenCount, used with permission",
       "source": "Arizona List | 2026 General Election slate",
       "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-08-02"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-holly-lyon",
@@ -1567,27 +1566,26 @@
       "name": "Holly Lyon",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "headline": "Retired Air Force colonel, educator, and civic leader",
+      "summary": "Lyon served 26 years in the Air Force and has also worked as an educator, technology consultant, and civic leader, bringing experience in large organizations, public service, and consensus-building.",
       "why_bullets": [
-        "Government Transparency",
         "Affordability",
-        "Quality Education",
-        "Affordable Housing",
-        "Sustainable Water Supply"
+        "Public education",
+        "Water security",
+        "Government transparency"
       ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.lyonforarizona.com/",
+        "volunteer": "https://www.lyonforarizona.com/",
+        "donate": "https://www.lyonforarizona.com/"
       },
       "photo": "images/holly-lyon.jpg",
       "photo_credit": "Arizona List / WomenCount, used with permission",
       "source": "Arizona List | 2026 General Election slate",
       "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-08-02"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-deborah-howard",
@@ -1596,27 +1594,26 @@
       "name": "Deborah Howard",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
+      "headline": "Public-affairs professional and longtime civic advocate",
+      "summary": "Howard's background spans government, nonprofit, and private-sector public affairs, and her campaign emphasizes affordable living, healthcare, public education, voting rights, and accountable democracy.",
       "why_bullets": [
         "Affordability",
-        "Healthcare",
-        "Public Education",
-        "Democracy",
-        "Immigration"
+        "Healthcare access",
+        "Public education",
+        "Democracy and voting rights"
       ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.deborahhowardaz.com/",
+        "volunteer": "https://www.deborahhowardaz.com/",
+        "donate": "https://www.deborahhowardaz.com/"
       },
       "photo": "images/deborah-howard.jpg",
       "photo_credit": "Arizona List / WomenCount, used with permission",
       "source": "Arizona List | 2026 General Election slate",
       "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-08-02"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-amish-shah",
@@ -1625,19 +1622,26 @@
       "name": "Amish Shah",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Emergency physician and former Arizona state legislator",
+      "summary": "Dr. Amish Shah is a board-certified emergency physician and former state representative whose public-service record centers on healthcare, education, working families, and pragmatic lawmaking.",
+      "why_bullets": [
+        "Healthcare access",
+        "Public education",
+        "Lower costs",
+        "Results-focused government"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://amishforarizona.com/",
+        "volunteer": "https://amishforarizona.com/",
+        "donate": "https://amishforarizona.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/amish-shah.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://amishforarizona.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-08-03"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-jonathan-nez",
@@ -1646,19 +1650,26 @@
       "name": "Jonathan Nez",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Former Navajo Nation president and rural Arizona leader",
+      "summary": "Nez grew up in northern Arizona without basic utilities and later served as Navajo Nation president, shaping a campaign focused on rural infrastructure, water, jobs, energy costs, and bipartisan problem solving.",
+      "why_bullets": [
+        "Lower costs",
+        "Water and infrastructure",
+        "Rural jobs",
+        "Bipartisan leadership"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.jonathannezforaz.com/",
+        "volunteer": "https://www.jonathannezforaz.com/",
+        "donate": "https://www.jonathannezforaz.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/jonathan-nez.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.jonathannezforaz.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-08-04"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-yassamin-ansari",
@@ -1667,19 +1678,26 @@
       "name": "Yassamin Ansari",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Congresswoman and former Phoenix vice mayor",
+      "summary": "Ansari's public-service background includes Phoenix City Council and vice-mayoral leadership, where she worked on climate action, extreme heat, transportation, homelessness, and affordable housing.",
+      "why_bullets": [
+        "Climate resilience",
+        "Affordable housing",
+        "Reproductive freedom",
+        "Economic opportunity"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://yassaminforcongress.com/",
+        "volunteer": "https://yassaminforcongress.com/",
+        "donate": "https://yassaminforcongress.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/yassamin-ansari.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://yassaminforcongress.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-08-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-greg-stanton",
@@ -1688,19 +1706,26 @@
       "name": "Greg Stanton",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Former Phoenix mayor and experienced congressional lawmaker",
+      "summary": "Stanton's campaign highlights his record as Phoenix mayor and member of Congress, emphasizing practical results on infrastructure, household costs, education, economic growth, and public safety.",
+      "why_bullets": [
+        "Lower costs",
+        "Infrastructure",
+        "Public education",
+        "Public safety"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://gregstanton.com/",
+        "volunteer": "https://gregstanton.com/",
+        "donate": "https://gregstanton.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/greg-stanton.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://gregstanton.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-08-06"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-elizabeth-lee",
@@ -1709,19 +1734,26 @@
       "name": "Elizabeth Lee",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Registered nurse and working-family advocate",
+      "summary": "Lee is a nurse and mother whose campaign draws on frontline healthcare experience and emphasizes affordability, reproductive healthcare, accountability, and an economy that works for working families.",
+      "why_bullets": [
+        "Healthcare",
+        "Affordability",
+        "Reproductive freedom",
+        "Government accountability"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.nurselee4az.com/",
+        "volunteer": "https://www.nurselee4az.com/",
+        "donate": "https://secure.actblue.com/donate/nurselee4az"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/elizabeth-lee.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.nurselee4az.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-08-07"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-adelita-grijalva",
@@ -1730,19 +1762,26 @@
       "name": "Adelita Grijalva",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Longtime Southern Arizona public servant and community leader",
+      "summary": "Grijalva's campaign emphasizes deep Southern Arizona roots and years of public service, with a focus on bringing people together, protecting communities, and expanding opportunity for families.",
+      "why_bullets": [
+        "Public education",
+        "Healthcare access",
+        "Working families",
+        "Community investment"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.adelitaforcongress.com/",
+        "volunteer": "https://www.adelitaforcongress.com/",
+        "donate": "https://www.adelitaforcongress.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/adelita-grijalva.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.adelitaforcongress.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-08-08"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-bernadette-greene-placentia",
@@ -1751,19 +1790,26 @@
       "name": "Bernadette Greene-Placentia",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Trucker, small-business owner, and working-class advocate",
+      "summary": "Greene-Placentia is a mother, long-haul trucker, and small-business owner who has logged more than four million miles and built her campaign around firsthand experience with wages, fuel costs, healthcare bills, and running a business.",
+      "why_bullets": [
+        "Working families",
+        "Small business",
+        "Affordability",
+        "Transportation and infrastructure"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://bgp4az.com/",
+        "volunteer": "https://bgp4az.com/",
+        "donate": "https://bgp4az.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/bernadette-greene-placentia.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://bgp4az.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-08-09"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-danielle-sterbinsky",
@@ -1772,19 +1818,26 @@
       "name": "Danielle Sterbinsky",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Navy veteran, working mother, and operations specialist",
+      "summary": "Sterbinsky served in the U.S. Navy aboard the USS Bainbridge and later built a career in operations, pairing military service with education in social sciences and industrial-organizational psychology.",
+      "why_bullets": [
+        "Veterans",
+        "Working families",
+        "Government accountability",
+        "Economic opportunity"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.sterbinskyforcongress.com/",
+        "volunteer": "https://www.sterbinskyforcongress.com/",
+        "donate": "https://www.sterbinskyforcongress.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/danielle-sterbinsky.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.sterbinskyforcongress.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-08-10"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-adrian-fontes",
@@ -1793,19 +1846,26 @@
       "name": "Adrian Fontes",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Marine veteran, attorney, and Arizona Secretary of State",
+      "summary": "Fontes is an Arizona native, Marine veteran, former prosecutor, and former Maricopa County Recorder whose election work has focused on voter access, ballot security, transparency, and modernized election administration.",
+      "why_bullets": [
+        "Election security",
+        "Voter access",
+        "Government transparency",
+        "Efficient public services"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://electfontes.com/",
+        "volunteer": "https://electfontes.com/",
+        "donate": "https://electfontes.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/adrian-fontes.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://electfontes.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-kris-mayes",
@@ -1814,19 +1874,26 @@
       "name": "Kris Mayes",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Attorney General and longtime consumer advocate",
+      "summary": "Mayes grew up in Prescott and has served as a statewide utility regulator, professor, and Arizona Attorney General, with a record focused on consumer protection, fraud, public safety, corporate accountability, and water.",
+      "why_bullets": [
+        "Consumer protection",
+        "Public safety",
+        "Water security",
+        "Corporate accountability"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.krismayes.com/",
+        "volunteer": "https://www.krismayes.com/",
+        "donate": "https://www.krismayes.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/kris-mayes.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.krismayes.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-nick-mansour",
@@ -1835,19 +1902,26 @@
       "name": "Nick Mansour",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Entrepreneur and education leader running as a fiscal watchdog",
+      "summary": "Mansour is an Arizona-raised father and entrepreneur who built a nursing school and presents the Treasurer's office as a taxpayer watchdog focused on responsible stewardship and measurable results.",
+      "why_bullets": [
+        "Fiscal accountability",
+        "Education and workforce",
+        "Economic opportunity",
+        "Waste reduction"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.mansourforarizona.com/",
+        "volunteer": "https://www.mansourforarizona.com/",
+        "donate": "https://www.mansourforarizona.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/nick-mansour.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.mansourforarizona.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-teresa-leyba-ruiz",
@@ -1856,19 +1930,26 @@
       "name": "Teresa Leyba Ruiz",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Veteran educator and former community-college president",
+      "summary": "Dr. Teresa Leyba Ruiz is a native Arizonan and first-generation college graduate with roughly 35 years in education as a math teacher, administrator, community-college president, and nonprofit executive.",
+      "why_bullets": [
+        "Teacher workforce",
+        "Strong academic standards",
+        "Postsecondary pathways",
+        "Education accountability"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.drruizforarizona.com/",
+        "volunteer": "https://www.drruizforarizona.com/",
+        "donate": "https://www.drruizforarizona.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/teresa-leyba-ruiz.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.drruizforarizona.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-brian-matlock",
@@ -1877,19 +1958,26 @@
       "name": "Brian Matlock",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Marine veteran, engineer, and mining-safety professional",
+      "summary": "Matlock is a Marine Reserve veteran and mechanical engineer with decades of experience in mining and heavy industry, including technical work and patents related to industrial and mining safety.",
+      "why_bullets": [
+        "Mine safety",
+        "Worker protection",
+        "Technical expertise",
+        "Responsible resource development"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.matlockforazmi.com/",
+        "volunteer": "https://www.matlockforazmi.com/",
+        "donate": "https://www.matlockforazmi.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/brian-matlock.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.matlockforazmi.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-jonathon-hill",
@@ -1898,19 +1986,26 @@
       "name": "Jonathon Hill",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Consumer-focused utility and energy-policy advocate",
+      "summary": "Hill's campaign centers on lowering utility bills, protecting Arizona's water, scrutinizing large data-center demands, and increasing transparency and independence at the Corporation Commission.",
+      "why_bullets": [
+        "Affordable utilities",
+        "Water security",
+        "Data-center oversight",
+        "Transparency"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.votehillaz.com/",
+        "volunteer": "https://www.votehillaz.com/",
+        "donate": "https://www.votehillaz.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/jonathon-hill.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.votehillaz.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-clara-pratte",
@@ -1919,19 +2014,26 @@
       "name": "Clara Pratte",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Navajo entrepreneur and rural-infrastructure leader",
+      "summary": "Pratte is a Navajo Nation member who grew up without basic utilities, has advised U.S. and Navajo leaders, and co-founded an energy company focused on infrastructure and economic opportunity in underserved communities.",
+      "why_bullets": [
+        "Lower utility costs",
+        "Rural and tribal infrastructure",
+        "Clean energy",
+        "Consumer protection"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.claraforaz.com/",
+        "volunteer": "https://www.claraforaz.com/",
+        "donate": "https://www.claraforaz.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/clara-pratte.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.claraforaz.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-christine-dargon",
@@ -1940,19 +2042,26 @@
       "name": "Christine Dargon",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Educator, social-service professional, and rural community advocate",
+      "summary": "Dr. Christine Dargon has more than 30 years in education and social service, teaches at two universities, owns a local business, and campaigns on the needs of rural communities.",
+      "why_bullets": [
+        "Groundwater security",
+        "Public schools",
+        "Rural healthcare",
+        "Affordability"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://dargonforazsenate.com/",
+        "volunteer": "https://dargonforazsenate.com/",
+        "donate": "https://secure.actblue.com/donate/christine-dargon-2?refcode=directory"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/christine-dargon.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://dargonforazsenate.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-jeff-fortney",
@@ -1961,19 +2070,26 @@
       "name": "Jeff Fortney",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Special-education teacher and school-board leader",
+      "summary": "Fortney left a long career in computer programming to become a special-education teacher and has served on the Cave Creek Unified School District governing board since 2020.",
+      "why_bullets": [
+        "Public education",
+        "Affordable healthcare",
+        "Water management",
+        "Voting rights"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
+        "website": "https://electfortney.com/",
+        "volunteer": "https://electfortney.com/contact-me/",
         "donate": ""
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/jeff-fortney.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://electfortney.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-aaron-lieberman",
@@ -1982,19 +2098,26 @@
       "name": "Aaron Lieberman",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Arizona entrepreneur, education innovator, and former legislator",
+      "summary": "Lieberman is an Arizona native and former state representative who founded two national early-childhood organizations that created thousands of jobs and served more than one million children.",
+      "why_bullets": [
+        "Public education",
+        "Small business",
+        "Safe neighborhoods",
+        "Results-driven government"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.aaronforaz.com/",
+        "volunteer": "https://www.aaronforaz.com/",
+        "donate": "https://secure.actblue.com/donate/aaron-lieberman-1?refcode=directory"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/aaron-lieberman.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.aaronforaz.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-christine-marsh",
@@ -2003,19 +2126,26 @@
       "name": "Christine Marsh",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Arizona Teacher of the Year and veteran public-school educator",
+      "summary": "Marsh spent more than three decades in Arizona classrooms and was named the 2016 Arizona Teacher of the Year, bringing firsthand education experience to her work in the State Senate.",
+      "why_bullets": [
+        "Public education",
+        "Teacher support",
+        "Affordability",
+        "Practical state policy"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.christineportermarsh.com/",
+        "volunteer": "https://www.christineportermarsh.com/",
+        "donate": "https://secure.actblue.com/donate/christine-marsh-for-arizona-1?refcode=directory"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/christine-marsh.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.christineportermarsh.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-blair-moses",
@@ -2024,19 +2154,26 @@
       "name": "Blair Moses",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Retired attorney with healthcare and legislative-analysis experience",
+      "summary": "Moses is a retired attorney with a prior healthcare career who has closely reviewed Arizona legislation and is running on constitutional rights, healthcare access, affordability, public education, and protections for vulnerable communities.",
+      "why_bullets": [
+        "Constitutional rights",
+        "Affordability",
+        "Healthcare access",
+        "Public education"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
+        "website": "https://www.blairforarizona.com/",
+        "volunteer": "https://www.blairforarizona.com/",
         "donate": ""
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/blair-moses.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.blairforarizona.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-catherine-miranda",
@@ -2045,19 +2182,26 @@
       "name": "Catherine Miranda",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Educator and experienced legislator with deep district roots",
+      "summary": "Miranda grew up in District 11, worked from the classroom to school administration and a school board, and has served in both chambers of the Arizona Legislature.",
+      "why_bullets": [
+        "Public education",
+        "Mental-health services",
+        "Housing and homelessness",
+        "Job creation"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.mirandaforsenate.com/",
+        "volunteer": "https://www.mirandaforsenate.com/",
+        "donate": "https://secure.actblue.com/donate/catherine-miranda-2?refcode=directory"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/catherine-miranda.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.mirandaforsenate.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-patty-contreras",
@@ -2066,19 +2210,26 @@
       "name": "Patty Contreras",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Retired Phoenix public servant and experienced state representative",
+      "summary": "Contreras retired after more than 31 years with the City of Phoenix, where she worked in parks, recreation, and human services, including decades providing programs and resources for seniors.",
+      "why_bullets": [
+        "Public education",
+        "Seniors and veterans",
+        "Affordable housing",
+        "Water and climate resilience"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.contrerasforaz.net/",
+        "volunteer": "https://www.contrerasforaz.net/",
+        "donate": "https://www.contrerasforaz.net/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/patty-contreras.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.contrerasforaz.net/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-stephanie-walsh",
@@ -2087,19 +2238,26 @@
       "name": "Stephanie Walsh",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Engineer and business leader focused on practical solutions",
+      "summary": "Walsh is a mechanical engineer, business owner, and nonprofit leader with more than 30 years of experience in energy, technology, and solving complex operational problems.",
+      "why_bullets": [
+        "Energy affordability",
+        "Water security",
+        "Economic growth",
+        "Public education"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.walshforarizona.com/",
+        "volunteer": "https://www.walshforarizona.com/",
+        "donate": "https://secure.actblue.com/donate/stephanie-walsh-1"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/stephanie-walsh.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.walshforarizona.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-edgar-soto",
@@ -2108,19 +2266,26 @@
       "name": "Edgar Soto",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Marine veteran, lifelong educator, and community leader",
+      "summary": "Soto has more than 30 years in education from K-12 through higher education and brings experience as a Marine veteran, educator, coach, and community leader.",
+      "why_bullets": [
+        "Public education",
+        "Lower costs",
+        "Veterans",
+        "Water security"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.sotoforarizona.com/",
+        "volunteer": "https://www.sotoforarizona.com/",
+        "donate": "https://secure.actblue.com/donate/edgar-soto-1?refcode=directory"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/edgar-soto.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.sotoforarizona.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-priya-sundareshan",
@@ -2129,19 +2294,26 @@
       "name": "Priya Sundareshan",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Natural-resources attorney, educator, and State Senate leader",
+      "summary": "Sundareshan was born and raised in Tucson, studied engineering at MIT and law and natural-resource economics at the University of Arizona, and has worked on natural resources and voting rights.",
+      "why_bullets": [
+        "Water conservation",
+        "Clean energy",
+        "Voting rights",
+        "Public education"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.priya4az.com/",
+        "volunteer": "https://www.priya4az.com/",
+        "donate": "https://secure.actblue.com/donate/priya-for-arizona-1"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/priya-sundareshan.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.priya4az.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-ryan-slawson",
@@ -2150,19 +2322,26 @@
       "name": "Ryan Slawson",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Army veteran, software developer, and small-business owner",
+      "summary": "Slawson served nine years as an Army intelligence collector with two Iraq deployments, has worked as a software developer for more than a decade, and has nearly 15 years of small-business experience.",
+      "why_bullets": [
+        "Government accountability",
+        "Sustainable growth",
+        "Small business",
+        "Economic affordability"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.slawsonforazdistrict19.org/",
+        "volunteer": "https://www.slawsonforazdistrict19.org/",
+        "donate": "https://secure.actblue.com/donate/ryan-slawson-1?refcode=directory"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/ryan-slawson.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.slawsonforazdistrict19.org/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-rosanna-gabaldon",
@@ -2171,19 +2350,26 @@
       "name": "Rosanna Gabaldón",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Experienced Southern Arizona legislator and local-government leader",
+      "summary": "Gabald├│n has served Southern Arizona as a town councilmember, state representative, and state senator, with a record emphasizing collaboration, public education, economic development, and water sustainability.",
+      "why_bullets": [
+        "Public education",
+        "Economic development",
+        "Water sustainability",
+        "Collaborative leadership"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://votegabaldon.com/",
+        "volunteer": "https://votegabaldon.com/",
+        "donate": "https://secure.actblue.com/donate/elect-gabaldon-for-senate-1?refcode=directory"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/rosanna-gabaldon.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://votegabaldon.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-eva-diaz",
@@ -2192,19 +2378,26 @@
       "name": "Eva Diaz",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Lifelong educator and experienced Arizona state senator",
+      "summary": "Dr. Eva Diaz has served in the Arizona Senate since 2022 and draws on a career in education to advocate for public schools, healthcare, working families, housing, and equal rights.",
+      "why_bullets": [
+        "Public education",
+        "Affordable healthcare",
+        "Working families",
+        "Affordable housing"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "http://www.EvaDiaz4AZ.com",
+        "volunteer": "http://www.EvaDiaz4AZ.com",
+        "donate": "http://www.EvaDiaz4AZ.com"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/eva-diaz.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "http://www.EvaDiaz4AZ.com",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-brian-fernandez",
@@ -2213,19 +2406,26 @@
       "name": "Brian Fernandez",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Yuma native, entrepreneur, and experienced state senator",
+      "summary": "Fernandez is a sixth-generation Arizonan who attended Yuma public schools, founded and sold a software company, and later entered public service focused on rural communities, education, water, transportation, and jobs.",
+      "why_bullets": [
+        "Public education",
+        "Rural jobs",
+        "Affordable housing",
+        "Water and infrastructure"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.briansfernandez.com/",
+        "volunteer": "https://www.briansfernandez.com/",
+        "donate": "https://www.briansfernandez.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/brian-fernandez.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.briansfernandez.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-analise-ortiz",
@@ -2234,19 +2434,26 @@
       "name": "Analise Ortiz",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Former investigative journalist and civil-rights advocate",
+      "summary": "Ortiz is an Arizona native and former investigative journalist whose public-service work includes civil-rights advocacy and legislative action on worker safety, childcare, homelessness, roads, and government accountability.",
+      "why_bullets": [
+        "Worker protections",
+        "Affordable housing",
+        "Public education",
+        "Civil and voting rights"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.ortizforaz.com/",
+        "volunteer": "https://www.ortizforaz.com/",
+        "donate": "https://www.ortizforaz.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/analise-ortiz.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.ortizforaz.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-laura-huber",
@@ -2255,19 +2462,26 @@
       "name": "Laura Huber",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Licensed counselor and fifth-generation farm-family advocate",
+      "summary": "Huber is a licensed professional counselor from five generations of farmers and ranchers, with frontline mental-health experience in crisis response, psychiatric care, corrections, and homelessness outreach.",
+      "why_bullets": [
+        "Affordable cost of living",
+        "Water and agriculture",
+        "Healthcare and mental health",
+        "Local economic growth"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
+        "website": "https://www.laurahuberforazsenate.com/en",
+        "volunteer": "https://www.laurahuberforazsenate.com/en/contact",
         "donate": ""
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/laura-huber.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.laurahuberforazsenate.com/en",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-flavio-bravo",
@@ -2276,19 +2490,26 @@
       "name": "Flavio Bravo",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Fifth-generation Arizonan and experienced state senator",
+      "summary": "Bravo was born and raised in District 26, is a first-generation college graduate, and has combined legislative service with nonprofit and community leadership focused on housing, education, jobs, and healthcare.",
+      "why_bullets": [
+        "Affordable housing",
+        "Public education",
+        "Job opportunity",
+        "Healthcare access"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://flaviobravo.com/",
+        "volunteer": "https://flaviobravo.com/",
+        "donate": "https://flaviobravo.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/flavio-bravo.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://flaviobravo.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-kyle-clayton",
@@ -2297,19 +2518,26 @@
       "name": "Kyle Clayton",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "School-board president and data-driven community advocate",
+      "summary": "Clayton is a lifelong District 27 resident, Realtor, and Washington Elementary School District governing-board president who emphasizes analytical decision-making, transparency, and student- and family-focused leadership.",
+      "why_bullets": [
+        "Strong schools",
+        "Lower household costs",
+        "Affordable housing",
+        "Fiscal accountability"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.kyleforarizona.com/",
+        "volunteer": "https://www.kyleforarizona.com/",
+        "donate": "https://www.kyleforarizona.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/kyle-clayton.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.kyleforarizona.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-michael-braun",
@@ -2318,19 +2546,26 @@
       "name": "Michael Braun",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Community-focused candidate emphasizing service and collaboration",
+      "summary": "Braun's campaign stresses listening, problem solving, and active constituent service, with priorities spanning water, the economy, energy, education funding, rights, veterans, taxes, and the state budget.",
+      "why_bullets": [
+        "Water security",
+        "Education funding",
+        "Economic well-being",
+        "Transparent government"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://braun4az28.com/",
+        "volunteer": "https://braun4az28.com/about-michael",
+        "donate": "https://braun4az28.com/about-michael"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/michael-braun.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://braun4az28.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-eric-stafford",
@@ -2339,19 +2574,26 @@
       "name": "Eric Stafford",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Lifelong Arizonan, tradesman, organizer, and small-business advocate",
+      "summary": "Stafford is an Arizona native with experience as an airframe-and-powerplant mechanic, machinist, veterinary technician, political organizer, and small-business advocate.",
+      "why_bullets": [
+        "Lower cost of living",
+        "Fair wages",
+        "Strong schools",
+        "Accountable government"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://stafford4az.com/",
+        "volunteer": "https://stafford4az.com/",
+        "donate": "https://stafford4az.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/eric-stafford.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://stafford4az.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-lauren-kuby",
@@ -2360,19 +2602,26 @@
       "name": "Lauren Kuby",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "State senator, former Tempe vice mayor, and sustainability scientist",
+      "summary": "Kuby is a former Tempe councilmember and vice mayor and an ASU sustainability scientist with a long record on environmental, consumer, worker, housing, and voting-rights issues.",
+      "why_bullets": [
+        "Lower cost of living",
+        "Public education",
+        "Climate and water",
+        "Worker and voting rights"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.kubyforsenate.com/",
+        "volunteer": "https://www.kubyforsenate.com/",
+        "donate": "https://secure.actblue.com/donate/lauren-kuby-for-state-senate-1?refcode=directory"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/lauren-kuby.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.kubyforsenate.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-alma-hernandez",
@@ -2381,19 +2630,26 @@
       "name": "Alma Hernandez",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Public-health professional and experienced Tucson legislator",
+      "summary": "Hernandez was born and raised on Tucson's south side, attended local public schools, and trained in public health, bringing that background to legislative work on healthcare, affordability, housing, and family economic security.",
+      "why_bullets": [
+        "Affordable healthcare",
+        "Cost of living",
+        "Affordable housing",
+        "Working families"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.almaforarizona.com/",
+        "volunteer": "https://www.almaforarizona.com/",
+        "donate": "https://www.almaforarizona.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/alma-hernandez.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.almaforarizona.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-mae-peshlakai",
@@ -2402,19 +2658,26 @@
       "name": "Mae Peshlakai",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Veteran public servant representing rural and tribal Arizona",
+      "summary": "Peshlakai brings experience in the Arizona House and Senate, Native American liaison work, education programs, small business, and military service, with a focus on the distinctive needs of rural and tribal communities.",
+      "why_bullets": [
+        "Rural economy",
+        "Food and housing security",
+        "Healthcare access",
+        "Voting rights"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://maeforazhouse.com/",
+        "volunteer": "https://maeforazhouse.com/",
+        "donate": "https://maeforazhouse.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/mae-peshlakai.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://maeforazhouse.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-ian-teller",
@@ -2423,19 +2686,26 @@
       "name": "Ian Teller",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Din├⌐ community advocate and next-generation rural leader",
+      "summary": "Teller is a Din├⌐ leader from Tsaile with a background in community advocacy and youth engagement who is campaigning on opportunity for Tribal and rural families.",
+      "why_bullets": [
+        "Strong schools",
+        "Safe housing",
+        "Affordability",
+        "Sustainable rural communities"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.tellerforarizona.com/",
+        "volunteer": "https://www.tellerforarizona.com/",
+        "donate": "https://www.tellerforarizona.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/ian-teller.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.tellerforarizona.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-janeen-connolly",
@@ -2444,19 +2714,26 @@
       "name": "Janeen Connolly",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Community-engagement professional and experienced state representative",
+      "summary": "Connolly spent decades building community and government relationships across Arizona, earned a master's in advocacy communication, and has brought that bridge-building background to the Legislature.",
+      "why_bullets": [
+        "Affordability",
+        "Job creation",
+        "Affordable housing",
+        "Education and healthcare"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.azjaneen.com/",
+        "volunteer": "https://www.azjaneen.com/",
+        "donate": "https://www.azjaneen.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/janeen-connolly.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.azjaneen.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-brian-garcia",
@@ -2465,19 +2742,26 @@
       "name": "Brian Garcia",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Attorney, community advocate, and public-school leader",
+      "summary": "Garcia is an Arizona-raised attorney and first-generation graduate whose public-service background includes school-board leadership, congressional work, Tribal representation, and advocacy for unaccompanied children.",
+      "why_bullets": [
+        "Public education",
+        "Healthcare",
+        "Reproductive freedom",
+        "Affordability"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
+        "website": "https://www.briangarciaaz.com/",
+        "volunteer": "https://www.briangarciaaz.com/",
         "donate": ""
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/brian-garcia.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.briangarciaaz.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-sally-ann-gonzales",
@@ -2486,19 +2770,26 @@
       "name": "Sally Ann Gonzales",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Educator, Pascua Yaqui leader, and veteran Arizona lawmaker",
+      "summary": "Gonzales is a former elementary teacher and Pascua Yaqui Tribal Council member who became the first Indigenous woman elected to the Arizona House and has spent years advocating for children, elders, veterans, and vulnerable families.",
+      "why_bullets": [
+        "Public education",
+        "Healthcare and human services",
+        "Indigenous communities",
+        "Housing and economic security"
+      ],
       "links": {
         "website": "",
         "volunteer": "",
         "donate": ""
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/sally-ann-gonzales.jpg",
+      "photo_credit": "Pima County Democratic Party",
+      "source": "Pima County Elections Voter Guide",
+      "source_url": "https://www.pimadems.org/voter-guide",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-betty-villegas",
@@ -2507,19 +2798,26 @@
       "name": "Betty Villegas",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Housing expert and longtime Tucson public servant",
+      "summary": "Villegas is a third-generation Tucsonan with decades of public service in affordable housing and community development, including leadership roles with Pima County, South Tucson, and the Arizona Legislature.",
+      "why_bullets": [
+        "Affordable housing",
+        "Public education",
+        "Healthcare",
+        "Environmental justice"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.bettyvillegasaz.com/",
+        "volunteer": "https://www.bettyvillegasaz.com/",
+        "donate": "https://www.bettyvillegasaz.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/betty-villegas.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.bettyvillegasaz.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-sandy-zalecki",
@@ -2528,19 +2826,26 @@
       "name": "Sandy Zalecki",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Veteran, small-business owner, and real-estate professional",
+      "summary": "Zalecki's background includes military service, ranch ownership, healthcare administration, and real estate, giving her firsthand experience with rural communities, property, and household economic concerns.",
+      "why_bullets": [
+        "Veterans",
+        "Reproductive freedom",
+        "Affordability",
+        "Rural community needs"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
+        "website": "https://sandyzforaz.com/",
+        "volunteer": "https://sandyzforaz.com/",
         "donate": ""
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/sandy-zalecki.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://sandyzforaz.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-julie-gable",
@@ -2549,19 +2854,26 @@
       "name": "Julie Gable",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Business executive focused on practical, community-first solutions",
+      "summary": "Gable is an executive and entrepreneur whose campaign highlights experience leading organizations and a practical approach to healthcare access, technology, water security, and public education.",
+      "why_bullets": [
+        "Healthcare access",
+        "Responsible technology and AI",
+        "Water security",
+        "Stronger education"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
+        "website": "https://www.juliegable.com/",
+        "volunteer": "https://www.juliegable.com/",
         "donate": ""
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/julie-gable.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.juliegable.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-rick-spargo",
@@ -2570,19 +2882,26 @@
       "name": "Rick Spargo",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Longtime small-business owner and civic volunteer",
+      "summary": "Spargo has lived in District 3 for two decades, built a business over 35 years, raised four children, and served in civic and veterans-support organizations, emphasizing moderation and practical problem solving.",
+      "why_bullets": [
+        "Affordability",
+        "Public education",
+        "Water security",
+        "Practical bipartisan government"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://electspargo.com/",
+        "volunteer": "https://electspargo.com/",
+        "donate": "https://electspargo.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/rick-spargo.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://electspargo.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-sarah-liguori",
@@ -2591,19 +2910,26 @@
       "name": "Sarah Liguori",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Businesswoman, financial professional, and experienced legislator",
+      "summary": "Liguori is an Arizona native with experience in economics, commercial real estate, financial advising, and small business, and has served in the Legislature with a focus on affordability, schools, rights, and families.",
+      "why_bullets": [
+        "Affordability",
+        "Public education",
+        "Reproductive freedom",
+        "Working families"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://sarahliguori.com/",
+        "volunteer": "https://sarahliguori.com/",
+        "donate": "https://sarahliguori.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/sarah-liguori.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://sarahliguori.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-aaron-marquez",
@@ -2612,19 +2938,26 @@
       "name": "Aaron Márquez",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Army veteran, school-board leader, and public-service advocate",
+      "summary": "M├írquez served two combat tours in Afghanistan and on the Phoenix Union High School District governing board, combining military service with hands-on experience in public education and local governance.",
+      "why_bullets": [
+        "Public education",
+        "Healthcare costs",
+        "Democracy",
+        "Reproductive freedom"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.aaronmarquez.com/",
+        "volunteer": "https://www.aaronmarquez.com/",
+        "donate": "https://www.aaronmarquez.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/aaron-marquez.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.aaronmarquez.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-samuel-martin",
@@ -2633,19 +2966,26 @@
       "name": "Samuel Martin",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Customer-service professional focused on constituent problem solving",
+      "summary": "Martin has more than 20 years of customer-service experience across technology, logistics, and healthcare and describes legislative service as an extension of listening to people and solving practical problems.",
+      "why_bullets": [
+        "Consumer advocacy",
+        "Public services",
+        "Affordability",
+        "Responsive government"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://sanitysam.com/",
+        "volunteer": "https://sanitysam.com/",
+        "donate": "https://secure.actblue.com/donate/samuel-martin-1"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/samuel-martin.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://sanitysam.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-jacob-martinez",
@@ -2654,19 +2994,26 @@
       "name": "Jacob Martinez",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Mesa native, Navy reservist, and community advocate",
+      "summary": "Martinez is a lifelong Mesa resident, public-school graduate, ASU Law alumnus, Navy reservist, and community advocate whose campaign emphasizes schools, opportunity, affordability, and water.",
+      "why_bullets": [
+        "Affordability",
+        "Public schools",
+        "Water security",
+        "Economic opportunity"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.martinezforaz.com/",
+        "volunteer": "https://www.martinezforaz.com/",
+        "donate": "https://www.martinezforaz.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/jacob-martinez.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.martinezforaz.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-helen-hunter",
@@ -2675,19 +3022,26 @@
       "name": "Helen Hunter",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Chaplain, community organizer, and social-justice advocate",
+      "summary": "Dr. Helen Hunter is a board-certified chaplain, ordained minister, businesswoman, and longtime Mesa community organizer who has worked on housing, community safety, public health, education, and interfaith initiatives.",
+      "why_bullets": [
+        "Affordability",
+        "Public education",
+        "Water management",
+        "Transparent leadership"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
+        "website": "https://www.voteforhelenhunter2026.com/",
+        "volunteer": "https://www.voteforhelenhunter2026.com/",
         "donate": ""
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/helen-hunter.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.voteforhelenhunter2026.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-brian-calaway",
@@ -2696,19 +3050,26 @@
       "name": "Brian Calaway",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Former science educator and community-program leader",
+      "summary": "Calaway left classroom teaching to build after-school enrichment programs and has framed his campaign around expanding economic security and access to healthcare, jobs, housing, and education.",
+      "why_bullets": [
+        "Affordable healthcare",
+        "Housing",
+        "Public education",
+        "Good jobs"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.briancalaway.com/",
+        "volunteer": "https://www.briancalaway.com/",
+        "donate": "https://www.briancalaway.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/brian-calaway.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.briancalaway.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-oscar-de-los-santos",
@@ -2717,19 +3078,26 @@
       "name": "Oscar De Los Santos",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "House Democratic leader and former teacher",
+      "summary": "De Los Santos represents District 11 and serves as House Democratic Leader, with a legislative record that includes medical-debt relief, school meals, higher-education aid, childcare funding, and tenant protections.",
+      "why_bullets": [
+        "Healthcare affordability",
+        "Housing",
+        "Public education",
+        "Working families"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://oscarforaz.com/",
+        "volunteer": "https://oscarforaz.com/",
+        "donate": "https://oscarforaz.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/oscar-de-los-santos.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://oscarforaz.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-junelle-cavero",
@@ -2738,19 +3106,26 @@
       "name": "Junelle Cavero",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Small-business owner and longtime community advocate",
+      "summary": "Cavero is the daughter of hardworking immigrant parents and a small-business owner who has spent more than 25 years in advocacy and community work, bringing family and entrepreneurial experience to the Legislature.",
+      "why_bullets": [
+        "Small business",
+        "Education and opportunity",
+        "Working families",
+        "Community advocacy"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.caveroforaz.com/",
+        "volunteer": "https://www.caveroforaz.com/",
+        "donate": "https://www.caveroforaz.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/junelle-cavero.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.caveroforaz.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-stacey-travers",
@@ -2759,19 +3134,26 @@
       "name": "Stacey Travers",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Army veteran, geoscientist, and experienced state representative",
+      "summary": "Travers is a U.S. Army veteran and geoscientist who has advocated for homeless and disabled veterans and emphasizes bipartisan lawmaking, education, energy, natural resources, and water.",
+      "why_bullets": [
+        "Public education",
+        "Veterans",
+        "Energy",
+        "Water and natural resources"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.traversforaz.com/",
+        "volunteer": "https://www.traversforaz.com/",
+        "donate": "https://www.traversforaz.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/stacey-travers.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.traversforaz.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-armando-montero",
@@ -2780,19 +3162,26 @@
       "name": "Armando Montero",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "School-board leader with policy and public-budget experience",
+      "summary": "Montero was elected to the Tempe Union High School District board at 19, later served repeatedly as board president, and brings experience in public budgets, accountability, education policy, and community governance.",
+      "why_bullets": [
+        "Public education",
+        "Affordable housing",
+        "Healthcare",
+        "Water and economic growth"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://monteroforaz.com/",
+        "volunteer": "https://monteroforaz.com/",
+        "donate": "https://secure.actblue.com/donate/monteroforaz"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/armando-montero.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://monteroforaz.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-jacob-weinberg",
@@ -2801,19 +3190,26 @@
       "name": "Jacob Weinberg",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Army veteran, CPA, and technology-company finance leader",
+      "summary": "Weinberg is a long-serving Army and National Guard officer, CPA, former senior financial auditor, and technology-company CFO who emphasizes team building, financial discipline, and veteran service.",
+      "why_bullets": [
+        "Responsible development",
+        "Strong economy",
+        "Education",
+        "Veterans"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.electweinberg.com/",
+        "volunteer": "https://www.electweinberg.com/",
+        "donate": "https://www.electweinberg.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/jacob-weinberg.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.electweinberg.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-mary-rose",
@@ -2822,19 +3218,26 @@
       "name": "Mary Rose",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Third-generation Arizonan and experienced business professional",
+      "summary": "Rose has spent her career in large organizations and community service and is campaigning on practical leadership, affordability, public-school investment, water planning, and government accountability.",
+      "why_bullets": [
+        "Affordability",
+        "Public education",
+        "Water security",
+        "Government accountability"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.maryrose4ld14.com/",
+        "volunteer": "https://www.maryrose4ld14.com/",
+        "donate": "https://www.maryrose4ld14.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/mary-rose.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.maryrose4ld14.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-kevin-volk",
@@ -2843,19 +3246,26 @@
       "name": "Kevin Volk",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Small-business owner, former teacher, and bipartisan legislator",
+      "summary": "Volk is a Southern Arizona native, small-business owner, and former teacher whose campaign emphasizes effective bipartisan problem solving, lower living costs, and stronger educational opportunity.",
+      "why_bullets": [
+        "Lower living costs",
+        "Public education",
+        "Bipartisan problem solving",
+        "Economic opportunity"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.kevinvolkaz.com/",
+        "volunteer": "https://www.kevinvolkaz.com/",
+        "donate": "https://www.kevinvolkaz.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/kevin-volk.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.kevinvolkaz.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-chris-mathis",
@@ -2864,19 +3274,26 @@
       "name": "Chris Mathis",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Elder-law attorney, health-policy professor, and state representative",
+      "summary": "Mathis practices elder law and teaches health-care law and aging at the University of Arizona, bringing extensive policy experience in healthcare, long-term care, water, education, and voting rights.",
+      "why_bullets": [
+        "Water security",
+        "Public education",
+        "Healthcare",
+        "Voting and reproductive rights"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.mathisforaz.com/",
+        "volunteer": "https://www.mathisforaz.com/",
+        "donate": "https://www.mathisforaz.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/chris-mathis.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.mathisforaz.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-jackie-anderson",
@@ -2885,19 +3302,26 @@
       "name": "Jackie Anderson",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Retired emergency-room nurse and rural-health advocate",
+      "summary": "Anderson spent more than four decades in nursing, including 19 years at an Arizona Critical Access Hospital, and campaigns on healthcare access, affordability, schools, and sustainable communities.",
+      "why_bullets": [
+        "Healthcare access",
+        "Affordability",
+        "Public schools",
+        "Sustainability"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://jackieforarizona.com/",
+        "volunteer": "https://jackieforarizona.com/",
+        "donate": "https://jackieforarizona.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/jackie-anderson.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://jackieforarizona.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-aiden-swallow",
@@ -2906,19 +3330,26 @@
       "name": "Aiden Swallow",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Army veteran focused on rural Arizona services and affordability",
+      "summary": "Swallow served nearly 20 years in Army intelligence, including combat-zone deployments, and is running on rural healthcare, public schools, water conservation, affordability, and individual rights.",
+      "why_bullets": [
+        "Rural healthcare",
+        "Public schools",
+        "Water conservation",
+        "Reproductive healthcare"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
+        "website": "https://aswallowforaz.com/",
+        "volunteer": "https://aswallowforaz.com/volunteer",
         "donate": ""
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/aiden-swallow.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://aswallowforaz.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-consuelo-hernandez",
@@ -2927,19 +3358,26 @@
       "name": "Consuelo Hernandez",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "School-board veteran and experienced state representative",
+      "summary": "Hernandez has served on the Sunnyside School District governing board and in the Arizona House, with a record centered on economic mobility, healthcare, education, affordable housing, worker protections, and social services.",
+      "why_bullets": [
+        "Affordable housing",
+        "Healthcare",
+        "Public education",
+        "Worker protections"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.consueloforarizona.com/",
+        "volunteer": "https://www.consueloforarizona.com/",
+        "donate": "https://www.consueloforarizona.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/consuelo-hernandez.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.consueloforarizona.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-miranda-lopez",
@@ -2948,19 +3386,26 @@
       "name": "Miranda Lopez",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Organizer and public-policy professional rooted in Southern Arizona",
+      "summary": "Lopez has worked as a campaign organizer, Pima County Democratic Party executive director, student advocate, and labor leader, with an MPA and years of grassroots organizing experience.",
+      "why_bullets": [
+        "Public education",
+        "Affordable housing",
+        "Working families",
+        "Voting and civil rights"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://lopezforarizona.com/",
+        "volunteer": "https://lopezforarizona.com/",
+        "donate": "https://lopezforarizona.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/miranda-lopez.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://lopezforarizona.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-elda-luna-najera",
@@ -2969,19 +3414,26 @@
       "name": "Elda Luna-Nájera",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Educator, social-work professional, and community leader",
+      "summary": "Dr. Luna-N├íjera is a first-generation professional with a doctorate in social work whose career has centered on education, community advocacy, families, and expanding opportunity.",
+      "why_bullets": [
+        "Civil and voting rights",
+        "Education and healthcare",
+        "Fair wages",
+        "Community investment"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://eldaforaz.com/",
+        "volunteer": "https://eldaforaz.com/",
+        "donate": "https://eldaforaz.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/elda-luna-najera.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://eldaforaz.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-betsy-munoz",
@@ -2990,19 +3442,26 @@
       "name": "Betsy Munoz",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Education nonprofit leader and West Valley community advocate",
+      "summary": "Mu├▒oz was born and raised in Arizona, graduated from ASU in public service and public policy, and works in education nonprofits helping West Valley students prepare for college and careers.",
+      "why_bullets": [
+        "Public education",
+        "Affordable housing",
+        "Healthcare access",
+        "Working families"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.munoz4az.com/en/",
+        "volunteer": "https://www.munoz4az.com/en/",
+        "donate": "https://www.munoz4az.com/en/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/betsy-munoz.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.munoz4az.com/en/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-mariana-sandoval",
@@ -3011,19 +3470,26 @@
       "name": "Mariana Sandoval",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Working-family advocate and experienced state representative",
+      "summary": "Sandoval's campaign draws on her experience as a wife, mother, community member, and legislator and focuses on schools, healthcare costs, housing, jobs, clean air and water, and household affordability.",
+      "why_bullets": [
+        "Public education",
+        "Healthcare affordability",
+        "Housing and jobs",
+        "Clean air and water"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.sandovalforaz.com/",
+        "volunteer": "https://www.sandovalforaz.com/",
+        "donate": "https://www.sandovalforaz.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/mariana-sandoval.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.sandovalforaz.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-emilia-cortez",
@@ -3032,19 +3498,26 @@
       "name": "Emilia Cortez",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Yuma native and bilingual public-affairs professional",
+      "summary": "Cortez is a Yuma native and bilingual public-affairs professional whose work spans education, nonprofits, Tribal governance, economic development, infrastructure, investment, and workforce issues.",
+      "why_bullets": [
+        "Education",
+        "Infrastructure",
+        "Economic development",
+        "Working families"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.emiliaforazld23.com/",
+        "volunteer": "https://www.emiliaforazld23.com/",
+        "donate": "https://www.emiliaforazld23.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/emilia-cortez.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.emiliaforazld23.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-alberto-flores",
@@ -3053,19 +3526,26 @@
       "name": "Alberto Flores",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Phoenix native focused on working-family affordability",
+      "summary": "Flores grew up in a working-class immigrant family in Phoenix, studied political science at ASU, and is campaigning on affordability, public education, healthcare, and practical collaboration.",
+      "why_bullets": [
+        "Affordability",
+        "Public education",
+        "Healthcare",
+        "Working families"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://floresforaz.com/",
+        "volunteer": "https://floresforaz.com/",
+        "donate": "https://floresforaz.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/alberto-flores.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://floresforaz.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-lisbeth-arescurenaga",
@@ -3074,19 +3554,26 @@
       "name": "Lisbeth Arescurenaga",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Licensed mental-health professional and family advocate",
+      "summary": "Arescurenaga came to the United States as a teenager and built a career in social work and mental health, serving families, young people, and people facing serious health and housing challenges.",
+      "why_bullets": [
+        "Mental healthcare",
+        "Affordable housing",
+        "Public education",
+        "Healthcare access"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.lisbeth4az.com/",
+        "volunteer": "https://www.lisbeth4az.com/",
+        "donate": "https://www.lisbeth4az.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/lisbeth-arescurenaga.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.lisbeth4az.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-tiffany-byrne",
@@ -3095,19 +3582,26 @@
       "name": "Tiffany Byrne",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Veteran educator and school administrator",
+      "summary": "Byrne has spent more than 20 years as a teacher and education leader, including K-12 science instruction and school administration, and brings firsthand experience with Arizona schools.",
+      "why_bullets": [
+        "Public education",
+        "Economic opportunity",
+        "Water security",
+        "Accountable government"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.byrneazld25.com/en",
+        "volunteer": "https://www.byrneazld25.com/en",
+        "donate": "https://secure.actblue.com/donate/byrneazld25"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/tiffany-byrne.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.byrneazld25.com/en",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-cesar-aguilar",
@@ -3116,19 +3610,26 @@
       "name": "Cesar Aguilar",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Working-class Phoenix native and education-access advocate",
+      "summary": "Aguilar was born and raised in Phoenix, studied political science at NAU, and has led the Arizona Students' Association, organizing students and advocating for college access and affordability.",
+      "why_bullets": [
+        "Public education",
+        "College affordability",
+        "Working families",
+        "Economic opportunity"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.aguilar4az.com/",
+        "volunteer": "https://www.aguilar4az.com/",
+        "donate": "https://www.aguilar4az.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/cesar-aguilar.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.aguilar4az.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-quanta-crews",
@@ -3137,19 +3638,26 @@
       "name": "Quantá Crews",
       "incumbent": true,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "State representative, property professional, and community minister",
+      "summary": "Crews is a property appraiser and associate minister who draws on lived experience working multiple jobs and has focused her legislative work on education, transportation, family supports, healthcare, and workforce training.",
+      "why_bullets": [
+        "K-12 education",
+        "Healthcare",
+        "Childcare and family supports",
+        "Workforce opportunity"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://quantaforaz.com/",
+        "volunteer": "https://quantaforaz.com/",
+        "donate": "https://quantaforaz.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/quanta-crews.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://quantaforaz.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-barbara-fike",
@@ -3158,19 +3666,26 @@
       "name": "Barbara Fike",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Career educator running a publicly financed campaign",
+      "summary": "Fike is a career educator and Clean Elections candidate whose campaign focuses on schools, water management, affordable housing, reproductive healthcare, civil rights, and voting rights.",
+      "why_bullets": [
+        "Public education",
+        "Water management",
+        "Affordable housing",
+        "Voting and reproductive rights"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
+        "website": "https://www.fike4az.com/",
+        "volunteer": "https://www.fike4az.com/",
         "donate": ""
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/barbara-fike.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.fike4az.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-marc-graham",
@@ -3179,19 +3694,26 @@
       "name": "Marc Graham",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Air Force veteran, labor negotiator, and aviation professional",
+      "summary": "Graham is a retired Air Force master sergeant, former union organizer and chief negotiator, FAA-licensed aircraft technician and inspector, and aviation instructor with decades of leadership experience.",
+      "why_bullets": [
+        "Veterans and service",
+        "Workforce and labor",
+        "Technical education",
+        "Government integrity"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://marcgrahamforaz.com/",
+        "volunteer": "https://marcgrahamforaz.com/",
+        "donate": "https://marcgrahamforaz.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/marc-graham.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://marcgrahamforaz.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-christine-scianna",
@@ -3200,19 +3722,26 @@
       "name": "Christine Scianna",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Former science teacher and disability-family advocate",
+      "summary": "Scianna is a native Arizonan, former middle-school and science teacher, and longtime advocate for autism and disabled families who has testified at the Legislature on protections for vulnerable adults.",
+      "why_bullets": [
+        "Public education",
+        "Healthcare access",
+        "Water",
+        "Affordability"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://christineforarizona.com/",
+        "volunteer": "https://christineforarizona.com/",
+        "donate": "https://christineforarizona.com/"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/christine-scianna.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://christineforarizona.com/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     },
     {
       "id": "entry-brian-mcmahan",
@@ -3221,19 +3750,26 @@
       "name": "Brian McMahan",
       "incumbent": false,
       "ballot_designation": "Democratic Party",
-      "headline": "TODO - one line on what this candidate would change.",
-      "summary": "TODO - two or three sentences in HSF voice. Issue list below is from the source and is not yet HSF copy.",
-      "why_bullets": [],
+      "headline": "Retired fire chief and lifelong rural public servant",
+      "summary": "McMahan spent roughly 40 years in public service, including as fire chief for the Parker and Buckskin Fire Districts, and emphasizes practical problem solving, transparency, rural services, and emergency-response experience.",
+      "why_bullets": [
+        "Public safety",
+        "Public schools",
+        "Water rights",
+        "Transparent government"
+      ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://electbrian.org/",
+        "volunteer": "https://electbrian.org/",
+        "donate": "https://electbrian.org/donate"
       },
-      "photo": "",
-      "photo_credit": "",
+      "photo": "images/brian-mcmahan.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://electbrian.org/",
       "status": "draft",
-      "created_by": "George A. Polisner",
-      "updated": "2026-09-05"
+      "created_by": "LLM",
+      "updated": "9/8/2026"
     }
   ],
   "organizations": [
