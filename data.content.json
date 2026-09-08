@@ -3775,128 +3775,132 @@
   "organizations": [
     {
       "id": "org-001",
-      "name": "Sonoran Rapid Response Network",
+      "name": "Arizona Secretary of State – Elections Division",
       "counties": [
         "pima",
         "cochise"
       ],
-      "statewide": false,
+      "statewide": true,
       "focus_tags": [
-        "immigrant defense",
-        "rapid response",
-        "know your rights"
+        "election administration",
+        "voter intimidation response",
+        "polling-place conduct",
+        "election incident reporting"
       ],
-      "description": "Sample copy. A 24-hour hotline and verified responder network. When someone is detained, trained volunteers document the stop, notify family, and connect the household to legal help within the hour.",
+      "description": "Arizona's chief elections office issues statewide rules for voting locations, including the 75-foot perimeter, weapons, observers, and law-enforcement presence, and operates 1-877-THE-VOTE to route reported problems to county officials or law enforcement.",
       "ways_to_help": [
-        "Train as a legal observer - one Saturday session",
-        "Take a shift on the hotline, remote and from home",
-        "Give to the bond fund, which is always the binding constraint"
+        "Report intimidation or unlawful conduct to a poll worker and 1-877-THE-VOTE",
+        "Sign up through your county to serve as a trained poll worker",
+        "Share official Arizona voting-location guidance and arizona.vote resources"
       ],
       "links": {
-        "website": "https://example.org/sonoran-rrn",
-        "volunteer": "https://example.org/sonoran-rrn/volunteer",
-        "donate": "https://example.org/sonoran-rrn/donate",
-        "events": "https://example.org/sonoran-rrn/events",
+        "website": "https://azsos.gov/elections",
+        "volunteer": "https://azsos.gov/elections/about-elections/elections-procedures/pre-election-procedures",
+        "donate": "",
+        "events": "https://azsos.gov/elections/about-elections/guidance-voting-location-conduct",
         "social": ""
       },
-      "photo": "",
+      "photo": "images/org-001.png",
       "urgent": true,
       "verified_on": "2026-07-22",
       "status": "draft"
     },
     {
       "id": "org-002",
-      "name": "Borderlands Legal Aid Project",
+      "name": "Arizona Attorney General – Election Integrity Unit",
       "counties": [
         "cochise"
       ],
-      "statewide": false,
+      "statewide": true,
       "focus_tags": [
-        "legal services",
-        "asylum",
-        "family reunification"
+        "election-law enforcement",
+        "election complaints",
+        "voter and election-worker protection",
+        "litigation"
       ],
-      "description": "Sample copy. Two staff attorneys and a rotating bench of volunteer lawyers covering the whole southeastern corner of the state. They take the cases nobody else in the region can take.",
+      "description": "The Attorney General's Office enforces certain statewide election laws, accepts first-hand civil election complaints and criminal referrals, and has litigated 2026 disputes involving federal attempts to alter Arizona election administration and mail voting.",
       "ways_to_help": [
-        "Volunteer if you are a licensed attorney or a Spanish interpreter",
-        "Drive clients to hearings in Tucson and Phoenix",
-        "Sponsor a single case - roughly the cost of a filing fee"
+        "File a first-hand election complaint when conduct may violate Arizona law",
+        "Preserve specific evidence, dates, locations, and witness information",
+        "For immediate threats or crimes in progress, contact local law enforcement first"
       ],
       "links": {
-        "website": "https://example.org/borderlands-legal",
-        "volunteer": "https://example.org/borderlands-legal/volunteer",
-        "donate": "https://example.org/borderlands-legal/donate",
-        "events": "",
+        "website": "https://www.azag.gov/criminal/eiu",
+        "volunteer": "",
+        "donate": "",
+        "events": "https://www.azag.gov/complaints/election",
         "social": ""
       },
-      "photo": "",
-      "urgent": false,
+      "photo": "images/org-002.png",
+      "urgent": true,
       "verified_on": "2026-07-22",
       "status": "draft"
     },
     {
       "id": "org-003",
-      "name": "High Desert Native Vote",
+      "name": "ACLU of Arizona",
       "counties": [
         "coconino"
       ],
-      "statewide": false,
+      "statewide": true,
       "focus_tags": [
-        "voter registration",
-        "tribal outreach",
-        "ballot access"
+        "voting rights",
+        "voter intimidation",
+        "civil-rights litigation",
+        "voter education"
       ],
-      "description": "Sample copy. Registration and ballot access work across the northern counties, where a round trip to a polling place can take four hours. They run the shuttles, the translation, and the drop box monitoring.",
+      "description": "The ACLU of Arizona publishes 2026 voter-rights guidance, including specific information on federal agents and police at the polls, and works on election access through advocacy, education, collaboration, and litigation.",
       "ways_to_help": [
-        "Drive a ballot shuttle route on election day",
-        "Register voters at community events, training provided",
-        "Fund a fuel stipend for a rural canvasser"
+        "Learn and share Arizona voter-rights and intimidation guidance",
+        "Report suspected civil-liberties violations or request assistance",
+        "Volunteer with the ACLU of Arizona or help monitor civil-liberties issues in your community"
       ],
       "links": {
-        "website": "https://example.org/hdnv",
-        "volunteer": "https://example.org/hdnv/volunteer",
-        "donate": "https://example.org/hdnv/donate",
-        "events": "https://example.org/hdnv/events",
+        "website": "https://www.acluaz.org/issues/voting-rights-elections/",
+        "volunteer": "",
+        "donate": "https://action.aclu.org/secure/support-aclu-arizona?ms=web__aff_az_actionbutton_join",
+        "events": "https://www.acluaz.org/events/",
         "social": ""
       },
-      "photo": "",
-      "urgent": false,
+      "photo": "images/org-003.png",
+      "urgent": true,
       "verified_on": "2026-07-22",
       "status": "draft"
     },
     {
       "id": "org-004",
-      "name": "Valley Voter Defense Fund",
+      "name": "League of Women Voters of Arizona",
       "counties": [
         "maricopa"
       ],
-      "statewide": false,
+      "statewide": true,
       "focus_tags": [
-        "voter protection",
-        "poll monitoring",
-        "election law"
+        "election protection",
+        "poll observation",
+        "voter education",
+        "misinformation response"
       ],
-      "description": "Sample copy. Poll monitors, a same-day legal hotline, and the people who show up when a drop box is being watched by someone with a camera and a folding chair.",
+      "description": "The nonpartisan League engages members in Election Protection poll observation, poll-worker recruitment, voter registration, VOTE411 voter education, voting-rights advocacy, and efforts to counter election misinformation and disinformation.",
       "ways_to_help": [
-        "Serve as a trained poll monitor for one shift",
-        "Join the attorney response list",
-        "Give to cover the cost of election-day operations"
+        "Volunteer as an Election Protection monitor",
+        "Help recruit or serve as a poll worker",
+        "Support voter registration, voter education, and misinformation-response work"
       ],
       "links": {
-        "website": "https://example.org/vvdf",
-        "volunteer": "https://example.org/vvdf/volunteer",
-        "donate": "https://example.org/vvdf/donate",
-        "events": "",
+        "website": "https://lwvaz.org/",
+        "volunteer": "https://lwvaz.org/content.aspx?club_id=666348&module_id=685301&page_id=22",
+        "donate": "https://lwvaz.org/",
+        "events": "https://www.lwvaz.org/content.aspx?club_id=666348&item_id=2759978&page_id=4002",
         "social": ""
       },
-      "photo": "",
+      "photo": "images/org-004.png",
       "urgent": true,
       "verified_on": "2026-07-22",
       "status": "draft"
     },
     {
       "id": "org-005",
-      "name": "Arizona Doorstep Coalition",
+      "name": "Common Cause Arizona",
       "counties": [
         "pima",
         "maricopa",
@@ -3905,56 +3909,174 @@
       ],
       "statewide": true,
       "focus_tags": [
-        "canvassing",
-        "field organizing",
-        "BIPOC organizing"
+        "election protection",
+        "poll monitoring",
+        "voter assistance",
+        "disinformation response"
       ],
-      "description": "Sample copy. The canvass infrastructure that the smaller groups all borrow. Turf, training, and a data operation that does not sell what it collects.",
+      "description": "Common Cause Arizona mobilizes nonpartisan Election Protection volunteers, assists voters at polling places, monitors misleading election information, promotes voter-help hotlines, and escalates major problems to election officials.",
       "ways_to_help": [
-        "Take a weekend canvass shift in your own neighborhood",
-        "Host a turf launch - coffee and a table is all it takes",
-        "Give monthly, which is what lets them hire organizers year round"
+        "Serve as a nonpartisan Election Protection volunteer",
+        "Help voters understand their rights and report intimidation or obstruction",
+        "Share 866-OUR-VOTE and Arizona voter-help resources with your community"
       ],
       "links": {
-        "website": "https://example.org/azdoorstep",
-        "volunteer": "https://example.org/azdoorstep/volunteer",
-        "donate": "https://example.org/azdoorstep/donate",
-        "events": "https://example.org/azdoorstep/events",
+        "website": "https://www.commoncause.org/arizona/",
+        "volunteer": "https://www.commoncause.org/arizona/join-our-volunteer-team/",
+        "donate": "https://www.commoncause.org/arizona/donate/",
+        "events": "https://www.commoncause.org/arizona/take-action/",
         "social": ""
       },
-      "photo": "",
-      "urgent": false,
+      "photo": "images/org-005.png",
+      "urgent": true,
       "verified_on": "2026-07-22",
       "status": "draft"
     },
     {
       "id": "org-006",
-      "name": "ACLU",
+      "name": "Election Protection (866-OUR-VOTE)",
       "counties": [
         "pima"
       ],
-      "statewide": false,
+      "statewide": true,
       "focus_tags": [
-        "housing",
-        "eviction defense",
-        "mutual aid"
+        "voter-protection hotline",
+        "poll monitoring",
+        "legal assistance",
+        "incident reporting"
       ],
-      "description": "Sample copy. Eviction court accompaniment, building-level organizing, and an emergency fund that has kept a few hundred households in place. Most of their work happens the week before a hearing.",
+      "description": "Election Protection is a national, nonpartisan coalition administered by the Lawyersâ€™ Committee for Civil Rights Under Law. Trained volunteers answer voting questions, receive reports of intimidation or suppression, and provide field-based voter assistance.",
       "ways_to_help": [
-        "Accompany a neighbor to eviction court, no legal training needed",
-        "Join a building committee where you already live",
-        "Give to the emergency rent fund"
+        "Volunteer for nonpartisan poll monitoring",
+        "Legal professionals can staff the Election Protection hotline",
+        "Save and share 866-OUR-VOTE and its language-access hotlines"
       ],
       "links": {
-        "website": "https://example.org/optu",
-        "volunteer": "https://example.org/optu/volunteer",
-        "donate": "https://example.org/optu/donate",
-        "events": "",
+        "website": "https://866ourvote.org/",
+        "volunteer": "https://866ourvote.org/volunteer/",
+        "donate": "https://lawyerscommittee.org/epgiving",
+        "events": "https://866ourvote.org/resources/",
+        "social": ""
+      },
+      "photo": "images/org-006.png",
+      "urgent": true,
+      "verified_on": "2026-07-22",
+      "status": "draft"
+    },
+    {
+      "id": "org-007",
+      "name": "Brennan Center for Justice",
+      "counties": [],
+      "statewide": true,
+      "focus_tags": [
+        "voter intimidation law",
+        "federal-agent interference",
+        "election litigation",
+        "election-official guidance"
+      ],
+      "description": "The Brennan Center's 2026 election work directly addresses armed federal agents at polling sites, voter-intimidation law, and Arizona-specific election-interference scenarios, while preparing litigation and practical guidance for voters and election officials.",
+      "ways_to_help": [
+        "Use and share its 2026 safe-voting guidance",
+        "Share the Arizona Election Interference Law Handbook with election officials and community leaders",
+        "Support its legal and policy work or attend voting-rights events"
+      ],
+      "links": {
+        "website": "https://www.brennancenter.org/issues/ensure-every-american-can-vote/voting-rights",
+        "volunteer": "https://www.brennancenter.org/get-involved",
+        "donate": "https://secure.brennancenter.org/secure/donate-brennan-center-justice",
+        "events": "https://www.brennancenter.org/events",
+        "social": ""
+      },
+      "photo": "images/org-007.png",
+      "urgent": true,
+      "verified_on": "2026-07-23",
+      "status": "draft"
+    },
+    {
+      "id": "org-008",
+      "name": "Protect Democracy",
+      "counties": [],
+      "statewide": true,
+      "focus_tags": [
+        "election interference",
+        "rule of law",
+        "litigation",
+        "2026 midterm preparedness"
+      ],
+      "description": "Protect Democracy litigates and advocates around abuses of government power, publishes 2026 midterm guidance on federal troops and law-enforcement officers at the polls, and offers public action resources including voter-protection training and poll-worker engagement.",
+      "ways_to_help": [
+        "Learn the 2026 legal limits on troops and federal agents at polling places",
+        "Use its democracy action playbook and voter-protection training resources",
+        "Sign up for updates or become a poll worker"
+      ],
+      "links": {
+        "website": "https://protectdemocracy.org/",
+        "volunteer": "https://protectdemocracy.org/how-you-can-protect-democracy/",
+        "donate": "https://protectdemocracy.org/donate/",
+        "events": "https://protectdemocracy.org/work/frequently-asked-questions-about-the-2026-midterm-elections/",
+        "social": ""
+      },
+      "photo": "images/org-008.png",
+      "urgent": true,
+      "verified_on": "2026-07-24",
+      "status": "draft"
+    },
+    {
+      "id": "org-009",
+      "name": "Committee for Safe and Secure Elections",
+      "counties": [],
+      "statewide": true,
+      "focus_tags": [
+        "election security",
+        "threat response",
+        "law-enforcement coordination",
+        "continuity of voting"
+      ],
+      "description": "This cross-partisan group of election administrators and law-enforcement experts produces 2026 state-specific security guides, including an Arizona guide on interference and intimidation, and supports training, scenario planning, and coordinated threat response.",
+      "ways_to_help": [
+        "Share the Arizona 2026 law-enforcement quick-reference guide with local officials",
+        "Encourage election officials and law enforcement to conduct scenario planning or tabletop exercises",
+        "Use its security-assessment and threat-response resources"
+      ],
+      "links": {
+        "website": "https://safeelections.org/",
+        "volunteer": "https://safeelections.org/contact/",
+        "donate": "",
+        "events": "https://safeelections.org/resources/",
         "social": ""
       },
       "photo": "",
-      "urgent": false,
-      "verified_on": "2026-07-22",
+      "urgent": true,
+      "verified_on": "2026-07-25",
+      "status": "draft"
+    },
+    {
+      "id": "org-010",
+      "name": "Faiths United to Save Democracy (FUSD)",
+      "counties": [],
+      "statewide": true,
+      "focus_tags": [
+        "poll chaplains",
+        "de-escalation",
+        "voter intimidation response",
+        "faith-based election protection"
+      ],
+      "description": "FUSD is a nonpartisan, multiracial, interfaith voter-protection campaign with Arizona as a 2026 priority state. Its Poll Chaplain/Peacekeeper program trains volunteers to provide a calm presence and de-escalate potential conflict, including scenarios involving ICE agents at polling stations.",
+      "ways_to_help": [
+        "Complete 2026 Poll Chaplain/Peacekeeper training",
+        "Serve a polling-site shift in Arizona",
+        "Use 866-OUR-VOTE to report incidents and follow FUSD buddy-system and safety guidance"
+      ],
+      "links": {
+        "website": "https://www.turnoutsunday.com/",
+        "volunteer": "https://www.turnoutsunday.com/",
+        "donate": "https://www.skinnerleaders.org/give",
+        "events": "https://www.turnoutsunday.com/votertoolkit",
+        "social": ""
+      },
+      "photo": "images/org-010.png",
+      "urgent": true,
+      "verified_on": "2026-07-26",
       "status": "draft"
     }
   ]
