@@ -1272,9 +1272,9 @@
         "Safe Communities"
       ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.ameliaforaz.com/",
+        "volunteer": "https://www.ameliaforaz.com/volunteer-1",
+        "donate": "https://secure.actblue.com/donate/amelia-gallitano-1"
       },
       "photo": "images/amelia-gallitano-mendel.jpg",
       "photo_credit": "Arizona List / WomenCount, used with permission",
@@ -1299,9 +1299,9 @@
         "Access to community centered, obtainable affordable housing"
       ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://searsforarizona.com/",
+        "volunteer": "N/A",
+        "donate": "https://secure.actblue.com/donate/kiana-sears-2"
       },
       "photo": "images/kiana-maria-sears.jpg",
       "photo_credit": "Arizona List / WomenCount, used with permission",
@@ -1327,9 +1327,9 @@
         "A Sustainable Future"
       ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.kristieforaz.com/",
+        "volunteer": "N/A",
+        "donate": "https://secure.actblue.com/donate/kristie-o-brien-2"
       },
       "photo": "images/kristie-obrien.jpeg",
       "photo_credit": "Arizona List / WomenCount, used with permission",
@@ -1355,9 +1355,9 @@
         "Education"
       ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://aldrete4az.org/",
+        "volunteer": "N/A",
+        "donate": "https://secure.actblue.com/donate/elaine-aldrete-1"
       },
       "photo": "images/elaine-aldrete.jpg",
       "photo_credit": "Arizona List / WomenCount, used with permission",
@@ -1383,7 +1383,7 @@
       ],
       "links": {
         "website": "https://www.nancyforaz.com/",
-        "volunteer": "",
+        "volunteer": "N/A",
         "donate": "https://secure.actblue.com/donate/nancyforaz24"
       },
       "photo": "images/rep-nancy-gutierrez.jpg",
@@ -1408,11 +1408,11 @@
         "Reproductive Freedom"
       ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.simacekforaz.com/",
+        "volunteer": "https://www.mobilize.us/adlcc/?q=LD%202%20Democrats",
+        "donate": "https://secure.actblue.com/donate/simacek-for-az"
       },
-      "photo": "images/stephanie-simacek.jpg",
+      "photo": "images/stephanie-simacek",
       "photo_credit": "Arizona List / WomenCount, used with permission",
       "source": "Arizona List | 2026 General Election slate",
       "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
@@ -1435,9 +1435,9 @@
         "Reproductive Freedom"
       ],
       "links": {
-        "website": "",
-        "volunteer": "",
-        "donate": ""
+        "website": "https://www.karenforaz.com/",
+        "volunteer": "https://www.mobilize.us/ld4democrats/",
+        "donate": "https://www.karenforaz.com/donate"
       },
       "photo": "images/karen-gresham.jpg",
       "photo_credit": "Arizona List / WomenCount, used with permission",
@@ -1455,7 +1455,7 @@
       "incumbent": false,
       "ballot_designation": "Democratic Party",
       "headline": "Experienced community leader focused on practical results",
-      "summary": "Caputi's campaign emphasizes practical leadership, integrity, and community-focused problem solving, with priorities centered on safer communities, economic opportunity, and responsible government.",
+      "summary": "Caputi's campaign emphasizes practical leadership, integrity, and community-focused problem solving. Her priorities are centered on safer communities, economic opportunity, and responsible government. She is running for Arizona's 4th Legislative District in the house.",
       "why_bullets": [
         "Safer communities",
         "Stronger local economy",
@@ -1465,7 +1465,7 @@
       "links": {
         "website": "https://tammycaputi.com/",
         "volunteer": "https://tammycaputi.com/volunteer",
-        "donate": "https://tammycaputi.com/"
+        "donate": "https://secure.actblue.com/donate/caputiforarizona?refcode=directory"
       },
       "photo": "images/tammy-caputi.jpg",
       "photo_credit": "Arizona List / WomenCount, used with permission",
@@ -1483,7 +1483,7 @@
       "incumbent": true,
       "ballot_designation": "Democratic Party",
       "headline": "Fifth-generation Arizonan and community-rooted legislator",
-      "summary": "Austin's campaign highlights deep Mesa roots and a record of community advocacy, with a focus on strengthening public education, addressing housing costs, and protecting Arizona's long-term water future.",
+      "summary": "Austin's campaign highlights deep Mesa roots and a record of community advocacy. Her focus is on strengthening public education, addressing housing costs, and protecting Arizona's long-term water future. She is running for Arizona's 9th Legislative District in the House.",
       "why_bullets": [
         "Public education",
         "Affordable housing",
@@ -1511,7 +1511,7 @@
       "incumbent": false,
       "ballot_designation": "Democratic Party",
       "headline": "Educator, administrator, and advocate for stronger schools",
-      "summary": "Dr. Racquel 'Rockee' Armstrong brings experience as a teacher, school administrator, and education advocate and is campaigning on stronger schools, affordable housing, and a more secure future for Arizona families.",
+      "summary": "Dr. Racquel 'Rockee' Armstrong brings experience as a teacher, school administrator, and advocate for education. She is running to represent Arizona's 13th Legislative District in the House and is campaigning on stronger schools, affordable housing, and a more secure future for Arizona families.",
       "why_bullets": [
         "Public education",
         "Lower costs",
@@ -1539,7 +1539,7 @@
       "incumbent": false,
       "ballot_designation": "Democratic Party",
       "headline": "Air Force veteran and former Maricopa councilmember",
-      "summary": "Gusse's campaign highlights her Air Force service, local-government experience, and commitment to practical, people-first leadership focused on veterans, schools, public safety, and household costs.",
+      "summary": "Gusse's has previously served in the Air Force and has local-government experience. Now, she seeks to continue her service by running in Arizona's 16th Legislative District in the House. She is committed to practical, people-first leadership focused on veterans, schools, public safety, and household costs.",
       "why_bullets": [
         "Lower costs",
         "Veterans",
@@ -1548,8 +1548,8 @@
       ],
       "links": {
         "website": "https://www.juliaforarizona.com/",
-        "volunteer": "https://www.juliaforarizona.com/",
-        "donate": "https://www.juliaforarizona.com/"
+        "volunteer": "https://www.juliaforarizona.com/contact-5",
+        "donate": "https://secure.actblue.com/donate/julia-romero-gusse-1"
       },
       "photo": "images/julia-gusse.jpg",
       "photo_credit": "Arizona List / WomenCount, used with permission",
@@ -1567,7 +1567,7 @@
       "incumbent": false,
       "ballot_designation": "Democratic Party",
       "headline": "Retired Air Force colonel, educator, and civic leader",
-      "summary": "Lyon served 26 years in the Air Force and has also worked as an educator, technology consultant, and civic leader, bringing experience in large organizations, public service, and consensus-building.",
+      "summary": "Holly served 26 years in the Air Force and forged consensus on intense negotiations to save $100 million. Additionally, she has also served as an educator, technology consultant, and civic leader. Holly now runs to conitnue her service as a representative in Arizona's 17th Legislative District.",
       "why_bullets": [
         "Affordability",
         "Public education",
@@ -1576,8 +1576,8 @@
       ],
       "links": {
         "website": "https://www.lyonforarizona.com/",
-        "volunteer": "https://www.lyonforarizona.com/",
-        "donate": "https://www.lyonforarizona.com/"
+        "volunteer": "https://www.mobilize.us/ld17democrats/event/789523/?referring_vol=5819506&share_context=dashboard-event-details&sharer_role=2",
+        "donate": "https://secure.actblue.com/donate/holly-lyon-1"
       },
       "photo": "images/holly-lyon.jpg",
       "photo_credit": "Arizona List / WomenCount, used with permission",
@@ -1595,7 +1595,7 @@
       "incumbent": false,
       "ballot_designation": "Democratic Party",
       "headline": "Public-affairs professional and longtime civic advocate",
-      "summary": "Howard's background spans government, nonprofit, and private-sector public affairs, and her campaign emphasizes affordable living, healthcare, public education, voting rights, and accountable democracy.",
+      "summary": "Deborah's background spans includes experience with both non-profit and private-sector public affairs. She has a passion for affordable living, healthcare, public education, and voting rights. Deborah has centered her campaign on accountable democracy and is running to represent Arizona's 27th Legislative District in the House.",
       "why_bullets": [
         "Affordability",
         "Healthcare access",
@@ -1604,8 +1604,8 @@
       ],
       "links": {
         "website": "https://www.deborahhowardaz.com/",
-        "volunteer": "https://www.deborahhowardaz.com/",
-        "donate": "https://www.deborahhowardaz.com/"
+        "volunteer": "https://www.deborahhowardaz.com/volunteer",
+        "donate": "https://secure.actblue.com/donate/eoq27?refcode=website&amount=100"
       },
       "photo": "images/deborah-howard.jpg",
       "photo_credit": "Arizona List / WomenCount, used with permission",
@@ -1632,8 +1632,8 @@
       ],
       "links": {
         "website": "https://amishforarizona.com/",
-        "volunteer": "https://amishforarizona.com/",
-        "donate": "https://amishforarizona.com/"
+        "volunteer": "https://www.amishforarizona.com/takeaction",
+        "donate": "https://secure.actblue.com/donate/amish-for-arizona-26?refcode=WebHdr"
       },
       "photo": "images/amish-shah.jpg",
       "photo_credit": "Campaign-provided photo",
