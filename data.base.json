@@ -19,7 +19,6 @@
     "",
     "STILL OUTSTANDING IN THIS FILE:",
     "Replace every TODO in settings before publishing.",
-    "Delete the demo_notice line once all sample content and TODO fields are gone.",
     "Validate edits before publishing - one missing comma blanks the site."
   ],
   "settings": {
@@ -27,13 +26,12 @@
     "tagline": "Hold the Line. Seize New Ground. Fight Like Hell.",
     "state": "Arizona",
     "cycle": "2026",
-    "demo_notice": "Everything on this page is invented sample content, shown to demonstrate the format. No real candidate or organization is listed, and nothing here is an endorsement.",
-    "publisher_name": "TODO - registered name of the publishing organization",
-    "paid_for_by": "TODO - required disclaimer string, exact wording from counsel",
-    "contact_email": "TODO",
-    "website": "TODO",
-    "last_updated": "2026-08-02",
-    "methodology_note": "TODO - two or three sentences on how entries are chosen. Readers trust a guide that shows its work. Say who decides, what they look at, and how someone suggests a change.",
+    "publisher_name": "Hold Seize Fight",
+    "paid_for_by": "Paid for by Hold Seize Fight. With 0% from out-of-state contributors. Not Authorized by a Candidate.",
+    "contact_email": "hsfvote@gmail.com",
+    "website": "https://hsf.vote",
+    "last_updated": "2026-09-10",
+    "methodology_note": "Hold Seize Fight selects candidates based on incumbents or candidates for office who embrace justice, democracy, and equality. Entries are researched from campaign materials, public records, and endorsements from allied organizations, then written and reviewed by volunteers before publication. To suggest a correction or a candidate we've missed, write to hsfvote@gmail.com.",
     "election_dates": {
       "primary": "TODO - verify with AZ SOS",
       "general": "TODO - verify with AZ SOS",
