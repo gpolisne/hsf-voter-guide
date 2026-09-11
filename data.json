@@ -141,10 +141,6 @@
     {
       "id": "county",
       "label": "County"
-    },
-    {
-      "id": "municipal",
-      "label": "City, Town and School Board"
     }
   ],
   "theme": {
