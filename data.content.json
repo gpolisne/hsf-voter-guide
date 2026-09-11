@@ -1155,54 +1155,6 @@
       "seats_open": 1,
       "notes": "",
       "rank": 4050
-    },
-    {
-      "id": "race-sierra-vista-mayor",
-      "level": "municipal",
-      "office": "Sierra Vista Mayor",
-      "district": null,
-      "counties": [
-        "cochise"
-      ],
-      "seats_open": 1,
-      "notes": "",
-      "rank": 5010
-    },
-    {
-      "id": "race-tucson-ward3",
-      "level": "municipal",
-      "office": "Tucson City Council",
-      "district": "Ward 3",
-      "counties": [
-        "pima"
-      ],
-      "seats_open": 1,
-      "notes": "",
-      "rank": 5020
-    },
-    {
-      "id": "race-flagstaff-council",
-      "level": "municipal",
-      "office": "Flagstaff City Council",
-      "district": null,
-      "counties": [
-        "coconino"
-      ],
-      "seats_open": 3,
-      "notes": "At-large council seats. Confirm how many are up.",
-      "rank": 5030
-    },
-    {
-      "id": "race-tusd-board",
-      "level": "municipal",
-      "office": "Tucson Unified School District Governing Board",
-      "district": null,
-      "counties": [
-        "pima"
-      ],
-      "seats_open": 2,
-      "notes": "School board races are usually the lowest-information, highest-leverage item on the ballot.",
-      "rank": 5040
     }
   ],
   "entries": [
