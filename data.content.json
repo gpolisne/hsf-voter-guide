@@ -1623,7 +1623,7 @@
       "incumbent": false,
       "ballot_designation": "Democratic Party",
       "headline": "Emergency physician and former Arizona state legislator",
-      "summary": "Dr. Amish Shah is a board-certified emergency physician and former state representative whose public-service record centers on healthcare, education, working families, and pragmatic lawmaking.",
+      "summary": "Dr. Amish Shah is a board-certified emergency physician and former state representative.  His public-service record centers on healthcare, education, working families, and pragmatic lawmaking, and he is now running to represent Arizona's 1st Congressional District.",
       "why_bullets": [
         "Healthcare access",
         "Public education",
@@ -1660,8 +1660,8 @@
       ],
       "links": {
         "website": "https://www.jonathannezforaz.com/",
-        "volunteer": "https://www.jonathannezforaz.com/",
-        "donate": "https://www.jonathannezforaz.com/"
+        "volunteer": "https://www.jonathannezforaz.com/volunteer",
+        "donate": "https://secure.actblue.com/donate/nez-web?refcode=main-donate-link"
       },
       "photo": "images/jonathan-nez.jpg",
       "photo_credit": "Campaign-provided photo",
@@ -1679,7 +1679,7 @@
       "incumbent": true,
       "ballot_designation": "Democratic Party",
       "headline": "Congresswoman and former Phoenix vice mayor",
-      "summary": "Ansari's public-service background includes Phoenix City Council and vice-mayoral leadership, where she worked on climate action, extreme heat, transportation, homelessness, and affordable housing.",
+      "summary": "Yassamin's public-service background includes both local and federal leadership leadership, where she worked on climate action, transportation, homelessness, and affordable housing. She is now running to continue her representation of Arizona's 3rd Congressional District.",
       "why_bullets": [
         "Climate resilience",
         "Affordable housing",
@@ -1688,8 +1688,8 @@
       ],
       "links": {
         "website": "https://yassaminforcongress.com/",
-        "volunteer": "https://yassaminforcongress.com/",
-        "donate": "https://yassaminforcongress.com/"
+        "volunteer": "N/A",
+        "donate": "https://secure.actblue.com/donate/yassaminansari_web"
       },
       "photo": "images/yassamin-ansari.jpg",
       "photo_credit": "Campaign-provided photo",
@@ -1707,7 +1707,7 @@
       "incumbent": true,
       "ballot_designation": "Democratic Party",
       "headline": "Former Phoenix mayor and experienced congressional lawmaker",
-      "summary": "Stanton's campaign highlights his record as Phoenix mayor and member of Congress, emphasizing practical results on infrastructure, household costs, education, economic growth, and public safety.",
+      "summary": "Greg has experience comes from serving previoulsy the mayor of Phoenix and as a member of Congress. His priorities include practical results on infrastructure, household costs, education, economic growth, and public safety. Greg is eager to continue serving the State of Arizona and is running to represent Arizona's 4th Congressional District.",
       "why_bullets": [
         "Lower costs",
         "Infrastructure",
@@ -1716,13 +1716,13 @@
       ],
       "links": {
         "website": "https://gregstanton.com/",
-        "volunteer": "https://gregstanton.com/",
-        "donate": "https://gregstanton.com/"
+        "volunteer": "https://gregstanton.com/action",
+        "donate": "https://secure.actblue.com/donate/stantonhomepage2026"
       },
       "photo": "images/greg-stanton.jpg",
-      "photo_credit": "Campaign-provided photo",
-      "source": "Official campaign website",
-      "source_url": "https://gregstanton.com/",
+      "photo_credit": "U.S. House Office of Photography",
+      "source": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Greg_Stanton_official_portrait_(118th_Congress)_(cropped).jpg",
       "status": "draft",
       "created_by": "LLM",
       "updated": "9/8/2026"
@@ -1735,7 +1735,7 @@
       "incumbent": false,
       "ballot_designation": "Democratic Party",
       "headline": "Registered nurse and working-family advocate",
-      "summary": "Lee is a nurse and mother whose campaign draws on frontline healthcare experience and emphasizes affordability, reproductive healthcare, accountability, and an economy that works for working families.",
+      "summary": "Elizabeth experience and passions come from her background as a nurse and mother. She emphasizes affordability, reproductive healthcare, and accountability. Drawing on her background in healthcare, Elizabeth is running to represent Arizona's 5th Congressional District.",
       "why_bullets": [
         "Healthcare",
         "Affordability",
@@ -1744,7 +1744,7 @@
       ],
       "links": {
         "website": "https://www.nurselee4az.com/",
-        "volunteer": "https://www.nurselee4az.com/",
+        "volunteer": "https://www.nurselee4az.com/JoinUs",
         "donate": "https://secure.actblue.com/donate/nurselee4az"
       },
       "photo": "images/elizabeth-lee.jpg",
@@ -1763,7 +1763,7 @@
       "incumbent": true,
       "ballot_designation": "Democratic Party",
       "headline": "Longtime Southern Arizona public servant and community leader",
-      "summary": "Grijalva's campaign emphasizes deep Southern Arizona roots and years of public service, with a focus on bringing people together, protecting communities, and expanding opportunity for families.",
+      "summary": "Adelita draws from her deep Southern Arizona roots and years of public service as she runs to continue her representation of Arizona's 7th Congressional Distric. Her focus is on bringing people together, protecting communities, and expanding opportunity for families.",
       "why_bullets": [
         "Public education",
         "Healthcare access",
@@ -1773,12 +1773,12 @@
       "links": {
         "website": "https://www.adelitaforcongress.com/",
         "volunteer": "https://www.adelitaforcongress.com/",
-        "donate": "https://www.adelitaforcongress.com/"
+        "donate": "https://secure.actblue.com/donate/adelita-grijalva"
       },
       "photo": "images/adelita-grijalva.jpg",
-      "photo_credit": "Campaign-provided photo",
-      "source": "Official campaign website",
-      "source_url": "https://www.adelitaforcongress.com/",
+      "photo_credit": "Damien Salas, Office of the Clerk U.S.House of Representatives",
+      "source": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Congresswoman_Adelita_Grijalva_Official_Portrait.jpg",
       "status": "draft",
       "created_by": "LLM",
       "updated": "9/8/2026"
@@ -1791,7 +1791,7 @@
       "incumbent": false,
       "ballot_designation": "Democratic Party",
       "headline": "Trucker, small-business owner, and working-class advocate",
-      "summary": "Greene-Placentia is a mother, long-haul trucker, and small-business owner who has logged more than four million miles and built her campaign around firsthand experience with wages, fuel costs, healthcare bills, and running a business.",
+      "summary": "Bernadette is a mother, long-haul trucker, and small-business owner who has logged more than four million miles. Now, she is drawinging from firsthand experience as she runs to represent Arizona's 8th Congressional District. She is passionate about affordability, immigration, and veterans.",
       "why_bullets": [
         "Working families",
         "Small business",
@@ -1800,8 +1800,8 @@
       ],
       "links": {
         "website": "https://bgp4az.com/",
-        "volunteer": "https://bgp4az.com/",
-        "donate": "https://bgp4az.com/"
+        "volunteer": "https://bgp4az.com/join-us/#volunteer",
+        "donate": "https://secure.actblue.com/donate/bgp_website"
       },
       "photo": "images/bernadette-greene-placentia.jpg",
       "photo_credit": "Campaign-provided photo",
@@ -1819,7 +1819,7 @@
       "incumbent": false,
       "ballot_designation": "Democratic Party",
       "headline": "Navy veteran, working mother, and operations specialist",
-      "summary": "Sterbinsky served in the U.S. Navy aboard the USS Bainbridge and later built a career in operations, pairing military service with education in social sciences and industrial-organizational psychology.",
+      "summary": "Dani's experience comes from serving  in the U.S. Navy aboard the USS Bainbridge and later building a career in operations. She is passionate about housing, education, and rural & community investment. Dani runs as a veteran, working mom, and Arizonan neighbor to represent Arizona's 9th Congressional District.",
       "why_bullets": [
         "Veterans",
         "Working families",
@@ -1847,7 +1847,7 @@
       "incumbent": true,
       "ballot_designation": "Democratic Party",
       "headline": "Marine veteran, attorney, and Arizona Secretary of State",
-      "summary": "Fontes is an Arizona native, Marine veteran, former prosecutor, and former Maricopa County Recorder whose election work has focused on voter access, ballot security, transparency, and modernized election administration.",
+      "summary": "Adrian is an Arizona native, Marine veteran, former prosecutor, and now serves as Arizona's current Sectretary of State. His work has focused on voter access, ballot security and transparency, and he is running to continue his service as Secretary of State.",
       "why_bullets": [
         "Election security",
         "Voter access",
@@ -1856,8 +1856,8 @@
       ],
       "links": {
         "website": "https://electfontes.com/",
-        "volunteer": "https://electfontes.com/",
-        "donate": "https://electfontes.com/"
+        "volunteer": "https://secure.ngpvan.com/-NdcE1_ZKka8ngrs-zIxJQ2",
+        "donate": "https://secure.actblue.com/donate/adrianfontes?refcode=web"
       },
       "photo": "images/adrian-fontes.jpg",
       "photo_credit": "Campaign-provided photo",
@@ -1875,7 +1875,7 @@
       "incumbent": true,
       "ballot_designation": "Democratic Party",
       "headline": "Attorney General and longtime consumer advocate",
-      "summary": "Mayes grew up in Prescott and has served as a statewide utility regulator, professor, and Arizona Attorney General, with a record focused on consumer protection, fraud, public safety, corporate accountability, and water.",
+      "summary": "Mayes grew up in Prescott and has served as a statewide utility regulator, professor, and Arizona Attorney General. She has a record of fiercely fighting for Arizona and seeks to continue her advocacy by running to maintain her position of Attorney General.",
       "why_bullets": [
         "Consumer protection",
         "Public safety",
@@ -1884,8 +1884,8 @@
       ],
       "links": {
         "website": "https://www.krismayes.com/",
-        "volunteer": "https://www.krismayes.com/",
-        "donate": "https://www.krismayes.com/"
+        "volunteer": "https://secure.numero.ai/signup/Volunteer-with-Kris-Mayes-for-Arizona",
+        "donate": "https://secure.actblue.com/donate/kris-mayes-website"
       },
       "photo": "images/kris-mayes.jpg",
       "photo_credit": "Campaign-provided photo",
@@ -1903,7 +1903,7 @@
       "incumbent": false,
       "ballot_designation": "Democratic Party",
       "headline": "Entrepreneur and education leader running as a fiscal watchdog",
-      "summary": "Mansour is an Arizona-raised father and entrepreneur who built a nursing school and presents the Treasurer's office as a taxpayer watchdog focused on responsible stewardship and measurable results.",
+      "summary": "Nick is an Arizona-raised father and entrepreneur who built a nursing school. He has a passion for eliminating waste, fraud, and government abuse. Drawing from his experiences, he now runs for the position of Arizona State Treasurer.",
       "why_bullets": [
         "Fiscal accountability",
         "Education and workforce",
@@ -1912,8 +1912,8 @@
       ],
       "links": {
         "website": "https://www.mansourforarizona.com/",
-        "volunteer": "https://www.mansourforarizona.com/",
-        "donate": "https://www.mansourforarizona.com/"
+        "volunteer": "https://www.mansourforarizona.com/joinus",
+        "donate": "https://secure.actblue.com/donate/blu-nmaz-2025-em"
       },
       "photo": "images/nick-mansour.jpg",
       "photo_credit": "Campaign-provided photo",
