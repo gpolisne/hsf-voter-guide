@@ -29,6 +29,59 @@
       "find_polling_place_url": ""
     }
   },
+  "propositions": {
+    "intro": "All eight measures on this year's ballot were referred by the legislature, not by citizen petition. Hold Seize Fight recommends a NO vote on every one.",
+    "items": [
+      {
+        "number": "141",
+        "title": "Ban on vehicle-miles-traveled taxes",
+        "recommendation": "NO",
+        "summary": "Writes a transportation funding ban into the Constitution, cutting off road and infrastructure revenue and leaving no room to adapt as needs change."
+      },
+      {
+        "number": "142",
+        "title": "Restrictions on public institution programs",
+        "recommendation": "NO",
+        "summary": "Bars public schools from any policy referencing race, gender, or sexual orientation, putting lawful mentoring, outreach, and student support programs at risk."
+      },
+      {
+        "number": "144",
+        "title": "Voter ID and proof of citizenship requirements",
+        "recommendation": "NO",
+        "summary": "Requires photo ID and proof of citizenship for every ballot, including mail ballots, forcing Arizonans to file ID paperwork with the government at every election."
+      },
+      {
+        "number": "316",
+        "title": "Cap on local grocery tax",
+        "recommendation": "NO",
+        "summary": "Strips local control over taxes and hands it to the state, hitting rural and smaller communities hardest and threatening libraries, parks, and basic services."
+      },
+      {
+        "number": "317",
+        "title": "Drug cartels as terrorist organizations",
+        "recommendation": "NO",
+        "summary": "A symbolic designation with no enforcement mechanism and no funding to carry it out."
+      },
+      {
+        "number": "318",
+        "title": "Student athletics and facility requirements",
+        "recommendation": "NO",
+        "summary": "A blanket sports ban written by politicians that treats kindergarteners like college athletes and exposes school teams to lawsuits."
+      },
+      {
+        "number": "319",
+        "title": "Photo-enforcement voter approval",
+        "recommendation": "NO",
+        "summary": "Blocks local governments from using red-light cameras and other photo enforcement that reduce traffic deaths."
+      },
+      {
+        "number": "320",
+        "title": "Legislative control of school budgets",
+        "recommendation": "NO",
+        "summary": "Takes budget decisions away from local schools and cuts funding for districts that miss an arbitrary spending threshold set by a state appointee."
+      }
+    ]
+  },
   "categories": [
     {
       "id": "hold_the_line",

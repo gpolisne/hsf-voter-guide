@@ -448,6 +448,23 @@
 
   /* ---------- render ---------- */
 
+  function paintPropositions() {
+    var p = DATA.propositions;
+    if (!p || !p.items || !p.items.length) return;
+    var introEl = document.getElementById("prop-intro");
+    if (introEl) introEl.textContent = p.intro || "";
+    var listEl = document.getElementById("prop-list");
+    if (!listEl) return;
+    listEl.innerHTML = p.items.map(function (item) {
+      return '<div class="prop">' +
+        '<div class="prop-head">Prop ' + esc(item.number) +
+        ' <span class="prop-rec">VOTE ' + esc(item.recommendation) + '</span></div>' +
+        '<div class="prop-title">' + esc(item.title) + '</div>' +
+        '<div class="prop-summary">' + esc(item.summary) + '</div>' +
+        '</div>';
+    }).join("");
+  }
+
   function paintSection(cat, html, count, hiddenDrafts, emptyText) {
     var sec = section(cat);
     if (!sec) return;
@@ -502,9 +519,9 @@
       if (!visibleStatus(org)) { orgDrafts++; return; }
       orgHtml.push(orgCard(org));
     });
+	paintPropositions();
     paintSection("fight_like_hell", orgHtml.join(""), orgHtml.length, orgDrafts, "No organizations listed yet for this county.");
-
-    if (orphans > 0) {
+	if (orphans > 0) {
       showStatus(
         "Some entries are not showing",
         orphans + " " + (orphans === 1 ? "entry points" : "entries point") +

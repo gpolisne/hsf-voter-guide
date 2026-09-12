@@ -594,3 +594,70 @@ a:hover { color: var(--orange); }
   .entry { break-inside: avoid; border: 1px solid #999; }
   .entry-placeholder { background: #F0F0F0 !important; }
 }
+/* ---------- ballot propositions ---------- */
+/* Statewide, not county-filtered. Uniform NO, so the badge carries the page. */
+.prop-intro {
+  max-width: var(--wrap);
+  margin: 1.4rem auto 0;
+  padding: 1.1rem 1.2rem;
+  background: var(--gold);
+  color: var(--navy-deep);
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.45;
+  border-left: 5px solid var(--orange);
+}
+
+.prop-list {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 1.1rem var(--pad) 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.9rem;
+}
+
+.prop {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-top: 4px solid var(--navy-deep);
+  border-radius: 2px;
+  padding: 0.95rem 1rem 1.05rem;
+  font-size: 0.95rem;
+}
+
+.prop-head {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--display);
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--navy-deep);
+  font-size: 1.25rem;
+  line-height: 1.08;
+  margin: 0 0 0.35rem;
+}
+
+.prop-rec {
+  font-family: var(--body);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  background: var(--orange);
+  color: #FFFFFF;
+  padding: 0.22rem 0.6rem;
+  border-radius: 2px;
+}
+
+.prop-title {
+  font-weight: 700;
+  color: var(--navy-deep);
+  margin: 0 0 0.4rem;
+}
+
+.prop-summary { color: var(--ink); }
+
+@media (min-width: 60rem) {
+  .prop-list { grid-template-columns: repeat(3, 1fr); }
+}
