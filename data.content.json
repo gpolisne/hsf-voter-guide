@@ -1095,66 +1095,6 @@
       "seats_open": 2,
       "notes": "Two seats open, voters may select two. All of La Paz plus three partial counties.",
       "rank": 3301
-    },
-    {
-      "id": "race-pima-sheriff",
-      "level": "county",
-      "office": "Pima County Sheriff",
-      "district": null,
-      "counties": [
-        "pima"
-      ],
-      "seats_open": 1,
-      "notes": "Sheriff and County Attorney are the two local offices most directly tied to how immigration enforcement cooperation plays out on the ground.",
-      "rank": 4010
-    },
-    {
-      "id": "race-pima-attorney",
-      "level": "county",
-      "office": "Pima County Attorney",
-      "district": null,
-      "counties": [
-        "pima"
-      ],
-      "seats_open": 1,
-      "notes": "",
-      "rank": 4020
-    },
-    {
-      "id": "race-maricopa-attorney",
-      "level": "county",
-      "office": "Maricopa County Attorney",
-      "district": null,
-      "counties": [
-        "maricopa"
-      ],
-      "seats_open": 1,
-      "notes": "",
-      "rank": 4030
-    },
-    {
-      "id": "race-cochise-recorder",
-      "level": "county",
-      "office": "Cochise County Recorder",
-      "district": null,
-      "counties": [
-        "cochise"
-      ],
-      "seats_open": 1,
-      "notes": "The Recorder runs voter registration and early ballots.",
-      "rank": 4040
-    },
-    {
-      "id": "race-coconino-sup2",
-      "level": "county",
-      "office": "Coconino County Supervisor",
-      "district": "District 2",
-      "counties": [
-        "coconino"
-      ],
-      "seats_open": 1,
-      "notes": "",
-      "rank": 4050
     }
   ],
   "entries": [

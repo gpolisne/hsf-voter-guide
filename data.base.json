@@ -204,10 +204,6 @@
     {
       "id": "state",
       "label": "State"
-    },
-    {
-      "id": "county",
-      "label": "County"
     }
   ],
   "theme": {
