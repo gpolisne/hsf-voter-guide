@@ -235,6 +235,7 @@
     var bits = [];
     if (s.election_dates && s.election_dates.general) bits.push("General election: " + s.election_dates.general);
     if (s.election_dates && s.election_dates.primary) bits.push("Primary: " + s.election_dates.primary);
+	if (s.election_dates && s.election_dates.voter_reg_deadline_general) bits.push("Register by: " + s.election_dates.voter_reg_deadline_general);
     sub.textContent = bits.join("  \u2014  ");
 
     // voter tools

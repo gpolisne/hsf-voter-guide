@@ -33,9 +33,9 @@
     "last_updated": "2026-09-10",
     "methodology_note": "Hold Seize Fight selects candidates based on incumbents or candidates for office who embrace justice, democracy, and equality. Entries are researched from campaign materials, public records, and endorsements from allied organizations, then written and reviewed by volunteers before publication. To suggest a correction or a candidate we've missed, write to hsfvote@gmail.com.",
     "election_dates": {
-      "primary": "TODO - verify with AZ SOS",
-      "general": "TODO - verify with AZ SOS",
-      "voter_reg_deadline_general": "TODO - verify with AZ SOS"
+      "primary": "",
+      "general": "November 3, 2026",
+      "voter_reg_deadline_general": "October 5, 2026 at 11:59pm"
     },
     "voter_tools": {
       "check_registration_url": "https://my.arizona.vote/",
