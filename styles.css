@@ -153,6 +153,18 @@ a:hover { color: var(--orange); }
 }
 .toolbtn:hover { background: #FFD84D; color: var(--navy-deep); }
 
+.toolbtn-quiet {
+  background: transparent;
+  color: var(--gold);
+  border: 1px solid var(--gold);
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.7rem 0.9rem;
+  min-width: 0;
+  flex: 0 0 auto;
+}
+.toolbtn-quiet:hover { background: var(--gold); color: var(--navy-deep); }
+
 /* ---------- filter bar ---------- */
 .filterbar {
   position: sticky;
@@ -660,4 +672,74 @@ a:hover { color: var(--orange); }
 
 @media (min-width: 60rem) {
   .prop-list { grid-template-columns: repeat(3, 1fr); }
+}
+/* ---------- print ---------- */
+.print-header { display: none; }
+.entry-race-short { display: none; }
+
+@media print {
+  @page { size: portrait; margin: 0.5in; }
+
+  body { background: #FFF; color: #000; font-size: 8pt; line-height: 1.25; }
+
+  .masthead, .voter-tools, .filterbar, .status, .category-head,
+  .entry-portrait, .entry-placeholder, .entry-links, .entry-headline,
+  .entry-summary, .entry-bullets, .entry-tags, .category-orgs,
+  .methodology, .footer-head, .empty, .prop-intro { display: none !important; }
+
+  .print-header { display: block; text-align: center; margin-bottom: 0.25in; }
+  .print-title { font-weight: bold; font-size: 13pt; margin-top: 4pt; }
+  .print-note { font-size: 8pt; margin-top: 3pt; }
+
+  .cardgrid, .prop-list {
+    display: block;
+    columns: 3;
+    column-gap: 0.25in;
+    max-width: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .entry, .prop {
+    break-inside: avoid;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0 0 2pt;
+    font-size: 8pt;
+  }
+
+  .entry-head { display: block; }
+  .entry-race { display: none !important; }
+
+  .entry-race-short {
+    display: inline;
+    font-family: var(--body);
+    font-size: 7.5pt;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    color: #000;
+    margin: 0;
+  }
+  .entry-race-short::after { content: "  "; }
+
+  .entry-name {
+    display: inline;
+    font-family: var(--body);
+    font-size: 8pt;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: none;
+    color: #000;
+    margin: 0;
+  }
+
+  .prop-head { font-size: 8pt; color: #000; margin: 0; }
+  .prop-rec { background: none; color: #000; font-weight: bold; padding: 0; }
+  .prop-title { font-size: 8pt; font-weight: normal; margin: 0; }
+  .prop-summary { display: none; }
+
+  .footer { background: none; color: #000; padding: 8pt 0 0; border-top: 1pt solid #000; }
+  .disclaimer { font-size: 7pt; }
 }

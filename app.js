@@ -387,6 +387,14 @@
     if (race.district) parts.push(race.district);
     return parts.filter(Boolean).join(" \u00B7 ");
   }
+    function shortLabel(race) {
+    if (!race) return "";
+    var m = race.id.match(/^race-us-house-0?(\d+)$/);
+    if (m) return "CD" + m[1];
+    m = race.id.match(/^race-ld(\d+)-(senate|house)$/);
+    if (m) return "LD" + parseInt(m[1], 10) + (m[2] === "senate" ? " Sen" : " House");
+    return race.office || "";
+  }
 
   function entryCard(entry, race) {
     var tags = [];
@@ -394,6 +402,7 @@
     if (entry.incumbent) tags.push('<span class="tag tag-incumbent">Incumbent</span>');
     if (entry.ballot_designation) tags.push('<span class="tag">' + esc(entry.ballot_designation) + "</span>");
     if (race && race.seats_open > 1) tags.push('<span class="tag">Vote for ' + esc(race.seats_open) + "</span>");
+	
 
     var bullets = (entry.why_bullets || []).filter(Boolean);
 
@@ -401,8 +410,9 @@
       '<article class="entry">' +
         '<div class="entry-head">' +
           portrait(entry) +
-          '<div class="entry-headtext">' +
+                  '<div class="entry-headtext">' +
             '<p class="entry-race">' + esc(raceLabel(race)) + "</p>" +
+            '<p class="entry-race-short">' + esc(shortLabel(race)) + "</p>" +
             '<h3 class="entry-name">' + esc(entry.name) + "</h3>" +
             (tags.length ? '<div class="entry-tags">' + tags.join("") + "</div>" : "") +
           "</div>" +

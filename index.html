@@ -35,7 +35,10 @@
 
 <!-- ============ VOTER TOOLS ============ -->
 <section class="voter-tools" aria-label="Voter registration tools">
-  <div class="tools-inner" id="voter-tools"></div>
+  <div class="tools-inner">
+    <span id="voter-tools" style="display:contents"></span>
+        <button class="toolbtn toolbtn-quiet" id="print-btn" type="button" onclick="window.print()">Print HSF Summary</button>>
+  </div>
 </section>
 
 <!-- ============ FILTER BAR ============ -->
@@ -57,6 +60,11 @@
 
 <!-- ============ MAIN ============ -->
 <main id="main">
+<div class="print-header" aria-hidden="true">
+  <svg width="120" height="40" viewBox="0 0 120 40"><rect x="1" y="1" width="118" height="38" fill="none" stroke="#000" stroke-width="2"/><text x="60" y="26" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="16">HSF</text></svg>
+  <div class="print-title">Hold Seize Fight — 2026 General Election</div>
+  <div class="print-note">Report any problems voting: <strong>866-OUR-VOTE</strong> (866-687-8683). Your legislative district is printed on your voter registration card.</div>
+</div>
 
   <!-- status / error region -->
   <div id="status" class="status" role="status" aria-live="polite"></div>
