@@ -244,10 +244,11 @@
     if (safeUrl(vt.check_registration_url)) tools.push(["Check your registration", vt.check_registration_url]);
     if (safeUrl(vt.register_url)) tools.push(["Register to vote", vt.register_url]);
     if (safeUrl(vt.find_polling_place_url)) tools.push(["Find where to vote", vt.find_polling_place_url]);
+	if (safeUrl(vt.youtube_url)) tools.push(["HSF Voters on YouTube", vt.youtube_url, "toolbtn-quiet"]);
 
     document.getElementById("voter-tools").innerHTML = tools
       .map(function (t) {
-        return '<a class="toolbtn" href="' + esc(safeUrl(t[1])) + '" target="_blank" rel="noopener">' + esc(t[0]) + "</a>";
+      return '<a class="toolbtn ' + (t[2] || "") + '" href="' + esc(safeUrl(t[1])) + '" target="_blank" rel="noopener">' + esc(t[0]) + "</a>";
       })
       .join("");
 

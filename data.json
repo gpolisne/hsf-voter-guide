@@ -26,6 +26,7 @@
     "voter_tools": {
       "check_registration_url": "https://my.arizona.vote/",
       "register_url": "https://servicearizona.com/VoterRegistration/selectLanguage",
+      "youtube_url": "https://www.youtube.com/@hsfvoter",
       "find_polling_place_url": ""
     }
   },
